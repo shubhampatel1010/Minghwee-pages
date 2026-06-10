@@ -1,0 +1,302 @@
+/* ===== accounts_payable_ledger_desktop ===== */
+[data-stitch-page="accounts_payable_ledger_desktop"] .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+
+/* ===== accounts_receivable_ledger_desktop ===== */
+[data-stitch-page="accounts_receivable_ledger_desktop"] .tabular-nums { font-variant-numeric: tabular-nums; }
+
+/* ===== booking_details_desktop ===== */
+[data-stitch-page="booking_details_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== client_partner_home_dashboard_desktop ===== */
+[data-stitch-page="client_partner_home_dashboard_desktop"] { font-family: 'Manrope', sans-serif; background-color: #f7fafa; }
+[data-stitch-page="client_partner_home_dashboard_desktop"] .shadow-ambient { box-shadow: 0 4px 20px rgba(40, 37, 29, 0.02); }
+
+/* ===== client_partner_payments_desktop ===== */
+[data-stitch-page="client_partner_payments_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== deployment_cost_breakdown_desktop ===== */
+[data-stitch-page="deployment_cost_breakdown_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="deployment_cost_breakdown_desktop"] .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== deployment_pipeline_desktop ===== */
+[data-stitch-page="deployment_pipeline_desktop"] {
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+        }
+[data-stitch-page="deployment_pipeline_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="deployment_pipeline_desktop"] .ambient-shadow {
+            box-shadow: 0 4px 20px rgba(40, 37, 29, 0.02);
+        }
+
+/* ===== document_detail_view_desktop_1 ===== */
+[data-stitch-page="document_detail_view_desktop_1"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== document_review_queue_desktop ===== */
+[data-stitch-page="document_review_queue_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== document_tracker_desktop ===== */
+[data-stitch-page="document_tracker_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="document_tracker_desktop"] .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1;
+        }
+[data-stitch-page="document_tracker_desktop"] .soft-shadow {
+            box-shadow: 0px 4px 20px rgba(40, 37, 29, 0.05);
+        }
+
+/* ===== earnings_payments_desktop ===== */
+[data-stitch-page="earnings_payments_desktop"] { font-family: 'Manrope', sans-serif; }
+[data-stitch-page="earnings_payments_desktop"] .material-symbols-outlined { font-variation-settings: 'FILL' 0; }
+[data-stitch-page="earnings_payments_desktop"] .material-symbols-outlined.fill { font-variation-settings: 'FILL' 1; }
+
+/* ===== embassy_runner_home_desktop ===== */
+[data-stitch-page="embassy_runner_home_desktop"] { font-family: 'Manrope', sans-serif; background-color: #F7F6F2; }
+
+/* ===== employer_dashboard_desktop ===== */
+[data-stitch-page="employer_dashboard_desktop"] { font-family: 'Manrope', sans-serif; }
+[data-stitch-page="employer_dashboard_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== escalation_management_desktop ===== */
+[data-stitch-page="escalation_management_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="escalation_management_desktop"] {
+            background-color: #faf9f7;
+            color: #1a1c1b;
+        }
+
+/* ===== financial_reports_hub_desktop ===== */
+[data-stitch-page="financial_reports_hub_desktop"] .shadow-warm-ambient {
+            box-shadow: 0 4px 20px rgba(40, 37, 29, 0.02);
+        }
+
+/* ===== full_financial_overview ===== */
+[data-stitch-page="full_financial_overview"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== helper_dashboard_desktop ===== */
+[data-stitch-page="helper_dashboard_desktop"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== hiring_pipeline_desktop ===== */
+[data-stitch-page="hiring_pipeline_desktop"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== individual_consultant_pipeline_desktop ===== */
+[data-stitch-page="individual_consultant_pipeline_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="individual_consultant_pipeline_desktop"] .active-icon {
+            font-variation-settings: 'FILL' 1;
+        }
+[data-stitch-page="individual_consultant_pipeline_desktop"] {
+            background-color: #f7fafa;
+        }
+[data-stitch-page="individual_consultant_pipeline_desktop"] .accent-bar {
+            width: 6px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+/* ===== interview_scheduler_desktop ===== */
+[data-stitch-page="interview_scheduler_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="interview_scheduler_desktop"] .material-symbols-outlined[data-weight="fill"] {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== job_details_update_desktop ===== */
+[data-stitch-page="job_details_update_desktop"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== lead_detail_activity_log_desktop ===== */
+[data-stitch-page="lead_detail_activity_log_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+[data-stitch-page="lead_detail_activity_log_desktop"] {
+            font-family: 'Manrope', sans-serif;
+            background-color: #f7fafa;
+        }
+
+/* ===== lead_pipeline_kanban_desktop ===== */
+[data-stitch-page="lead_pipeline_kanban_desktop"] { font-family: 'Manrope', sans-serif; background-color: #f7fafa; }
+[data-stitch-page="lead_pipeline_kanban_desktop"] .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+[data-stitch-page="lead_pipeline_kanban_desktop"] .kanban-column { min-width: 320px; width: 320px; }
+[data-stitch-page="lead_pipeline_kanban_desktop"] .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+[data-stitch-page="lead_pipeline_kanban_desktop"] .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+[data-stitch-page="lead_pipeline_kanban_desktop"] .custom-scrollbar::-webkit-scrollbar-thumb { background: #bec8c9; border-radius: 10px; }
+[data-stitch-page="lead_pipeline_kanban_desktop"] .card-accent { border-left: 6px solid #01696f; }
+
+/* ===== manager_home_dashboard_desktop ===== */
+[data-stitch-page="manager_home_dashboard_desktop"] .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+[data-stitch-page="manager_home_dashboard_desktop"] .accent-bar { width: 6px; height: 100%; position: absolute; left: 0; top: 0; }
+
+/* ===== manager_reports_desktop ===== */
+[data-stitch-page="manager_reports_desktop"] { font-family: 'Manrope', sans-serif; background-color: #faf9f7; }
+[data-stitch-page="manager_reports_desktop"] .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+[data-stitch-page="manager_reports_desktop"] .card-spine-teal { border-left: 4px solid #004f54; }
+[data-stitch-page="manager_reports_desktop"] .card-spine-secondary { border-left: 4px solid #625e54; }
+[data-stitch-page="manager_reports_desktop"] .card-spine-tertiary { border-left: 4px solid #6e3815; }
+
+/* ===== master_analytics ===== */
+[data-stitch-page="master_analytics"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== mom_submissions_desktop ===== */
+[data-stitch-page="mom_submissions_desktop"] {
+            background-color: #f7fafa;
+        }
+
+/* ===== my_embassy_jobs_desktop ===== */
+[data-stitch-page="my_embassy_jobs_desktop"] { font-family: 'Manrope', sans-serif; }
+[data-stitch-page="my_embassy_jobs_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="my_embassy_jobs_desktop"] .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1;
+        }
+[data-stitch-page="my_embassy_jobs_desktop"] ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+[data-stitch-page="my_embassy_jobs_desktop"] ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+[data-stitch-page="my_embassy_jobs_desktop"] ::-webkit-scrollbar-thumb {
+            background: #bec8c9;
+            border-radius: 4px;
+        }
+[data-stitch-page="my_embassy_jobs_desktop"] ::-webkit-scrollbar-thumb:hover {
+            background: #6f797a;
+        }
+
+/* ===== my_jobs_desktop ===== */
+[data-stitch-page="my_jobs_desktop"] { font-family: 'Manrope', sans-serif; background-color: #f7fafa; }
+
+/* ===== my_kpi_progress_desktop ===== */
+[data-stitch-page="my_kpi_progress_desktop"] .tabular-nums { font-variant-numeric: tabular-nums; }
+[data-stitch-page="my_kpi_progress_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="my_kpi_progress_desktop"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== operations_team_workload_desktop ===== */
+[data-stitch-page="operations_team_workload_desktop"] { font-family: 'Manrope', sans-serif; background-color: #faf9f7; }
+[data-stitch-page="operations_team_workload_desktop"] .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+[data-stitch-page="operations_team_workload_desktop"] .bento-shadow { shadow: 0 4px 20px rgba(40, 37, 29, 0.02); }
+
+/* ===== payment_approval_queue_desktop ===== */
+[data-stitch-page="payment_approval_queue_desktop"] .warm-shadow {
+            box-shadow: 0 4px 20px rgba(40, 37, 29, 0.02);
+        }
+
+/* ===== pipeline_task_view_desktop ===== */
+[data-stitch-page="pipeline_task_view_desktop"] { font-family: 'Manrope', sans-serif; background-color: #f7fafa; }
+[data-stitch-page="pipeline_task_view_desktop"] .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+[data-stitch-page="pipeline_task_view_desktop"] .material-symbols-outlined.fill { font-variation-settings: 'FILL' 1; }
+
+/* ===== post_a_job_order_desktop ===== */
+[data-stitch-page="post_a_job_order_desktop"] .shadow-ambient {
+            box-shadow: 0 4px 20px 0 rgba(40, 37, 29, 0.02);
+        }
+
+/* ===== reminders_notifications_desktop ===== */
+[data-stitch-page="reminders_notifications_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== report_an_issue_desktop ===== */
+[data-stitch-page="report_an_issue_desktop"] { background-color: #F7FAFA; }
+[data-stitch-page="report_an_issue_desktop"] .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+[data-stitch-page="report_an_issue_desktop"] .icon-fill { font-variation-settings: 'FILL' 1; }
+
+/* ===== review_submit_complaint_desktop ===== */
+[data-stitch-page="review_submit_complaint_desktop"] { font-family: 'Manrope', sans-serif; }
+
+/* ===== role_selection_desktop ===== */
+[data-stitch-page="role_selection_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="role_selection_desktop"] .card-lift:hover {
+            transform: translateY(-4px);
+            box-shadow: 0px 20px 25px -5px rgba(40, 37, 29, 0.05), 0px 10px 10px -5px rgba(40, 37, 29, 0.02);
+        }
+
+/* ===== sales_consultant_home_dashboard_desktop ===== */
+[data-stitch-page="sales_consultant_home_dashboard_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="sales_consultant_home_dashboard_desktop"] {
+            background-color: #f7fafa;
+            color: #181c1d;
+        }
+
+/* ===== sales_team_kpi_overview_desktop ===== */
+[data-stitch-page="sales_team_kpi_overview_desktop"] { font-family: 'Manrope', sans-serif; }
+[data-stitch-page="sales_team_kpi_overview_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="sales_team_kpi_overview_desktop"] .accent-bar { width: 6px; border-radius: 4px 0 0 4px; }
+
+/* ===== service_order_desktop ===== */
+[data-stitch-page="service_order_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="service_order_desktop"] {
+            background-color: #F7F6F2; 
+        }
+
+/* ===== staff_management ===== */
+[data-stitch-page="staff_management"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== super_admin_home_dashboard ===== */
+[data-stitch-page="super_admin_home_dashboard"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+[data-stitch-page="super_admin_home_dashboard"] .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+/* ===== system_settings_permissions ===== */
+[data-stitch-page="system_settings_permissions"] .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+[data-stitch-page="system_settings_permissions"] .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+[data-stitch-page="system_settings_permissions"] .custom-scrollbar::-webkit-scrollbar-thumb { background-color: #d7dbda; border-radius: 10px; }
+
+/* ===== warm_leads_priority_view_desktop ===== */
+[data-stitch-page="warm_leads_priority_view_desktop"] .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+[data-stitch-page="warm_leads_priority_view_desktop"] .accent-bar {
+            width: 6px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }

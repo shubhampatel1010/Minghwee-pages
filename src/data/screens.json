@@ -1,0 +1,338 @@
+[
+  {
+    "id": "accounts_payable_ledger_desktop",
+    "comp": "AccountsPayableLedgerDesktop",
+    "path": "accounts-payable-ledger-desktop",
+    "title": "Accounts Payable Ledger"
+  },
+  {
+    "id": "accounts_receivable_ledger_desktop",
+    "comp": "AccountsReceivableLedgerDesktop",
+    "path": "accounts-receivable-ledger-desktop",
+    "title": "Accounts Receivable Ledger - AgencyCore Financial"
+  },
+  {
+    "id": "booking_details_desktop",
+    "comp": "BookingDetailsDesktop",
+    "path": "booking-details-desktop",
+    "title": "Booking Details - Sentinel Stay"
+  },
+  {
+    "id": "candidate_profile_desktop",
+    "comp": "CandidateProfileDesktop",
+    "path": "candidate-profile-desktop",
+    "title": "Candidate Profile - Ana Santos"
+  },
+  {
+    "id": "client_partner_home_dashboard_desktop",
+    "comp": "ClientPartnerHomeDashboardDesktop",
+    "path": "client-partner-home-dashboard-desktop",
+    "title": "AgencyCore - Partner Portal"
+  },
+  {
+    "id": "client_partner_payments_desktop",
+    "comp": "ClientPartnerPaymentsDesktop",
+    "path": "client-partner-payments-desktop",
+    "title": "AgencyCore - Payments"
+  },
+  {
+    "id": "compliance_tracker_desktop",
+    "comp": "ComplianceTrackerDesktop",
+    "path": "compliance-tracker-desktop",
+    "title": "Compliance Overview - MingHwee Compliance"
+  },
+  {
+    "id": "contract_signing_desktop",
+    "comp": "ContractSigningDesktop",
+    "path": "contract-signing-desktop",
+    "title": "Review & Sign Employment Contract - Teal Sentinel"
+  },
+  {
+    "id": "deployment_cost_breakdown_desktop",
+    "comp": "DeploymentCostBreakdownDesktop",
+    "path": "deployment-cost-breakdown-desktop",
+    "title": "Deployment Cost Breakdown - AgencyCore"
+  },
+  {
+    "id": "deployment_pipeline_desktop",
+    "comp": "DeploymentPipelineDesktop",
+    "path": "deployment-pipeline-desktop",
+    "title": "Deployment Pipeline - AgencyCore"
+  },
+  {
+    "id": "document_detail_view_desktop_1",
+    "comp": "DocumentDetailViewDesktop1",
+    "path": "document-detail-view-desktop-1",
+    "title": "CareAlign Portal - Document Detail View"
+  },
+  {
+    "id": "document_detail_view_desktop_2",
+    "comp": "DocumentDetailViewDesktop2",
+    "path": "document-detail-view-desktop-2",
+    "title": "Document Detail - Teal Sentinel"
+  },
+  {
+    "id": "document_review_queue_desktop",
+    "comp": "DocumentReviewQueueDesktop",
+    "path": "document-review-queue-desktop",
+    "title": "Document Review Queue"
+  },
+  {
+    "id": "document_tracker_desktop",
+    "comp": "DocumentTrackerDesktop",
+    "path": "document-tracker-desktop",
+    "title": "Document Tracker - Serene Concierge"
+  },
+  {
+    "id": "earnings_payments_desktop",
+    "comp": "EarningsPaymentsDesktop",
+    "path": "earnings-payments-desktop",
+    "title": "Earnings & Payments - MingHwee Vendor Portal"
+  },
+  {
+    "id": "embassy_job_progress_desktop",
+    "comp": "EmbassyJobProgressDesktop",
+    "path": "embassy-job-progress-desktop",
+    "title": "Embassy Job Progress Update"
+  },
+  {
+    "id": "embassy_runner_home_desktop",
+    "comp": "EmbassyRunnerHomeDesktop",
+    "path": "embassy-runner-home-desktop",
+    "title": "MingHwee Embassy Runner - Dashboard"
+  },
+  {
+    "id": "employer_dashboard_desktop",
+    "comp": "EmployerDashboardDesktop",
+    "path": "employer-dashboard-desktop",
+    "title": "MingHwee | Employer Dashboard"
+  },
+  {
+    "id": "escalation_management_desktop",
+    "comp": "EscalationManagementDesktop",
+    "path": "escalation-management-desktop",
+    "title": "OpsControl - Escalation Management"
+  },
+  {
+    "id": "finance_home_overview_desktop",
+    "comp": "FinanceHomeOverviewDesktop",
+    "path": "finance-home-overview-desktop",
+    "title": "Finance Overview - AgencyCore"
+  },
+  {
+    "id": "financial_reports_hub_desktop",
+    "comp": "FinancialReportsHubDesktop",
+    "path": "financial-reports-hub-desktop",
+    "title": "Financial Reports Hub - MingHwee"
+  },
+  {
+    "id": "full_financial_overview",
+    "comp": "FullFinancialOverview",
+    "path": "full-financial-overview",
+    "title": "Financials \u2014 April 2026"
+  },
+  {
+    "id": "helper_dashboard_desktop",
+    "comp": "HelperDashboardDesktop",
+    "path": "helper-dashboard-desktop",
+    "title": "Helper Dashboard - Teal Sentinel"
+  },
+  {
+    "id": "hiring_pipeline_desktop",
+    "comp": "HiringPipelineDesktop",
+    "path": "hiring-pipeline-desktop",
+    "title": "Hiring Pipeline - Serene Concierge"
+  },
+  {
+    "id": "individual_consultant_pipeline_desktop",
+    "comp": "IndividualConsultantPipelineDesktop",
+    "path": "individual-consultant-pipeline-desktop",
+    "title": "ConsulPath Manager - Consultant Pipeline"
+  },
+  {
+    "id": "interview_scheduler_desktop",
+    "comp": "InterviewSchedulerDesktop",
+    "path": "interview-scheduler-desktop",
+    "title": "Interview Scheduler"
+  },
+  {
+    "id": "job_details_update_desktop",
+    "comp": "JobDetailsUpdateDesktop",
+    "path": "job-details-update-desktop",
+    "title": "Job Details & Update - MingHwee Professional"
+  },
+  {
+    "id": "lead_detail_activity_log_desktop",
+    "comp": "LeadDetailActivityLogDesktop",
+    "path": "lead-detail-activity-log-desktop",
+    "title": "lead_detail_activity_log_desktop"
+  },
+  {
+    "id": "lead_pipeline_kanban_desktop",
+    "comp": "LeadPipelineKanbanDesktop",
+    "path": "lead-pipeline-kanban-desktop",
+    "title": "VisaFlow CRM - Sales Pipeline"
+  },
+  {
+    "id": "manager_home_dashboard_desktop",
+    "comp": "ManagerHomeDashboardDesktop",
+    "path": "manager-home-dashboard-desktop",
+    "title": "manager_home_dashboard_desktop"
+  },
+  {
+    "id": "manager_reports_desktop",
+    "comp": "ManagerReportsDesktop",
+    "path": "manager-reports-desktop",
+    "title": "CareManager Executive - Reports"
+  },
+  {
+    "id": "master_analytics",
+    "comp": "MasterAnalytics",
+    "path": "master-analytics",
+    "title": "Business Intelligence"
+  },
+  {
+    "id": "mom_submissions_desktop",
+    "comp": "MomSubmissionsDesktop",
+    "path": "mom-submissions-desktop",
+    "title": "MOM Submissions - MingHwee Professional"
+  },
+  {
+    "id": "my_embassy_jobs_desktop",
+    "comp": "MyEmbassyJobsDesktop",
+    "path": "my-embassy-jobs-desktop",
+    "title": "My Embassy Jobs - VisaRunner Pro"
+  },
+  {
+    "id": "my_jobs_desktop",
+    "comp": "MyJobsDesktop",
+    "path": "my-jobs-desktop",
+    "title": "My Jobs - MingHwee Professional"
+  },
+  {
+    "id": "my_kpi_progress_desktop",
+    "comp": "MyKpiProgressDesktop",
+    "path": "my-kpi-progress-desktop",
+    "title": "My KPI Progress - HelperLink Admin"
+  },
+  {
+    "id": "operations_team_workload_desktop",
+    "comp": "OperationsTeamWorkloadDesktop",
+    "path": "operations-team-workload-desktop",
+    "title": "Placement Admin Workload - Agency Insights"
+  },
+  {
+    "id": "payment_approval_queue_desktop",
+    "comp": "PaymentApprovalQueueDesktop",
+    "path": "payment-approval-queue-desktop",
+    "title": "Payment Approval Queue - AgencyCore Finance"
+  },
+  {
+    "id": "payment_billing_desktop",
+    "comp": "PaymentBillingDesktop",
+    "path": "payment-billing-desktop",
+    "title": "Employer Payment & Billing - Teal Sentinel"
+  },
+  {
+    "id": "pipeline_task_view_desktop",
+    "comp": "PipelineTaskViewDesktop",
+    "path": "pipeline-task-view-desktop",
+    "title": "Pipeline Task View - MingHwee Admin"
+  },
+  {
+    "id": "placement_admin_home_dashboard_desktop",
+    "comp": "PlacementAdminHomeDashboardDesktop",
+    "path": "placement-admin-home-dashboard-desktop",
+    "title": "Placement Admin Home Dashboard"
+  },
+  {
+    "id": "post_a_job_order_desktop",
+    "comp": "PostAJobOrderDesktop",
+    "path": "post-a-job-order-desktop",
+    "title": "Post a Job Order - AgencyCore Modern"
+  },
+  {
+    "id": "reminders_alerts_desktop",
+    "comp": "RemindersAlertsDesktop",
+    "path": "reminders-alerts-desktop",
+    "title": "Reminders & Alerts - MingHwee Pro"
+  },
+  {
+    "id": "reminders_notifications_desktop",
+    "comp": "RemindersNotificationsDesktop",
+    "path": "reminders-notifications-desktop",
+    "title": "Reminders & Notifications - Embassy Runner"
+  },
+  {
+    "id": "report_an_issue_desktop",
+    "comp": "ReportAnIssueDesktop",
+    "path": "report-an-issue-desktop",
+    "title": "Report an Issue - PlacementPro"
+  },
+  {
+    "id": "review_submit_complaint_desktop",
+    "comp": "ReviewSubmitComplaintDesktop",
+    "path": "review-submit-complaint-desktop",
+    "title": "Review & Submit Complaint - Teal Sentinel"
+  },
+  {
+    "id": "role_selection_desktop",
+    "comp": "RoleSelectionDesktop",
+    "path": "role-selection-desktop",
+    "title": "Role Selection | PlacementSource"
+  },
+  {
+    "id": "runner_earnings_payments_desktop",
+    "comp": "RunnerEarningsPaymentsDesktop",
+    "path": "runner-earnings-payments-desktop",
+    "title": "Earnings Dashboard - Embassy Runner"
+  },
+  {
+    "id": "sales_consultant_home_dashboard_desktop",
+    "comp": "SalesConsultantHomeDashboardDesktop",
+    "path": "sales-consultant-home-dashboard-desktop",
+    "title": "sales_consultant_home_dashboard_desktop"
+  },
+  {
+    "id": "sales_team_kpi_overview_desktop",
+    "comp": "SalesTeamKpiOverviewDesktop",
+    "path": "sales-team-kpi-overview-desktop",
+    "title": "Sales Team Performance \u2014 April 2026"
+  },
+  {
+    "id": "service_order_desktop",
+    "comp": "ServiceOrderDesktop",
+    "path": "service-order-desktop",
+    "title": "Serene Concierge - Select a Service"
+  },
+  {
+    "id": "staff_management",
+    "comp": "StaffManagement",
+    "path": "staff-management",
+    "title": "Staff Management - Team"
+  },
+  {
+    "id": "super_admin_home_dashboard",
+    "comp": "SuperAdminHomeDashboard",
+    "path": "super-admin-home-dashboard",
+    "title": "MingHwee Command Center - Dashboard"
+  },
+  {
+    "id": "system_settings_permissions",
+    "comp": "SystemSettingsPermissions",
+    "path": "system-settings-permissions",
+    "title": "System Settings - Command Center"
+  },
+  {
+    "id": "vendor_home_dashboard_desktop",
+    "comp": "VendorHomeDashboardDesktop",
+    "path": "vendor-home-dashboard-desktop",
+    "title": "Vendor Home Dashboard - MingHwee Professional"
+  },
+  {
+    "id": "warm_leads_priority_view_desktop",
+    "comp": "WarmLeadsPriorityViewDesktop",
+    "path": "warm-leads-priority-view-desktop",
+    "title": "Warm Leads - LeadFlow Pro"
+  }
+]

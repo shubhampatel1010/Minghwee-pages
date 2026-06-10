@@ -1,0 +1,187 @@
+<!-- SideNavBar -->
+<nav class="bg-surface-container-lowest text-primary-container font-nav-label h-screen w-64 border-r border-outline-variant fixed left-0 top-0 shadow-[4px_0_20px_rgba(40,37,29,0.02)] hidden lg:flex flex-col h-full p-4 pt-20 z-40">
+<div class="mb-stack-md px-4">
+<h2 class="text-lg font-black text-primary-container">Placement Portal</h2>
+<p class="text-on-surface-variant opacity-80 mt-1">Operational Suite</p>
+</div>
+<button class="bg-primary-container text-on-primary font-button rounded-full py-3 px-6 mb-stack-md hover:opacity-90 transition-opacity mx-4 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+            New Interview
+        </button>
+<div class="flex flex-col gap-unit flex-1">
+<a class="text-on-surface-variant px-4 py-3 flex items-center gap-3 rounded-lg hover:bg-surface-bright transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span>Overview</span>
+</a>
+<a class="bg-primary-container/10 text-primary-container rounded-lg px-4 py-3 flex items-center gap-3 translate-x-1 transition-all duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="calendar_month" data-weight="fill">calendar_month</span>
+<span>Schedule</span>
+</a>
+<a class="text-on-surface-variant px-4 py-3 flex items-center gap-3 rounded-lg hover:bg-surface-bright transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span>Talent Pool</span>
+</a>
+<a class="text-on-surface-variant px-4 py-3 flex items-center gap-3 rounded-lg hover:bg-surface-bright transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+<span>Agreements</span>
+</a>
+<a class="text-on-surface-variant px-4 py-3 flex items-center gap-3 rounded-lg hover:bg-surface-bright transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span>Reports</span>
+</a>
+</div>
+<div class="mt-auto flex flex-col gap-unit border-t border-surface-variant pt-4">
+<a class="text-on-surface-variant px-4 py-3 flex items-center gap-3 rounded-lg hover:bg-surface-bright transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="headset_mic">headset_mic</span>
+<span>Support</span>
+</a>
+<a class="text-on-surface-variant px-4 py-3 flex items-center gap-3 rounded-lg hover:bg-surface-bright transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span>Sign Out</span>
+</a>
+</div>
+</nav>
+<!-- TopNavBar -->
+<header class="bg-surface-bright text-primary-container font-label-caps docked full-width top-0 z-50 border-b border-outline-variant flat no-shadows flex justify-between items-center px-10 h-16 w-full fixed ml-0 lg:ml-64 w-[calc(100%-16rem)]">
+<div class="text-xl font-extrabold text-primary-container tracking-tight">AgencyCore Modern</div>
+<nav class="hidden md:flex gap-gutter h-full">
+<a class="text-on-surface-variant pb-5 pt-5 hover:text-primary-container transition-colors duration-200 h-full flex items-center border-b-2 border-transparent" href="#">Dashboard</a>
+<a class="text-on-surface-variant pb-5 pt-5 hover:text-primary-container transition-colors duration-200 h-full flex items-center border-b-2 border-transparent" href="#">Candidates</a>
+<a class="text-primary-container border-b-2 border-primary-container pb-5 pt-5 h-full flex items-center opacity-80 transition-opacity" href="#">Interviews</a>
+<a class="text-on-surface-variant pb-5 pt-5 hover:text-primary-container transition-colors duration-200 h-full flex items-center border-b-2 border-transparent" href="#">Placements</a>
+<a class="text-on-surface-variant pb-5 pt-5 hover:text-primary-container transition-colors duration-200 h-full flex items-center border-b-2 border-transparent" href="#">Settings</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary-container transition-colors"><span class="material-symbols-outlined" data-icon="notifications">notifications</span></button>
+<button class="text-on-surface-variant hover:text-primary-container transition-colors"><span class="material-symbols-outlined" data-icon="help">help</span></button>
+<img alt="Agency Coordinator Profile" class="w-8 h-8 rounded-full object-cover border border-outline-variant" data-alt="Professional headshot of an agency coordinator, smiling gently, warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH6iJWjhGNAsAqnbOzFomT72iF9pWkCb4RjZ2Ju9HM5yXbJMi9Z2uqIgHsv0aAeytSoDOcuylU120QyFKQzLwDJ7gCMIwYftUO0qwJ1Hh67sFsOEFxY9039EGFPKg4r78me-AL2NbzIvhKhfPD5G5ZIjduFhb-pqGAm0zc6gYeO5Ar2epiTXRPWiZSnocfvwD-UbbrPj7f4pM5QPjG1LcWxuqmoZQOyqeC663lvClD0s54Wn1eWFxMUBsWAbuGLKa2zn2NxBIxS-1y"/>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-1 lg:ml-64 pt-20 px-margin-mobile md:px-margin-desktop pb-margin-desktop bg-background min-h-screen">
+<div class="max-w-container-max mx-auto h-full flex flex-col">
+<div class="mb-stack-md">
+<h1 class="font-h1 text-on-background">Schedule Interview</h1>
+<p class="font-body-md text-on-surface-variant mt-1">Select a time for the initial screening.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter flex-1">
+<!-- Left Column: Candidate & Format -->
+<div class="lg:col-span-4 flex flex-col gap-stack-md">
+<!-- Candidate Profile Summary -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[4px_0_20px_rgba(40,37,29,0.02)] border border-surface-variant">
+<h3 class="font-label-caps text-on-surface-variant mb-4 uppercase">Candidate</h3>
+<div class="flex items-center gap-4">
+<img alt="Ana Santos" class="w-16 h-16 rounded-full object-cover border border-outline-variant" data-alt="Professional headshot of a female candidate, warm smile, neutral background, natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSaX7hSNFy34C_r2aL7Uagcf7jzwBti2gQuJY5Etck5e0wjI2nMxzbf5gwOxY3ffW_2fGruUCt0zsdJmLXwUYPpVwRrqlXMcBua-y1nYZd9_WWaIeAx3S7Z6J8iC7GYhPF6QCfmb-VHsjxxf_xQvQ1gGx9N6ZABe7QK1W5k8nUgZm9qD8pjD37b8r1OTQuTEV1LQSj60xysgf79blgkrj7G5JEQ4MHvraOrwuoPArsronNioGOF4PhKkVPwXV-v4aK9wZXsSku8RRY"/>
+<div>
+<div class="font-h3 text-on-background">Ana Santos</div>
+<div class="font-body-md text-on-surface-variant">Senior Caregiver</div>
+</div>
+</div>
+</div>
+<!-- Interview Format -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[4px_0_20px_rgba(40,37,29,0.02)] border border-surface-variant flex-1">
+<h3 class="font-label-caps text-on-surface-variant mb-4 uppercase">Format</h3>
+<div class="flex flex-col gap-3">
+<label class="flex items-center p-4 border-2 border-primary-container rounded-lg bg-surface-bright cursor-pointer transition-colors">
+<input checked="" class="hidden" name="format" type="radio" value="video"/>
+<span class="material-symbols-outlined text-primary-container mr-3">videocam</span>
+<span class="font-h3 text-primary-container flex-1">Video Call</span>
+<span class="material-symbols-outlined text-primary-container" data-weight="fill">radio_button_checked</span>
+</label>
+<label class="flex items-center p-4 border border-outline-variant rounded-lg hover:bg-surface-bright cursor-pointer transition-colors">
+<input class="hidden" name="format" type="radio" value="phone"/>
+<span class="material-symbols-outlined text-on-surface-variant mr-3">call</span>
+<span class="font-body-lg text-on-surface-variant flex-1">Phone Call</span>
+<span class="material-symbols-outlined text-outline-variant">radio_button_unchecked</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Right Column: Calendar & Time -->
+<div class="lg:col-span-8 flex flex-col gap-stack-md">
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[4px_0_20px_rgba(40,37,29,0.02)] border border-surface-variant flex-1 flex flex-col md:flex-row gap-gutter">
+<!-- Calendar -->
+<div class="flex-1 md:border-r border-surface-variant md:pr-gutter">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-h3 text-on-background">April 2024</h3>
+<div class="flex gap-2">
+<button class="p-2 rounded-full hover:bg-surface-bright text-on-surface-variant transition-colors"><span class="material-symbols-outlined">chevron_left</span></button>
+<button class="p-2 rounded-full hover:bg-surface-bright text-on-surface-variant transition-colors"><span class="material-symbols-outlined">chevron_right</span></button>
+</div>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-label-caps text-on-surface-variant mb-4">
+<div>SU</div><div>MO</div><div>TU</div><div>WE</div><div>TH</div><div>FR</div><div>SA</div>
+</div>
+<div class="grid grid-cols-7 gap-2 text-center font-body-md">
+<!-- Empty days -->
+<div class="p-2 text-on-surface-variant opacity-30">31</div>
+<!-- Active month days -->
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">1</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">2</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">3</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">4</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">5</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">6</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">7</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">8</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">9</div>
+<div class="p-2 rounded-lg bg-primary-container text-on-primary font-bold shadow-md cursor-pointer">10</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">11</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">12</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">13</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">14</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">15</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">16</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">17</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">18</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">19</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">20</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">21</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">22</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">23</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">24</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">25</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">26</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">27</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">28</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">29</div>
+<div class="p-2 rounded-lg hover:bg-surface-bright cursor-pointer text-on-background">30</div>
+</div>
+</div>
+<!-- Time Slots -->
+<div class="flex-1 md:pl-gutter flex flex-col">
+<h3 class="font-h3 text-on-background mb-6">Wednesday, April 10</h3>
+<div class="grid grid-cols-2 gap-3 overflow-y-auto pr-2" style="max-height: 320px;">
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">9:00 AM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">9:30 AM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">10:00 AM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">10:30 AM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">11:00 AM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">11:30 AM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">1:00 PM</button>
+<button class="py-3 px-4 rounded-lg bg-primary-container text-on-primary font-button shadow-md border-2 border-primary-container">1:30 PM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">2:00 PM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">2:30 PM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">3:00 PM</button>
+<button class="py-3 px-4 rounded-lg border border-outline-variant font-button text-on-surface-variant hover:border-primary-container hover:text-primary-container transition-colors">3:30 PM</button>
+</div>
+</div>
+</div>
+<!-- Footer Action Area -->
+<div class="mt-auto flex flex-col sm:flex-row justify-between items-center gap-4 bg-surface-container-lowest p-6 rounded-xl border border-surface-variant shadow-[4px_0_20px_rgba(40,37,29,0.02)]">
+<div class="flex items-center gap-3">
+<img alt="Jessica Lin" class="w-10 h-10 rounded-full object-cover border border-outline-variant" data-alt="Professional headshot of an agency coordinator, smiling gently, warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeTtu-t19gT3KUgMcCB0bR6QQeIVyjZerjFp15kd039TN0XsDiUrEgabjVxv8i-qfsTEVs60tRl9oIPomxnQlA32lDWcCGotKZKg0edTOfviNjI02NYrbmwPq81jgrVU25AG0yvwrDukj8yO49LGEHddbfuMasPdT41aPAIL6qdUlLOE7T09bY5VXYm8JlLoBJxxXPl78J24pglk_l2gnKrFLQsYf_iBX5EIdI6sM3ykeV2Vytm03P8x1Yl9vQS5eG7LvNdomZV9q0"/>
+<div>
+<div class="font-label-caps text-on-surface-variant uppercase">Facilitated By</div>
+<div class="font-body-md text-on-background font-medium">Jessica Lin</div>
+</div>
+</div>
+<button class="w-full sm:w-auto bg-[#01696F] text-on-primary font-button px-8 py-4 rounded-full hover:bg-primary-container transition-colors shadow-lg flex items-center justify-center gap-2">
+                            Confirm Interview
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>

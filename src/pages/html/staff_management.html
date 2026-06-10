@@ -1,0 +1,356 @@
+<!-- SideNavBar (Execution from JSON) -->
+<aside class="h-screen w-64 border-r flex flex-col border-r border-[#E5E3DA] dark:border-slate-800 shadow-[4px_0px_20px_rgba(40,37,29,0.05)] bg-white dark:bg-slate-900 fixed left-0 top-0 py-8 px-4 flex flex-col space-y-6 z-50">
+<!-- Header -->
+<div class="flex items-center gap-3 px-2 mb-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center overflow-hidden border border-outline-variant">
+<img alt="Agency Logo" class="w-full h-full object-cover" data-alt="minimalist geometric agency logo in teal and dark grey on white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0g8ZmrcPFLcBsO0pPMX_YoNj5oDgcxUdWcV7EMjnVLD-3o0rs1ln_nSqBSpV86zEJ4syJMwQrfQjkRC9H_hc6qPxDzNY_s_KYQ36z5gfmb2hiiXEO2KAhs3zJegrsW7amg87BNGeRkDtlRK7gCosEAfuivTv00vF1iGjNTJ-7BpQjgKznQKm0fxUp16QvLVV5E-eWQw3UC3o-tLSKHjXOO_VFfFOrM6Gwtiogxgd1bJfLZWley1Qx5hUXUiLWnXuOdqNewRYNWo8S"/>
+</div>
+<div>
+<h2 class="text-xl font-black text-[#01696F]">Executive Suite</h2>
+<p class="font-label-caps text-label-caps text-outline">Super Admin Access</p>
+</div>
+</div>
+<!-- Navigation Links -->
+<nav class="flex-1 flex flex-col gap-2">
+<!-- Overview (Inactive) -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+                Overview
+            </a>
+<!-- Financials (Inactive) -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">payments</span>
+                Financials
+            </a>
+<!-- Team (Active) -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-[#D9E5E6] dark:bg-teal-900/40 text-[#01696F] dark:text-teal-300 rounded-lg font-bold scale-[0.99] transition-transform font-manrope text-sm uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">group</span>
+                Team
+            </a>
+<!-- All Data (Inactive) -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">database</span>
+                All Data
+            </a>
+<!-- Settings (Inactive) -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">settings</span>
+                Settings
+            </a>
+</nav>
+<!-- CTA -->
+<button class="mt-auto w-full font-button text-button bg-primary text-on-primary py-3 px-4 rounded-full shadow-sm hover:shadow-md transition-shadow">
+            Generate Report
+        </button>
+<!-- Footer Link -->
+<a class="flex items-center gap-3 px-4 py-3 mt-4 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest border-t border-outline-variant/30 pt-6" href="#">
+<span class="material-symbols-outlined">logout</span>
+            Log Out
+        </a>
+</aside>
+<!-- Main Workspace -->
+<div class="flex-1 ml-64 flex flex-col h-screen overflow-hidden">
+<!-- TopAppBar (Execution from JSON) -->
+<header class="flex justify-between items-center h-16 px-8 w-full sticky top-0 bg-[#FBFBFA] dark:bg-slate-950 docked full-width top-0 border-b z-40 border-b border-[#E5E3DA] dark:border-slate-800 flat no shadows">
+<!-- Left: Brand & Search -->
+<div class="flex items-center gap-8 flex-1">
+<div class="text-lg font-bold tracking-tighter text-[#01696F] dark:text-teal-500">
+                    Command Center
+                </div>
+<!-- Search Bar (on_left) -->
+<div class="relative w-64 max-w-md hidden md:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full bg-white border border-outline-variant rounded-full py-1.5 pl-10 pr-4 font-body-md text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="Search..." type="text"/>
+</div>
+</div>
+<!-- Right: Actions & Profile -->
+<div class="flex items-center gap-6">
+<!-- Primary Action -->
+<button class="font-manrope tracking-tight text-sm font-semibold bg-primary text-on-primary px-4 py-1.5 rounded-full hover:opacity-80 transition-all duration-150 shadow-sm">
+                    New Project
+                </button>
+<!-- Secondary Action -->
+<button class="font-manrope tracking-tight text-sm font-semibold text-[#01696F] dark:text-teal-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200 px-3 py-1.5 rounded-full">
+                    Support
+                </button>
+<!-- Icons -->
+<div class="flex items-center gap-2 border-l border-outline-variant/40 pl-6">
+<button class="p-1.5 rounded-full text-slate-500 dark:text-slate-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200">
+<span class="material-symbols-outlined text-[22px]">notifications</span>
+</button>
+<button class="p-1.5 rounded-full text-slate-500 dark:text-slate-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200">
+<span class="material-symbols-outlined text-[22px]">help_outline</span>
+</button>
+</div>
+<!-- Avatar -->
+<button class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant hover:opacity-80 transition-opacity">
+<img alt="Super Admin Avatar" class="w-full h-full object-cover" data-alt="professional headshot of a man with short hair wearing a navy blue suit jacket and white shirt, neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNMnlvL1Tqb6CaS61c4O7a4pMqicizrTJWG0QuEtZf4HBE7aqWmB0lLtCCYrun_iApkxNsUTcO-j1cto-au1SkBIZ_8XVfr72C0_emtcoSorFTDmq4KI99ZSpgu-GuiJFX-98YZh6YUlcO76D5Rmo6s1bFumc5gPP09d81xxAEOiYmv9PnuMtJtPFEysVRH1ghDA_teI7Z-wR3kKQBdhZunIXA7V8LS8lbzmV1_ifd8EqRHF-CcZYDM7j6e0NbVVY5-bXq6PoSKmJW"/>
+</button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-1 overflow-y-auto p-margin-desktop bg-surface-bright relative">
+<div class="max-w-container-max mx-auto">
+<!-- Page Header & Controls -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-stack-lg">
+<div>
+<h1 class="font-h1 text-h1 text-on-surface mb-2">Team <span class="text-outline font-h2 text-h2">(7 active)</span></h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Manage staff roles, monitor key performance metrics, and orchestrate platform access across your organization.</p>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant rounded-full px-4 py-2 font-button text-button text-on-surface hover:bg-surface-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">filter_list</span>
+                            Filter Views
+                        </button>
+<button class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant rounded-full px-4 py-2 font-button text-button text-on-surface hover:bg-surface-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">sort</span>
+                            Sort By
+                        </button>
+</div>
+</div>
+<!-- Staff Grid (Bento/Card Style) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-gutter pb-stack-lg">
+<!-- Card 1: Super Admin -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img alt="Eleanor Vance" class="w-14 h-14 rounded-full object-cover border border-surface-variant" data-alt="close-up portrait of a smiling woman with dark hair wearing a light grey blazer, bright soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBScDX_HXP-5uPnrCte79swlZleUIdlShZOXsjFkqMzxUhnPJJmsAWXh_zY95IjaWPjCCfpnGQfyDRXrwQ8gD6sHOcuy70GwDSX3dBuQ01Et2Vob0PeBGO_7yW2TVK4VUeaWBqmVwBZxZU5jY1u_pnQHaMl9MTNc44FIyzCHaGcOZXLkewaaxBZywq_t1iKI1xriDzUvi9JUvkP7ZwuHEWRxV_DUnSHSGEo8vV5miPG1SYRxjyQiT9Z9F1oT1K5-ZGBrtVk5kiCmsvG"/>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Eleanor Vance</h3>
+<span class="inline-block mt-1 bg-primary-container/10 text-primary-container font-label-caps text-label-caps px-3 py-1 rounded-full border border-primary-container/20">Super Admin</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">Just now</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">System Audit</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">100% Pass</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+<!-- Card 2: Manager -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img alt="Marcus Chen" class="w-14 h-14 rounded-full object-cover border border-surface-variant" data-alt="portrait of a young man with glasses and a slight smile wearing a dark casual shirt against a blurred urban background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACR6j3p3HCscezIj5iHlSyFfLMVC8U_TF6IVXJITCnwzKZ6CmGjLtcwHQjgGWBTuO0za4WAdNWorUvk1K15M3lzjwo7NkaLDGx7Pt9lOMo5DIb_Q4zADSvep-tR4xGVezPxxVQmgYMQEdgYOjkQKmUTtYChmkuTImX2j0Nsl8OibtBUcyhyZIC5v1thBwH2v8uIjNSaTO4032YWDjHESxNQpke7Y5MjxNjkvyoHUs5mbEVbb5NATaCfqYdBs0dzGczqjJWDY10drl2"/>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Marcus Chen</h3>
+<span class="inline-block mt-1 bg-tertiary-container/10 text-tertiary-container font-label-caps text-label-caps px-3 py-1 rounded-full border border-tertiary-container/20">Manager</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">12m ago</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Team Util.</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">92.4%</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+<!-- Card 3: Sales -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img alt="Sarah Jenkins" class="w-14 h-14 rounded-full object-cover border border-surface-variant" data-alt="professional portrait of a confident woman with shoulder-length blonde hair wearing a white blouse in a bright modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA77x1dsTtfOOSIKyXWkUMp8OvvsgYiX5VOoQ3HM9F-RR_SfMBjtKIXU7Nl1Mchoj2lLXy6d-OGwWlQha2LA5_vJnTij5mry8_GYAcc7p9t13pQjnk81WdN9gFYXEPw61boAHZuiE8eVsQRgZqwPsk50CyX23acW8CxCl5VoMxG788mZlCq4pA0D7LLvRNsPj7cJR9oXZIA21lbRsH0ZDvQ5U6kpN5InuVKHHItKhLHTKgfNzuSq2ZyyW8edKFiCCZrHnL9IbjZZkd7"/>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Sarah Jenkins</h3>
+<span class="inline-block mt-1 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps px-3 py-1 rounded-full border border-secondary-container">Sales</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">1h ago</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Q3 Quota</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">114%</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+<!-- Card 4: Admin -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img alt="David Park" class="w-14 h-14 rounded-full object-cover border border-surface-variant" data-alt="portrait of a professional man with a neat beard wearing a crisp white shirt, clean studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzRmw2XTkAnJmk7DvyqwnIxGyAhoVNcl7X_-StW-XaKXFSglIN9C8Egr51LbPYzxQAKYMfqi_2IT2HVKzt-ksLLcRYl0TzBHRHKLk5Z05Tu5Y4LMz17GOmTyrV0B6iXD6w4Rs_Y6iUsK2DsBRHq49JR6ycK_osYUZW-9tnU-9ahxEggQoufyP6hqRXtGz7yzt5KDor7K5ZULtI_8snV8pKMZ9FbqWwwp-L8xtUJH6s1VpOEBhxs8KRwsvGeEvgN3azz55rnQ8YxCJw"/>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">David Park</h3>
+<span class="inline-block mt-1 bg-surface-variant text-on-surface-variant font-label-caps text-label-caps px-3 py-1 rounded-full border border-outline-variant/30">Admin</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">3h ago</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Tickets Res.</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">42 this wk</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+<!-- Card 5: Sales -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<div class="w-14 h-14 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container font-h3 border border-surface-variant">
+                                        JL
+                                    </div>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Jessica Lin</h3>
+<span class="inline-block mt-1 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps px-3 py-1 rounded-full border border-secondary-container">Sales</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">4h ago</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Active Leads</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">18</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+<!-- Card 6: Manager -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img alt="Tom Halton" class="w-14 h-14 rounded-full object-cover border border-surface-variant" data-alt="close up of a smiling man with short brown hair wearing a light blue oxford shirt, sunny outdoor blurred background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVyC_OTtGukjI8_ZSYljgnJndYny97k9dhMBrzhXmxRaMJ3cw6vAFolUmhA8EOb3vDOzL5c9FQ0vRWkR5EmS3xGkPTirMQGkJ9sqUyw7L59V9mwd0MC25_56849_b1WhbGE58b5KqJnZtyBZq5Sl-fdjfhn8huRzSiTaEw6OAN-mH_3CCGanoXTuZ6MzPmiAtDFhSrqgVeYAe5_uYON2h5YvpmCT0XEPgZOrXuxv8-GlgfNgbGhpnDm3k732ebzv2VXTRaPsTcWqoJ"/>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Tom Halton</h3>
+<span class="inline-block mt-1 bg-tertiary-container/10 text-tertiary-container font-label-caps text-label-caps px-3 py-1 rounded-full border border-tertiary-container/20">Manager</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">Yesterday</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Client Sat.</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">4.9/5</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+<!-- Card 7: Admin -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-xl p-stack-md flex flex-col gap-4 relative overflow-hidden group hover:border-outline-variant transition-all duration-300 shadow-[0px_4px_20px_rgba(40,37,29,0.02)] hover:shadow-[0px_12px_30px_rgba(40,37,29,0.06)] cursor-pointer">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-4">
+<div class="relative">
+<div class="w-14 h-14 rounded-full bg-surface-variant flex items-center justify-center text-on-surface-variant font-h3 border border-surface-variant">
+                                        MR
+                                    </div>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-primary border-2 border-surface-container-lowest rounded-full" title="Active"></div>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Maria Rossi</h3>
+<span class="inline-block mt-1 bg-surface-variant text-on-surface-variant font-label-caps text-label-caps px-3 py-1 rounded-full border border-outline-variant/30">Admin</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface transition-colors p-1"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<div class="grid grid-cols-2 gap-unit bg-surface-container-low rounded-lg p-3 border border-surface-variant/50 mt-2">
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Last Active</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">Just now</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-outline mb-1">Docs Proc.</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">124</p>
+</div>
+</div>
+<div class="flex items-center justify-between mt-auto pt-4 border-t border-surface-variant/60">
+<div class="flex gap-1">
+<button aria-label="Edit" class="p-2 text-outline hover:text-primary transition-colors rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">edit</span></button>
+<button aria-label="Deactivate" class="p-2 text-outline hover:text-error transition-colors rounded-full hover:bg-error-container/50"><span class="material-symbols-outlined text-[20px]">block</span></button>
+</div>
+<button class="font-button text-button text-primary border border-primary/30 rounded-full px-5 py-2 hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-300">Message</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-margin-desktop right-margin-desktop bg-primary text-on-primary font-button text-button px-6 py-4 rounded-full shadow-[0px_8px_20px_rgba(0,79,84,0.25)] hover:shadow-[0px_12px_24px_rgba(0,79,84,0.35)] hover:-translate-y-1 transition-all duration-300 flex items-center gap-2 z-50 group">
+<span class="material-symbols-outlined text-[22px] group-hover:rotate-90 transition-transform duration-300">add</span>
+            Add Staff Member
+        </button>
+</div>

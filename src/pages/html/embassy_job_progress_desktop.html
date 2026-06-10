@@ -1,0 +1,253 @@
+<!-- SideNavBar -->
+<nav class="bg-white dark:bg-slate-900 w-64 h-screen border-r fixed left-0 top-0 z-40 border-slate-200 dark:border-slate-800 shadow-sm flex flex-col h-full py-4">
+<div class="px-6 mb-8 flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl text-primary-container" style="font-variation-settings: 'FILL' 1;">sailing</span>
+<div>
+<h1 class="text-xl font-bold text-[#01696F] dark:text-teal-300 tracking-tight">Runner Portal</h1>
+<p class="font-label-caps text-label-caps text-outline">Logistics Management</p>
+</div>
+</div>
+<ul class="flex flex-col gap-1 flex-grow">
+<li>
+<a class="flex items-center gap-3 bg-teal-50 dark:bg-teal-900/30 text-[#01696F] dark:text-teal-300 font-semibold rounded-lg mx-2 px-4 py-3 active:scale-[0.98] transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span class="font-button text-button">Dashboard</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors px-4 py-3 mx-2 rounded-lg" href="#">
+<span class="material-symbols-outlined">assignment</span>
+<span class="font-button text-button">Tasks</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors px-4 py-3 mx-2 rounded-lg" href="#">
+<span class="material-symbols-outlined">notifications_active</span>
+<span class="font-button text-button">Reminders</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors px-4 py-3 mx-2 rounded-lg" href="#">
+<span class="material-symbols-outlined">description</span>
+<span class="font-button text-button">Documents</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors px-4 py-3 mx-2 rounded-lg mt-auto" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-button text-button">Settings</span>
+</a>
+</li>
+</ul>
+</nav>
+<!-- TopNavBar -->
+<header class="fixed top-0 right-0 left-64 h-16 z-30 border-b border-slate-200 dark:border-slate-800 shadow-[0_1px_2px_rgba(40,37,29,0.05)] bg-white/80 dark:bg-slate-900/80 backdrop-blur-md flex items-center justify-between px-8 w-full font-manrope text-sm font-medium">
+<div class="flex items-center">
+<span class="text-lg font-black text-[#01696F] dark:text-teal-300">Embassy Runner Portal</span>
+</div>
+<div class="flex-grow max-w-md mx-8">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-low border border-outline-variant rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent" placeholder="Search jobs, references..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-slate-500 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-200 cursor-pointer hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="text-slate-500 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-200 cursor-pointer hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">help_outline</span>
+</button>
+<img alt="Runner Avatar" class="w-8 h-8 rounded-full border border-outline-variant ml-2" data-alt="Close up portrait of a professional smiling man with short brown hair wearing a dark blue button down shirt, blurred bright office background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnaWDRb7WwIVNHhhZ2RLHxHef-AXMXiEX5_YGPhP1zNwP6GcG53sIAcUXX8T1Nf9pfhUpFg1geFBIwkop3XUePxH3v9a0-6rWiQImjrJV8-fJ28K9Q4aeAdPYv-_4xwZozzssqAwcHrHfTQaEyWUQ-eWzUY3EjCPUfGAgcByioJwd-JhTLeVo0pvBwPHdyizPm3m8bYXkB5kqESMJektiGxCzCZqHEaQSbQYVl2vjZqNOzAYnSrflFuGGwv9943X1j2-SMKRW3av2q"/>
+</div>
+</header>
+<!-- Main Content -->
+<main class="ml-64 pt-16 min-h-screen p-8">
+<!-- Header -->
+<div class="mb-8 flex justify-between items-end">
+<div>
+<div class="flex items-center gap-2 mb-2 text-outline text-sm">
+<a class="hover:text-primary-container" href="#">Jobs</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span>Job #8492</span>
+</div>
+<h2 class="font-h2 text-h2 text-on-surface">Job Progress Update</h2>
+</div>
+<div class="flex gap-3">
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed-variant rounded-full font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">schedule</span> Urgent
+                </span>
+<span class="px-3 py-1 bg-surface-container-high text-on-surface-variant rounded-full font-label-caps text-label-caps">
+                    Ref: TH-992-B
+                </span>
+</div>
+</div>
+<!-- Two Column Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Left Column: Helper Info & Checklist -->
+<div class="lg:col-span-4 flex flex-col gap-6">
+<!-- Profile Card -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_2px_4px_rgba(40,37,29,0.02)]">
+<div class="flex items-center gap-4 mb-6">
+<img alt="Michael Chang" class="w-16 h-16 rounded-full border-2 border-surface-variant" data-alt="Portrait of an Asian man with short dark hair, wearing a grey polo shirt, neutral expression, light studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGHyeSTRRgG_Z8eqjrhQp9y_QJY9GMPM1DfHTk7uvboaKe9jHQ06HEtLRLI5UJxsyx5FE6qgRBi7AUOdmvGpk3AG7Z5hAvX8sXgw8GrJzqk98r-iShG_H0Im_JIgY-D0fxyLOzeAJzgOsXm5QZGTQbkOvSJ4kLJBOd4l118V5hfM-hHxdrbKE9JwfvgFyX9tsYezWvYfs03gX7Bu8zQ8m9WiKdnHNJM7Qt3nshOxLIzf2ApTpn0y4BewU1trv9NNE4Uc1P91yUDped"/>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface">Michael Chang</h3>
+<p class="font-body-md text-body-md text-outline">Helper Application</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+<p class="text-outline mb-1 font-label-caps text-label-caps">Nationality</p>
+<p class="font-medium flex items-center gap-2">
+                                🇵🇭 Philippines
+                            </p>
+</div>
+<div>
+<p class="text-outline mb-1 font-label-caps text-label-caps">Destination</p>
+<p class="font-medium flex items-center gap-2">
+                                🇸🇬 Singapore
+                            </p>
+</div>
+<div class="col-span-2 mt-2 pt-4 border-t border-surface-variant">
+<p class="text-outline mb-1 font-label-caps text-label-caps">Embassy Location</p>
+<p class="font-medium">Royal Thai Embassy, Orchard Rd</p>
+</div>
+</div>
+</div>
+<!-- Document Checklist -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_2px_4px_rgba(40,37,29,0.02)]">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-h3 text-h3 text-on-surface">Required Documents</h3>
+<span class="text-sm font-medium text-primary-container bg-primary-fixed py-1 px-2 rounded-full">3/4 Collected</span>
+</div>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 p-2 rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-medium text-on-surface text-sm">Original Passport</span>
+</li>
+<li class="flex items-center gap-3 p-2 rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-medium text-on-surface text-sm">Employment Contract</span>
+</li>
+<li class="flex items-center gap-3 p-2 rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-medium text-on-surface text-sm">Medical Certificate</span>
+</li>
+<li class="flex items-center gap-3 p-2 rounded-lg border border-dashed border-tertiary-fixed-dim bg-surface-bright">
+<span class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_unchecked</span>
+<span class="font-medium text-on-surface-variant text-sm">Visa Application Form</span>
+<span class="ml-auto text-xs text-tertiary font-medium bg-tertiary-fixed px-2 py-0.5 rounded-sm">Pending</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Right Column: Workflow Progress -->
+<div class="lg:col-span-8">
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant shadow-[0_4px_12px_rgba(40,37,29,0.03)] relative overflow-hidden">
+<!-- Decorative background element -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-fixed opacity-20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
+<h3 class="font-h3 text-h3 text-on-surface mb-8">Job Workflow</h3>
+<div class="relative pl-8 space-y-10">
+<!-- Vertical Timeline Line -->
+<div class="absolute left-[15px] top-4 bottom-8 w-0.5 bg-surface-variant z-0"></div>
+<!-- Step 1: Collected -->
+<div class="relative z-10 flex gap-6">
+<div class="w-8 h-8 rounded-full bg-primary-container text-white flex items-center justify-center shrink-0 shadow-sm mt-1 -ml-[15px]">
+<span class="material-symbols-outlined text-sm">check</span>
+</div>
+<div class="flex-grow opacity-70">
+<h4 class="font-button text-button text-on-surface mb-1">Documents Collected</h4>
+<p class="text-sm text-outline mb-3">09:00 AM, Today</p>
+<div class="flex gap-2">
+<div class="w-16 h-12 bg-surface-container rounded border border-outline-variant overflow-hidden">
+<img alt="Document photo" class="w-full h-full object-cover grayscale opacity-80" data-alt="Close up of a stack of official documents in a manila folder on a desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMYt2iFfx_-XkL_y9zCCIlyAF2QVILx4dEqGav51-PYmq8ZqjFdrg_MR1ywM9eQZtmqn7vKP_u7jRECR7yxPcPiaL2AAr0nMtDMo1964CObw1lg9dVudRZJ-spvR7eF_PyN76qjl-8pnvk8Ryle_4iqp3ZcPpwLi3fvfSxKGehV6MmawzToHHf94vh4vtHfwr4zvjT3Bvc6eZw9WkKLaNokN3x-OCW3feliwrB1US8ych8EmG9eNNBxaqfvODXcAUHjChH3tU4B1Ry"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Step 2: In Transit -->
+<div class="relative z-10 flex gap-6">
+<div class="w-8 h-8 rounded-full bg-primary-container text-white flex items-center justify-center shrink-0 shadow-sm mt-1 -ml-[15px]">
+<span class="material-symbols-outlined text-sm">check</span>
+</div>
+<div class="flex-grow opacity-70">
+<h4 class="font-button text-button text-on-surface mb-1">In Transit</h4>
+<p class="text-sm text-outline">10:15 AM, Today</p>
+</div>
+</div>
+<!-- Step 3: ACTIVE -->
+<div class="relative z-10 flex gap-6">
+<!-- Active Line Overlay -->
+<div class="absolute left-[-15px] top-[-30px] bottom-[-20px] w-0.5 bg-primary-container z-0"></div>
+<div class="w-8 h-8 rounded-full bg-primary-container text-white flex items-center justify-center shrink-0 shadow-md mt-1 -ml-[15px] ring-4 ring-primary-fixed">
+<span class="material-symbols-outlined text-sm">edit_document</span>
+</div>
+<div class="flex-grow">
+<h4 class="font-h3 text-h3 text-primary-container mb-1">Submitted to Embassy</h4>
+<p class="text-sm text-outline mb-4">Current Step. Awaiting submission details.</p>
+<div class="bg-surface-bright border-l-4 border-primary-container rounded-r-lg p-5 shadow-sm">
+<div class="space-y-4">
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-1">Embassy Reference Number</label>
+<input class="w-full max-w-md px-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-md text-sm focus:ring-2 focus:ring-primary-container focus:border-transparent" placeholder="e.g. TH-2023-8991" type="text"/>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-1">Upload Submission Receipt</label>
+<div class="w-full max-w-md border-2 border-dashed border-outline-variant rounded-md p-4 text-center hover:bg-surface-container-low transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-outline mb-2">cloud_upload</span>
+<p class="text-sm text-on-surface-variant font-medium">Click to upload or drag and drop</p>
+<p class="text-xs text-outline mt-1">PDF, JPG, PNG up to 10MB</p>
+</div>
+</div>
+<div class="pt-2">
+<button class="bg-primary-container hover:bg-primary text-white font-button text-button px-6 py-2.5 rounded-full transition-colors flex items-center gap-2">
+<span>Mark as Submitted</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Step 4: Pending -->
+<div class="relative z-10 flex gap-6">
+<div class="w-8 h-8 rounded-full bg-surface-container border-2 border-outline-variant text-outline flex items-center justify-center shrink-0 mt-1 -ml-[15px]">
+<span class="material-symbols-outlined text-sm">hourglass_empty</span>
+</div>
+<div class="flex-grow opacity-50">
+<h4 class="font-button text-button text-on-surface mb-1">Awaiting Decision</h4>
+<p class="text-sm text-outline">Pending</p>
+</div>
+</div>
+<!-- Step 5: Pending -->
+<div class="relative z-10 flex gap-6">
+<div class="w-8 h-8 rounded-full bg-surface-container border-2 border-outline-variant text-outline flex items-center justify-center shrink-0 mt-1 -ml-[15px]">
+<span class="material-symbols-outlined text-sm">inventory_2</span>
+</div>
+<div class="flex-grow opacity-50">
+<h4 class="font-button text-button text-on-surface mb-1">Collection Ready</h4>
+<p class="text-sm text-outline">Pending</p>
+</div>
+</div>
+<!-- Step 6: Pending -->
+<div class="relative z-10 flex gap-6">
+<div class="w-8 h-8 rounded-full bg-surface-container border-2 border-outline-variant text-outline flex items-center justify-center shrink-0 mt-1 -ml-[15px]">
+<span class="material-symbols-outlined text-sm">local_shipping</span>
+</div>
+<div class="flex-grow opacity-50">
+<h4 class="font-button text-button text-on-surface mb-1">Delivered to Office</h4>
+<p class="text-sm text-outline">Pending</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Actions -->
+<div class="mt-8 pt-6 border-t border-surface-variant flex justify-end">
+<button class="bg-surface-variant text-outline font-button text-button px-6 py-3 rounded-full cursor-not-allowed opacity-70 flex items-center gap-2" disabled="">
+<span class="material-symbols-outlined text-sm">request_quote</span>
+                Submit for Payment Review
+            </button>
+</div>
+</main>

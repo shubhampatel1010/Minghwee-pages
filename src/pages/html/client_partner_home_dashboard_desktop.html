@@ -1,0 +1,215 @@
+<!-- SideNavBar -->
+<nav class="bg-[#F7FAFA] dark:bg-slate-950 font-manrope text-sm font-medium h-screen w-64 fixed left-0 top-0 border-r border-r border-slate-200 dark:border-slate-800 flat no shadows flex flex-col h-full py-6 hidden md:flex z-50">
+<div class="px-6 mb-8">
+<h1 class="text-xl font-extrabold text-teal-900 dark:text-teal-50">AgencyCore</h1>
+<p class="text-slate-500 text-xs mt-1">Partner Portal</p>
+</div>
+<div class="px-4 mb-6">
+<button class="w-full bg-primary-container text-on-primary py-3 rounded-full font-button text-button hover:bg-primary transition-colors flex items-center justify-center gap-2 shadow-ambient">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                New Placement
+            </button>
+</div>
+<div class="flex-1 px-4 space-y-1">
+<a class="bg-teal-50 dark:bg-teal-900/20 text-teal-900 dark:text-teal-100 border-r-4 border-teal-800 dark:border-teal-400 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+                Dashboard
+            </a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined">assignment_turned_in</span>
+                Active Orders
+            </a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined">public</span>
+                Logistics
+            </a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined">group_add</span>
+                Helpers
+            </a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined">settings</span>
+                Settings
+            </a>
+</div>
+<div class="px-4 mt-auto space-y-1">
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+                Support
+            </a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-300 flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-teal-50/50 dark:hover:bg-slate-900 ease-in-out duration-200" href="#">
+<span class="material-symbols-outlined">logout</span>
+                Log Out
+            </a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 ml-0 md:ml-64 flex flex-col h-screen overflow-hidden">
+<!-- TopAppBar -->
+<header class="bg-white/90 dark:bg-slate-950/90 backdrop-blur-md font-manrope antialiased docked full-width top-0 sticky z-40 border-b border-slate-100 dark:border-slate-800 shadow-sm flex justify-between items-center h-16 px-6 w-full shrink-0">
+<div class="flex items-center gap-4">
+<h2 class="font-h2 text-h2 text-on-background md:hidden">AgencyCore</h2>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all rounded-full active:scale-98 transition-transform duration-200">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all rounded-full active:scale-98 transition-transform duration-200">
+<span class="material-symbols-outlined">help_outline</span>
+</button>
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all rounded-full active:scale-98 transition-transform duration-200">
+<span class="material-symbols-outlined">chat_bubble_outline</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-primary-container/20 flex items-center justify-center border border-outline-variant ml-2">
+<span class="text-primary-container font-label-caps text-label-caps">BS</span>
+</div>
+</div>
+</header>
+<!-- Scrollable Content -->
+<div class="flex-1 overflow-y-auto p-margin-mobile md:p-margin-desktop">
+<div class="max-w-container-max mx-auto space-y-stack-lg">
+<!-- Welcome Section -->
+<div>
+<h1 class="font-h1 text-h1 text-on-background">Welcome, Bright Star Agency — HK</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">Here is your operational overview for today.</p>
+</div>
+<!-- Bento Grid: Summary Strip -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-unit">
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-ambient border border-surface-variant flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Active Orders</span>
+<span class="material-symbols-outlined text-primary-container bg-primary-container/10 p-2 rounded-full">assignment</span>
+</div>
+<span class="font-display text-display text-on-background">6</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-ambient border border-surface-variant flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps text-error uppercase tracking-wider">Awaiting My Action</span>
+<span class="material-symbols-outlined text-error bg-error/10 p-2 rounded-full">warning</span>
+</div>
+<span class="font-display text-display text-on-background">2</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-ambient border border-surface-variant flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Deploying This Month</span>
+<span class="material-symbols-outlined text-primary-container bg-primary-container/10 p-2 rounded-full">flight_takeoff</span>
+</div>
+<span class="font-display text-display text-on-background">3</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-ambient border border-surface-variant flex flex-col justify-between">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Pending Payments</span>
+<span class="material-symbols-outlined text-secondary bg-secondary/10 p-2 rounded-full">payments</span>
+</div>
+<span class="font-display text-display text-on-background">$4,200</span>
+</div>
+</div>
+<!-- Main Layout Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Left Col: Pipeline -->
+<div class="lg:col-span-2 space-y-stack-md">
+<div class="flex items-center justify-between">
+<h2 class="font-h3 text-h3 text-on-background">Active Order Pipeline</h2>
+<button class="font-button text-button text-primary-container hover:text-primary transition-colors flex items-center gap-1">
+                                View All
+                                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 gap-unit">
+<!-- Pipeline Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 shadow-ambient border border-surface-variant flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<img alt="Profile photo of Maria Cruz" class="w-12 h-12 rounded-full object-cover" data-alt="professional headshot of an asian woman smiling warmly with neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCodCOFV3DvMCdt4KjuZWo5YDe6sKgmGac_IfPSVAdyloKXiLVcoTGOUvqP5R1KOyHKlDbc-6DnPMrRIwcnVb752PVl7u5gRmpwJ_5yFPrYVnclSOCJj-a2L7cg0G0uQKxbHgvPrbozwZu6rIgQ9T-H2RjymQP7_B0bTiqsDmiHkkTdDZUUM9bh1dOkCT38jfI4bMk7LRPMp5IqUTtpGKWgZVFzUXxlvjZIoohnkHtkskGmqSmz_yAQGfr0o8XqQmY7kbCMU3YnlY6A"/>
+<div>
+<h3 class="font-body-lg text-body-lg text-on-background font-semibold">Maria Cruz</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Domestic Helper • Philippines</p>
+</div>
+</div>
+<div class="flex flex-col md:items-end gap-2">
+<div class="flex items-center gap-2">
+<span class="bg-primary-container/10 text-primary-container px-3 py-1 rounded-full font-label-caps text-label-caps border border-primary-container/20">Visa Processing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">14 days</span>
+</div>
+<p class="font-body-sm text-body-sm text-error font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">error</span>
+                                        Medical check pending
+                                    </p>
+</div>
+</div>
+<!-- Pipeline Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 shadow-ambient border border-surface-variant flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">person</span>
+</div>
+<div>
+<h3 class="font-body-lg text-body-lg text-on-background font-semibold italic text-outline">Candidate TBC</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Caregiver • Indonesia</p>
+</div>
+</div>
+<div class="flex flex-col md:items-end gap-2">
+<div class="flex items-center gap-2">
+<span class="bg-surface-variant text-on-surface-variant px-3 py-1 rounded-full font-label-caps text-label-caps border border-outline-variant">Sourcing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3 days</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+                                        Review shortlisted profiles
+                                    </p>
+</div>
+</div>
+<!-- Pipeline Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 shadow-ambient border border-surface-variant flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<img alt="Profile photo of Ana Santos" class="w-12 h-12 rounded-full object-cover" data-alt="professional headshot of an asian woman smiling confidently" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFI88gODTd4WP0tLE62XcOKI-C40BtxFBz6vamNt47J59ap7hW-Flptl4_FpUJ3P0bM6kGDNwQrTSbaaDNIm8SIkrZNX49cc2RyAIIpfopTtwMcjCIF1PZOdlOLx2Q_Tiwhua9EWpaJwlgSAUqJ67PZkoXAkaBia4DiTrxB4U6rUhSfoaiUBqBrwgDKDd9MFI3GHNfND-88-rJacdbGtYjJQF-9EJfbKJSvI6KzxzsD-sskXayhG34L_4xNhxRa65uBC1o7GX9LvZi"/>
+<div>
+<h3 class="font-body-lg text-body-lg text-on-background font-semibold">Ana Santos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Driver • Philippines</p>
+</div>
+</div>
+<div class="flex flex-col md:items-end gap-2">
+<div class="flex items-center gap-2">
+<span class="bg-tertiary-container/10 text-tertiary-container px-3 py-1 rounded-full font-label-caps text-label-caps border border-tertiary-container/20">Interview</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1 day</span>
+</div>
+<p class="font-body-sm text-body-sm text-primary-container font-medium flex items-center gap-1">
+                                        Employer interview tomorrow
+                                    </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Col: Reminders -->
+<div class="space-y-stack-md">
+<h2 class="font-h3 text-h3 text-on-background">Reminders</h2>
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-ambient border border-surface-variant space-y-6">
+<div class="flex gap-4">
+<div class="mt-1">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">event</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-background font-medium">Interview with Ana Santos</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Tomorrow 2:00 PM (HKT)</p>
+<button class="mt-2 font-button text-button text-primary-container hover:text-primary transition-colors">Join Link</button>
+</div>
+</div>
+<hr class="border-surface-variant"/>
+<div class="flex gap-4">
+<div class="mt-1">
+<span class="material-symbols-outlined text-error" style="font-variation-settings: 'FILL' 1;">payments</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-background font-medium">Payment Due</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Maria Cruz deployment — Apr 30</p>
+<button class="mt-2 font-button text-button text-primary-container hover:text-primary transition-colors">View Invoice</button>
+</div>
+</div>
+<hr class="border-surface-variant"/>
+<button class="w-full py-2 border border-outline-variant rounded-full text-on-surface-variant font-button text-button hover:bg-surface-container-low transition-colors">
+                                View All Reminders
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>

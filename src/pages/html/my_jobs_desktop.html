@@ -1,0 +1,163 @@
+<!-- SideNavBar (Desktop) -->
+<nav class="hidden md:flex flex-col pt-20 pb-8 px-4 h-full gap-2 bg-slate-50 dark:bg-slate-950 font-manrope text-sm font-medium h-screen w-64 fixed left-0 top-0 rounded-r-lg border-r border-slate-200 dark:border-slate-800 z-40">
+<div class="mb-8 px-4">
+<h2 class="font-h2 text-h2 text-teal-800 dark:text-teal-200 font-black">MingHwee</h2>
+<p class="font-body-md text-body-md text-slate-500">External Vendor Portal</p>
+</div>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 px-4 py-2.5 hover:bg-teal-50/50 dark:hover:bg-slate-900 transition-all active:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span>Home</span>
+</a>
+<a class="flex items-center gap-3 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 rounded-lg px-4 py-2.5 font-bold hover:bg-teal-50/50 dark:hover:bg-slate-900 transition-all active:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+<span>Jobs</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 px-4 py-2.5 hover:bg-teal-50/50 dark:hover:bg-slate-900 transition-all active:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span>Earnings</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 px-4 py-2.5 hover:bg-teal-50/50 dark:hover:bg-slate-900 transition-all active:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+</nav>
+<!-- TopNavBar (Mobile/Desktop) -->
+<header class="flex justify-between items-center px-8 h-16 w-full fixed top-0 bg-white/80 backdrop-blur-md bg-white dark:bg-slate-900 font-manrope antialiased tracking-tight docked full-width top-0 z-50 border-b border-slate-200 dark:border-slate-800 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] md:pl-72 md:pr-8">
+<div class="flex items-center md:hidden">
+<span class="text-xl font-bold text-teal-900 dark:text-teal-100">MingHwee Professional</span>
+</div>
+<div class="hidden md:flex items-center flex-1">
+<!-- Search placeholder if needed -->
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-teal-800 dark:text-teal-500 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors rounded-full active:scale-95 duration-200 ease-in-out">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<img alt="User Profile Avatar" class="w-8 h-8 rounded-full border border-slate-200" data-alt="Professional headshot of a smiling asian man in a light blue shirt, warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlPZnSKuC8qJ5xeoK7xDLK8ACxzBnQTV4Re1QcHFkicKgNThdFU5BVQepz8_6hOuDu9n6JvUfTG6khs_wDCiZE1VHo4AYhUuiaF_moOnfi89dnOAqwCJPdTS1h6wSbo4FqnXOSjvPOcVnFVq2e_CH5BSWw7hh6_fH34PWz-2SmAgjrlfsrf0UJFqSfUQgmSQm0hJKRLbFtX75y7HbInH_5cyNUmp0H1lwlN5CGzjqqHm_rLuMXgR4ViEpZKaKHFekPDsRc6OmoAgIc"/>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-1 mt-16 md:ml-64 p-margin-mobile md:p-margin-desktop max-w-container-max mx-auto w-full">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-stack-sm mb-stack-md">
+<div>
+<h1 class="font-h1 text-h1 text-on-background mb-unit">My Jobs</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Manage and track your assigned transport tasks.</p>
+</div>
+<div class="flex items-center gap-unit">
+<div class="relative">
+<select class="appearance-none bg-surface-container-low border border-outline-variant text-on-surface font-button text-button rounded-lg pl-4 pr-10 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent cursor-pointer active:scale-95 transition-transform">
+<option>Sort by Time</option>
+<option>Sort by Location</option>
+<option>Sort by Job Type</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none" data-icon="expand_more">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Filter Tabs -->
+<div class="flex overflow-x-auto pb-4 mb-stack-sm border-b border-surface-variant gap-unit scrollbar-hide">
+<button class="whitespace-nowrap px-4 py-2 font-button text-button text-primary border-b-2 border-primary">Today</button>
+<button class="whitespace-nowrap px-4 py-2 font-button text-button text-on-surface-variant hover:text-primary transition-colors">This Week</button>
+<button class="whitespace-nowrap px-4 py-2 font-button text-button text-on-surface-variant hover:text-primary transition-colors">All Pending</button>
+<button class="whitespace-nowrap px-4 py-2 font-button text-button text-on-surface-variant hover:text-primary transition-colors">Completed</button>
+<button class="whitespace-nowrap px-4 py-2 font-button text-button text-on-surface-variant hover:text-primary transition-colors">Cancelled</button>
+</div>
+<!-- Job Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+<!-- Card 1: Pending Pickup -->
+<div class="bg-surface-container-lowest rounded-xl p-stack-sm border border-outline-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] flex flex-col hover:shadow-md transition-shadow relative overflow-hidden border-t-4 border-t-primary-container">
+<div class="flex justify-between items-start mb-stack-sm">
+<div class="flex items-center gap-unit">
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container px-2 py-1 rounded">#MH-2045</span>
+<span class="font-label-caps text-label-caps text-on-primary-container bg-primary-container/10 border border-primary-container/20 px-2 py-1 rounded">Medical Checkup</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-secondary-container bg-secondary-container px-2 py-1 rounded flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span> Pending
+                    </span>
+</div>
+<div class="flex items-center gap-stack-sm mb-stack-md bg-surface-container-low p-stack-sm rounded-lg border border-surface-variant">
+<img alt="Helper Photo" class="w-12 h-12 rounded-full object-cover border-2 border-surface-container-lowest" data-alt="Portrait of a young asian woman smiling slightly, natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSAPIgkAglryyTYrfhByzHAJr52zveCm63QlqEjgHsEon-GDqrHPo6vRAt3g_q9jx1LSF4b7F_ie113Wyf_ZPC2gcDN530yw-YgBUUWD9_Fpn_aIeYJ931-8-PgdkAWK-vsSuL0-t1ccTHB8dT0JG-gQTK3zcDZG-jXQcnjSJrtZX2gYDE8UirfmGehDsZ8XK-OwwABQ2-r3LRpxYiXbKNeiZ0ZoQpRHql4MapfNLrhDZEyMWfgsyi2QeL7CgWK5eCZ71N3zUNIjYx"/>
+<div>
+<div class="flex items-center gap-unit">
+<h3 class="font-h3 text-h3 text-on-background">Siti Nurhaliza</h3>
+<span class="text-sm">🇮🇩</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-sm" data-icon="schedule">schedule</span> 09:00 AM • Today
+                        </p>
+</div>
+</div>
+<div class="flex items-start gap-stack-sm mb-stack-md px-2">
+<div class="flex flex-col items-center mt-1">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="trip_origin">trip_origin</span>
+<div class="w-0.5 h-6 bg-outline-variant my-1"></div>
+<span class="material-symbols-outlined text-primary-container" data-icon="location_on" data-weight="fill" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div class="flex flex-col gap-unit w-full">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Pickup</p>
+<p class="font-body-md text-body-md text-on-background font-medium">Changi Airport T3</p>
+</div>
+<div class="pt-2">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Dropoff</p>
+<p class="font-body-md text-body-md text-on-background font-medium">Raffles Hospital, Bugis</p>
+</div>
+</div>
+</div>
+<div class="bg-tertiary-fixed/30 p-unit rounded-md mb-stack-md flex items-start gap-2">
+<span class="material-symbols-outlined text-tertiary text-sm mt-0.5" data-icon="info">info</span>
+<p class="font-body-md text-body-md text-on-tertiary-fixed-variant text-sm">Helper has 2 large suitcases. Needs assistance.</p>
+</div>
+<div class="mt-auto flex gap-unit">
+<button class="flex-1 bg-surface-container-lowest border border-outline-variant text-on-surface-variant font-button text-button py-2 rounded-lg hover:bg-surface-container-low transition-colors active:scale-95">View Details</button>
+<button class="flex-1 bg-primary text-on-primary font-button text-button py-2 rounded-lg hover:bg-primary/90 transition-colors shadow-sm active:scale-95">Start Job</button>
+</div>
+</div>
+<!-- Card 2: In Progress -->
+<div class="bg-surface-container-lowest rounded-xl p-stack-sm border border-outline-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] flex flex-col hover:shadow-md transition-shadow relative overflow-hidden border-t-4 border-t-tertiary">
+<div class="flex justify-between items-start mb-stack-sm">
+<div class="flex items-center gap-unit">
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container px-2 py-1 rounded">#MH-2042</span>
+<span class="font-label-caps text-label-caps text-on-secondary-fixed-variant bg-secondary-fixed border border-secondary-fixed-dim px-2 py-1 rounded">MOM Thumbprint</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-tertiary-container bg-tertiary-container px-2 py-1 rounded flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed"></span> In Progress
+                    </span>
+</div>
+<div class="flex items-center gap-stack-sm mb-stack-md bg-surface-container-low p-stack-sm rounded-lg border border-surface-variant">
+<img alt="Helper Photo" class="w-12 h-12 rounded-full object-cover border-2 border-surface-container-lowest" data-alt="Portrait of a mature filipino woman looking calm, neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeg8mfe5zKdCort_At295LeCM4o8bvVZloRq4hZ5NuPON0Xx-RNbjHbGMq-FpZMR02mA5HGKowMl80Wa9KY3HtyRLTyyInxwxo2hlSu-RzOi7jdYtzWEpOKrkK-OZlE2PBQdbgJIpmKuCpzC7nGsJ7fpgb5VAxrbKd6fo_aCJNm1jZ_lDfhdn9bqYxRvWs3qFpJ8ctng8IQpc-jkJi74dtUv8Li0_9Ro8TeBqkEZ7j2RDVnEIhur2Brxg82swvooZT_xPrZawSQ4pf"/>
+<div>
+<div class="flex items-center gap-unit">
+<h3 class="font-h3 text-h3 text-on-background">Maria Santos</h3>
+<span class="text-sm">🇵🇭</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-sm" data-icon="schedule">schedule</span> 11:30 AM • Today
+                        </p>
+</div>
+</div>
+<div class="flex items-start gap-stack-sm mb-stack-md px-2">
+<div class="flex flex-col items-center mt-1">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="trip_origin">trip_origin</span>
+<div class="w-0.5 h-6 bg-outline-variant my-1"></div>
+<span class="material-symbols-outlined text-tertiary" data-icon="location_on" data-weight="fill" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div class="flex flex-col gap-unit w-full">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Pickup</p>
+<p class="font-body-md text-body-md text-on-background font-medium">MingHwee Office, Paya Lebar</p>
+</div>
+<div class="pt-2">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Dropoff</p>
+<p class="font-body-md text-body-md text-on-background font-medium">MOM Services Centre, Bendemeer</p>
+</div>
+</div>
+</div>
+<div class="mt-auto flex gap-unit">
+<button class="flex-1 bg-surface-container-lowest border border-outline-variant text-on-surface-variant font-button text-button py-2 rounded-lg hover:bg-surface-container-low transition-colors active:scale-95">View Details</button>
+<button class="flex-1 bg-tertiary text-on-tertiary font-button text-button py-2 rounded-lg hover:bg-tertiary/90 transition-colors shadow-sm active:scale-95">Complete Job</button>
+</div>
+</div>
+</div>
+</main>

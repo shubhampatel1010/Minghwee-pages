@@ -1,0 +1,420 @@
+<!-- SideNavBar Shell -->
+<aside class="h-screen w-64 fixed left-0 top-0 bg-[#FBFBFA] dark:bg-slate-950 border-r border-[#E5E3DA] dark:border-slate-800 flex flex-col p-4 gap-2 z-40">
+<div class="flex items-center gap-3 px-2 py-4 mb-4">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-white font-bold overflow-hidden">
+<img alt="Sarah Jenkins" class="w-full h-full object-cover" data-alt="professional portrait of a confident woman in business attire with a friendly smile, corporate office background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDAC7_KrShGGpRNu_cm7_Sj3UUJiuQsD9ucHfOyKqyuO1KCbddj0iTTxIsDuWwchh5TjeNDy9O8tkYJUeXNP5V0ZXOVJkrcqeTcXxy1z2LzukltEyAWigNiBNhhuudQ_dBxyXpN1rTPd1IHR1kxrzN8hsygTYVxFWXhiwm99Ea_OtKe6Sp2Ei49zQNdB5GtRfvMmGz-sVX2QjAGoQYOmFWxFuy9KmrQk4ZWBkza-64xbL6ZWTDeRD5AxFZhZp3i6DSDENb-VROAcVY"/>
+</div>
+<div>
+<p class="font-manrope text-sm font-bold text-primary">Sarah Jenkins</p>
+<p class="font-manrope text-[11px] text-slate-500">Senior Consultant</p>
+</div>
+</div>
+<button class="w-full py-3 px-4 bg-primary text-white rounded-lg font-button text-sm mb-6 flex items-center justify-center gap-2 transition-all duration-200 active:scale-95 shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+            New Lead
+        </button>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-4 py-2.5 text-slate-500 hover:bg-slate-100 transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-manrope text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2.5 bg-teal-50 text-[#01696F] transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person_search</span>
+<span class="font-manrope text-sm font-medium">Leads</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2.5 text-slate-500 hover:bg-slate-100 transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-manrope text-sm font-medium">Activity</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2.5 text-slate-500 hover:bg-slate-100 transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">assignment_turned_in</span>
+<span class="font-manrope text-sm font-medium">Pipeline</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2.5 text-slate-500 hover:bg-slate-100 transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">insert_chart</span>
+<span class="font-manrope text-sm font-medium">Reports</span>
+</a>
+</nav>
+<div class="mt-auto pt-4 border-t border-[#E5E3DA]">
+<a class="flex items-center gap-3 px-4 py-2.5 text-slate-500 hover:bg-slate-100 transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+<span class="font-manrope text-sm font-medium">Support</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2.5 text-slate-500 hover:bg-slate-100 transition-all duration-200 rounded-lg" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-manrope text-sm font-medium">Logout</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="ml-64 min-h-screen flex flex-col">
+<!-- TopNavBar Shell -->
+<header class="sticky top-0 w-full z-50 bg-white dark:bg-slate-900 border-b border-[#E5E3DA] dark:border-slate-800 shadow-[0_4px_12px_rgba(40,37,29,0.05)] flex items-center justify-between px-6 py-3">
+<div class="flex items-center gap-6 flex-1">
+<span class="text-xl font-bold text-teal-800 dark:text-teal-400 tracking-tight font-manrope">LeadFlow Pro</span>
+<div class="relative w-full max-w-md">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-slate-50 border-none rounded-full text-sm focus:ring-2 focus:ring-primary/20 transition-all" placeholder="Search leads, tasks, or documents..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-slate-600 hover:bg-slate-50 transition-colors rounded-full relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2 w-2 h-2 bg-error rounded-full border-2 border-white"></span>
+</button>
+<button class="p-2 text-slate-600 hover:bg-slate-50 transition-colors rounded-full">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="h-6 w-px bg-slate-200 mx-2"></div>
+<button class="text-sm font-medium text-slate-600 px-3 py-1.5 hover:bg-slate-50 rounded-lg transition-colors">Help</button>
+</div>
+</header>
+<!-- Content Canvas -->
+<div class="p-10 max-w-7xl mx-auto w-full">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div class="space-y-2">
+<div class="flex items-center gap-3">
+<h1 class="font-h1 text-h1 text-on-surface">Warm Leads</h1>
+<span class="w-3 h-3 bg-tertiary rounded-full animate-pulse"></span>
+</div>
+<div class="flex items-center gap-2">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed rounded-full text-xs font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">priority_high</span>
+                            5 leads need attention today
+                        </div>
+<p class="text-sm text-slate-500">Based on recent activity and interest levels</p>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center gap-2 px-4 py-2 border border-outline-variant rounded-lg text-sm font-semibold hover:bg-white transition-all shadow-sm">
+<span class="material-symbols-outlined text-lg">filter_list</span>
+                        Filter
+                    </button>
+<button class="flex items-center gap-2 px-4 py-2 border border-outline-variant rounded-lg text-sm font-semibold hover:bg-white transition-all shadow-sm">
+<span class="material-symbols-outlined text-lg">sort</span>
+                        Sort by Warmth
+                    </button>
+</div>
+</div>
+<!-- Leads Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+<!-- Lead Card 1 -->
+<div class="relative bg-white rounded-xl shadow-[0_4px_12px_rgba(40,37,29,0.05)] border border-[#E5E3DA] overflow-hidden transition-all hover:shadow-md group">
+<div class="accent-bar bg-tertiary"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-bold text-lg">
+                                    JD
+                                </div>
+<div>
+<h3 class="font-h3 text-h3">Jonathan Davies</h3>
+<p class="text-xs text-slate-500 font-medium">Visa Tier 4 Application</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-tertiary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between py-2 border-y border-slate-50">
+<span class="text-xs text-slate-500 font-semibold uppercase tracking-tight">Last Contact</span>
+<span class="text-sm font-bold text-error">4 days ago</span>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<p class="text-xs font-bold text-slate-400 uppercase mb-1">Recent Activity</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                    "Replied to proposal — Asked about pricing structure for family bundles."
+                                </p>
+</div>
+<div class="flex gap-2 pt-2">
+<button class="flex-1 py-2.5 bg-primary text-white rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">call</span>
+                                    Call Now
+                                </button>
+<button class="flex-1 py-2.5 border-2 border-primary text-primary rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-lg">edit_note</span>
+                                    Log Update
+                                </button>
+</div>
+<div class="flex gap-2 pt-1">
+<button class="flex-1 py-2 text-slate-400 hover:text-error hover:bg-error-container/20 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">ac_unit</span>
+                                    Mark Cold
+                                </button>
+<button class="flex-1 py-2 text-slate-400 hover:text-[#008542] hover:bg-green-50 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                                    Converted
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Lead Card 2 -->
+<div class="relative bg-white rounded-xl shadow-[0_4px_12px_rgba(40,37,29,0.05)] border border-[#E5E3DA] overflow-hidden transition-all hover:shadow-md group">
+<div class="accent-bar bg-tertiary/60"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-lg">
+                                    AM
+                                </div>
+<div>
+<h3 class="font-h3 text-h3">Amara Miller</h3>
+<p class="text-xs text-slate-500 font-medium">Diplomatic Visa Consultation</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-tertiary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg text-slate-200">local_fire_department</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between py-2 border-y border-slate-50">
+<span class="text-xs text-slate-500 font-semibold uppercase tracking-tight">Last Contact</span>
+<span class="text-sm font-bold text-on-surface">2 days ago</span>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<p class="text-xs font-bold text-slate-400 uppercase mb-1">Recent Activity</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                    "Opened the 'Embassy Guidelines' PDF three times in the last hour."
+                                </p>
+</div>
+<div class="flex gap-2 pt-2">
+<button class="flex-1 py-2.5 bg-primary text-white rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">call</span>
+                                    Call Now
+                                </button>
+<button class="flex-1 py-2.5 border-2 border-primary text-primary rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-lg">edit_note</span>
+                                    Log Update
+                                </button>
+</div>
+<div class="flex gap-2 pt-1">
+<button class="flex-1 py-2 text-slate-400 hover:text-error hover:bg-error-container/20 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">ac_unit</span>
+                                    Mark Cold
+                                </button>
+<button class="flex-1 py-2 text-slate-400 hover:text-[#008542] hover:bg-green-50 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                                    Converted
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Lead Card 3 -->
+<div class="relative bg-white rounded-xl shadow-[0_4px_12px_rgba(40,37,29,0.05)] border border-[#E5E3DA] overflow-hidden transition-all hover:shadow-md group">
+<div class="accent-bar bg-tertiary"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-primary-fixed-dim text-primary flex items-center justify-center font-bold text-lg">
+                                    RS
+                                </div>
+<div>
+<h3 class="font-h3 text-h3">Robert Sterling</h3>
+<p class="text-xs text-slate-500 font-medium">Business Relocation (Group)</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-tertiary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between py-2 border-y border-slate-50">
+<span class="text-xs text-slate-500 font-semibold uppercase tracking-tight">Last Contact</span>
+<span class="text-sm font-bold text-error">5 days ago</span>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<p class="text-xs font-bold text-slate-400 uppercase mb-1">Recent Activity</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                    "Missed follow-up call. Email auto-reply says back in office today."
+                                </p>
+</div>
+<div class="flex gap-2 pt-2">
+<button class="flex-1 py-2.5 bg-primary text-white rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">call</span>
+                                    Call Now
+                                </button>
+<button class="flex-1 py-2.5 border-2 border-primary text-primary rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-lg">edit_note</span>
+                                    Log Update
+                                </button>
+</div>
+<div class="flex gap-2 pt-1">
+<button class="flex-1 py-2 text-slate-400 hover:text-error hover:bg-error-container/20 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">ac_unit</span>
+                                    Mark Cold
+                                </button>
+<button class="flex-1 py-2 text-slate-400 hover:text-[#008542] hover:bg-green-50 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                                    Converted
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Lead Card 4 -->
+<div class="relative bg-white rounded-xl shadow-[0_4px_12px_rgba(40,37,29,0.05)] border border-[#E5E3DA] overflow-hidden transition-all hover:shadow-md group">
+<div class="accent-bar bg-slate-300"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-lg">
+                                    EL
+                                </div>
+<div>
+<h3 class="font-h3 text-h3">Elena Lopez</h3>
+<p class="text-xs text-slate-500 font-medium">Tourist Visa Extension</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-tertiary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg text-slate-200">local_fire_department</span>
+<span class="material-symbols-outlined text-lg text-slate-200">local_fire_department</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between py-2 border-y border-slate-50">
+<span class="text-xs text-slate-500 font-semibold uppercase tracking-tight">Last Contact</span>
+<span class="text-sm font-bold text-on-surface">1 day ago</span>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<p class="text-xs font-bold text-slate-400 uppercase mb-1">Recent Activity</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                    "Uploaded required bank statements but hasn't finalized checkout."
+                                </p>
+</div>
+<div class="flex gap-2 pt-2">
+<button class="flex-1 py-2.5 bg-primary text-white rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">call</span>
+                                    Call Now
+                                </button>
+<button class="flex-1 py-2.5 border-2 border-primary text-primary rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-lg">edit_note</span>
+                                    Log Update
+                                </button>
+</div>
+<div class="flex gap-2 pt-1">
+<button class="flex-1 py-2 text-slate-400 hover:text-error hover:bg-error-container/20 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">ac_unit</span>
+                                    Mark Cold
+                                </button>
+<button class="flex-1 py-2 text-slate-400 hover:text-[#008542] hover:bg-green-50 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                                    Converted
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Lead Card 5 -->
+<div class="relative bg-white rounded-xl shadow-[0_4px_12px_rgba(40,37,29,0.05)] border border-[#E5E3DA] overflow-hidden transition-all hover:shadow-md group">
+<div class="accent-bar bg-tertiary"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-surface-variant text-on-surface flex items-center justify-center font-bold text-lg">
+                                    KL
+                                </div>
+<div>
+<h3 class="font-h3 text-h3">Kevin Lee</h3>
+<p class="text-xs text-slate-500 font-medium">Work Permit Sponsorship</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-tertiary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between py-2 border-y border-slate-50">
+<span class="text-xs text-slate-500 font-semibold uppercase tracking-tight">Last Contact</span>
+<span class="text-sm font-bold text-error">12 days ago</span>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg">
+<p class="text-xs font-bold text-slate-400 uppercase mb-1">Recent Activity</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                    "High urgency: Employment starts in 3 weeks. Documents pending."
+                                </p>
+</div>
+<div class="flex gap-2 pt-2">
+<button class="flex-1 py-2.5 bg-primary text-white rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">call</span>
+                                    Call Now
+                                </button>
+<button class="flex-1 py-2.5 border-2 border-primary text-primary rounded-full font-button text-sm flex items-center justify-center gap-2 hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-lg">edit_note</span>
+                                    Log Update
+                                </button>
+</div>
+<div class="flex gap-2 pt-1">
+<button class="flex-1 py-2 text-slate-400 hover:text-error hover:bg-error-container/20 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">ac_unit</span>
+                                    Mark Cold
+                                </button>
+<button class="flex-1 py-2 text-slate-400 hover:text-[#008542] hover:bg-green-50 rounded-lg text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                                    Converted
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty State/Add Lead Card -->
+<div class="border-2 border-dashed border-outline-variant rounded-xl flex flex-col items-center justify-center p-10 text-center gap-4 bg-slate-50/50 hover:bg-white hover:border-primary transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center text-primary border border-outline-variant">
+<span class="material-symbols-outlined text-2xl">add</span>
+</div>
+<div>
+<p class="font-h3 text-h3 text-on-surface">View All Leads</p>
+<p class="text-sm text-slate-500 mt-1">Check the full pipeline for more opportunities</p>
+</div>
+</div>
+</div>
+<!-- Bento Dashboard Peek (Bottom Section) -->
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant shadow-sm flex flex-col justify-between">
+<div>
+<h4 class="font-h3 text-h3 mb-1">Conversion Momentum</h4>
+<p class="text-sm text-slate-500">You've converted 3 leads in the last 24 hours. Keep it up!</p>
+</div>
+<div class="mt-8 flex items-end gap-1 h-32">
+<div class="flex-1 bg-primary-fixed-dim rounded-t-lg h-1/2"></div>
+<div class="flex-1 bg-primary-fixed-dim rounded-t-lg h-2/3"></div>
+<div class="flex-1 bg-primary-fixed-dim rounded-t-lg h-1/3"></div>
+<div class="flex-1 bg-primary-fixed-dim rounded-t-lg h-3/4"></div>
+<div class="flex-1 bg-primary-container rounded-t-lg h-full"></div>
+<div class="flex-1 bg-primary-container rounded-t-lg h-5/6"></div>
+<div class="flex-1 bg-primary-container rounded-t-lg h-full"></div>
+</div>
+</div>
+<div class="bg-primary text-white p-6 rounded-2xl shadow-lg relative overflow-hidden flex flex-col justify-between">
+<div class="relative z-10">
+<h4 class="text-h3 font-h3 mb-2">Lead Insights</h4>
+<p class="text-sm text-on-primary-container/80">Most warm leads are asking about <strong>"Processing Times"</strong> this week.</p>
+</div>
+<div class="mt-6 relative z-10">
+<button class="w-full py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg font-button text-sm transition-colors border border-white/20">
+                            Download Script
+                        </button>
+</div>
+<span class="material-symbols-outlined absolute -right-4 -bottom-4 text-[120px] text-white/5 rotate-12">lightbulb</span>
+</div>
+</div>
+</div>
+<!-- Floating Action Button for Dashboard Context -->
+<div class="fixed bottom-8 right-8 z-50">
+<button class="w-16 h-16 bg-primary text-white rounded-full shadow-xl flex items-center justify-center hover:scale-105 active:scale-95 transition-all group">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+</div>
+</main>

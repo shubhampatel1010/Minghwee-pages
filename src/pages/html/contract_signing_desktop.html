@@ -1,0 +1,184 @@
+<!-- TopAppBar (JSON) -->
+<header class="bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-md docked full-width top-0 sticky border-b border-slate-200 dark:border-slate-800 flat no shadows flex justify-between items-center w-full px-6 py-3 max-w-full mx-auto z-40">
+<div class="flex items-center gap-4">
+<span class="text-xl font-extrabold text-teal-800 dark:text-teal-200">Teal Sentinel</span>
+<!-- Web Nav (Hidden on Mobile) -->
+<nav class="hidden md:flex items-center gap-6 ml-8">
+<a class="font-sans text-sm font-semibold tracking-tight text-slate-500 dark:text-slate-400 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-colors px-3 py-2 rounded-md" href="#">Home</a>
+<a class="font-sans text-sm font-semibold tracking-tight text-teal-700 dark:text-teal-400 font-bold border-b-2 border-teal-700 opacity-80 transition-opacity px-3 py-2" href="#">Contracts</a>
+<a class="font-sans text-sm font-semibold tracking-tight text-slate-500 dark:text-slate-400 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-colors px-3 py-2 rounded-md" href="#">Helpers</a>
+<a class="font-sans text-sm font-semibold tracking-tight text-slate-500 dark:text-slate-400 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-colors px-3 py-2 rounded-md" href="#">Profile</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-teal-700 dark:text-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-colors p-2 rounded-full">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-teal-700 dark:text-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-colors p-2 rounded-full">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+</button>
+<button class="text-teal-700 dark:text-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-colors p-2 rounded-full">
+<span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+</button>
+</div>
+</header>
+<main class="flex-1 w-full max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop py-stack-md flex flex-col gap-stack-lg pb-32 md:pb-stack-md">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-stack-sm">
+<div>
+<a class="inline-flex items-center text-primary font-button text-button mb-stack-sm hover:underline" href="#">
+<span class="material-symbols-outlined mr-1 text-[20px]" data-icon="arrow_back">arrow_back</span>
+                    Back to Contracts
+                </a>
+<h1 class="font-h1 text-h1 text-on-surface">Review &amp; Sign Employment Contract</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Please review the terms carefully before signing.</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="px-3 py-1 bg-surface-container-high rounded-full font-label-caps text-label-caps text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="pending_actions">pending_actions</span>
+                    Awaiting Signature
+                </span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Left Column: Context & Summary -->
+<div class="lg:col-span-1 flex flex-col gap-stack-md">
+<!-- Parties Involved -->
+<div class="bg-surface-container-lowest rounded-xl p-gutter border border-outline-variant">
+<h2 class="font-h3 text-h3 text-on-surface mb-stack-md">Parties</h2>
+<div class="flex flex-col gap-stack-sm">
+<div class="flex items-center gap-4 p-3 rounded-lg bg-surface-container-low border border-outline-variant/50">
+<img alt="Sarah Jenkins" class="w-12 h-12 rounded-full object-cover" data-alt="professional headshot of a middle-aged woman in business casual attire with a warm smile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2qV8G-mW1OvdzsqMQo15i75MGcpb-3CAUFjP6aPPoT_m5xkJcWL1r44KBNz2Wp3yBVnywRNkqApEmOigFl3LpyDezhih5uBB-YELPPRr_g8jBAapGgqWkpwNgzsV5SEMnbxEuNJmyJKMcvx27oMt_jS_sCRQvkNPL7-C8QbW_g8V3JjfMvc6Rqle26ifwZfMudfqmpiYoPZ1lUzTZqUhCJ7yglobIHmedJg-e5Se9YZtRMMXMOhMoMO0CY01IjfD1WtxmbB5v75J6"/>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-1">EMPLOYER</p>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Sarah Jenkins</p>
+</div>
+</div>
+<div class="flex justify-center -my-2 z-10">
+<span class="material-symbols-outlined text-outline bg-surface-container-lowest rounded-full p-1 border border-outline-variant" data-icon="handshake">handshake</span>
+</div>
+<div class="flex items-center gap-4 p-3 rounded-lg bg-surface-container-low border border-outline-variant/50">
+<img alt="Ana Santos" class="w-12 h-12 rounded-full object-cover" data-alt="professional headshot of a young asian woman with dark hair smiling warmly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzcXwyd6GfJKSfu1pYi-wLklDyYF-xMeAC7MSf-RtK7DQ0r765FCnOWBflQm1r29DCTAVCvwOMHcRxyjT3E0t60qMFokzhBICSjsoxokdKxEQY5Rpka2-Buok7yVEX1REpf4Xfpvs-YK1hWYKI7wLkI6ZgdYmM1tnp9gprk5nzNAsiT0jWJEyD2Pz88cn0rvwlgPuaYm3lXPtAQ3X_f4I8dqgBHWKuAwpN0d4o5CUhFb2sa8NknjPvxnFlBvSUSMtznysZSbVXHC1h"/>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-1">HELPER</p>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Ana Santos</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Key Terms Summary Bento -->
+<div class="bg-surface-container-lowest rounded-xl p-gutter border border-outline-variant">
+<h2 class="font-h3 text-h3 text-on-surface mb-stack-md">Key Terms Summary</h2>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-surface-container-low p-3 rounded-lg border border-outline-variant/50">
+<div class="flex items-center gap-2 mb-2 text-primary">
+<span class="material-symbols-outlined text-[18px]" data-icon="payments">payments</span>
+<span class="font-label-caps text-label-caps">SALARY</span>
+</div>
+<p class="font-h3 text-h3 text-on-surface">$850 <span class="text-sm font-normal text-on-surface-variant">SGD/mo</span></p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg border border-outline-variant/50">
+<div class="flex items-center gap-2 mb-2 text-primary">
+<span class="material-symbols-outlined text-[18px]" data-icon="calendar_today">calendar_today</span>
+<span class="font-label-caps text-label-caps">START DATE</span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">15 Nov 2023</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg border border-outline-variant/50 col-span-2">
+<div class="flex items-center gap-2 mb-2 text-primary">
+<span class="material-symbols-outlined text-[18px]" data-icon="schedule">schedule</span>
+<span class="font-label-caps text-label-caps">WORKING HOURS</span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Mon-Sat, 7:00 AM - 8:00 PM</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg border border-outline-variant/50">
+<div class="flex items-center gap-2 mb-2 text-primary">
+<span class="material-symbols-outlined text-[18px]" data-icon="event_busy">event_busy</span>
+<span class="font-label-caps text-label-caps">OFF DAYS</span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Every Sunday</p>
+</div>
+<div class="bg-surface-container-low p-3 rounded-lg border border-outline-variant/50">
+<div class="flex items-center gap-2 mb-2 text-primary">
+<span class="material-symbols-outlined text-[18px]" data-icon="hourglass_empty">hourglass_empty</span>
+<span class="font-label-caps text-label-caps">DURATION</span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">24 Months</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Contract Preview & Signature -->
+<div class="lg:col-span-2 flex flex-col gap-stack-md">
+<!-- Contract Preview -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant flex flex-col h-[600px]">
+<div class="p-4 border-b border-outline-variant flex justify-between items-center bg-surface-container-low rounded-t-xl">
+<h3 class="font-body-lg text-body-lg font-semibold text-on-surface">Contract Document</h3>
+<button class="text-primary hover:text-primary-container transition-colors">
+<span class="material-symbols-outlined" data-icon="download">download</span>
+</button>
+</div>
+<div class="flex-1 overflow-y-auto p-gutter font-serif text-on-surface-variant space-y-6 leading-relaxed">
+<div class="text-center mb-8">
+<h4 class="text-xl font-bold text-on-surface mb-2">STANDARD EMPLOYMENT CONTRACT</h4>
+<p class="text-sm">FOR MIGRANT DOMESTIC WORKER</p>
+</div>
+<p>This Employment Contract is made on this day, <strong class="text-on-surface">1st of November, 2023</strong>.</p>
+<div class="space-y-4">
+<h5 class="font-bold text-on-surface">1. PARTIES</h5>
+<p class="ml-4"><strong>1.1 Employer:</strong> Sarah Jenkins (NRIC/FIN: SXXXXX12A)</p>
+<p class="ml-4"><strong>1.2 Migrant Domestic Worker:</strong> Ana Santos (Passport No: PXXXXX89B)</p>
+</div>
+<div class="space-y-4">
+<h5 class="font-bold text-on-surface">2. EMPLOYMENT DETAILS</h5>
+<p class="ml-4"><strong>2.1 Duration:</strong> The Employer shall employ the Worker for a period of 24 months, commencing on 15 November 2023.</p>
+<p class="ml-4"><strong>2.2 Salary:</strong> The Employer shall pay the Worker a monthly salary of $850 SGD, payable on the last day of each month.</p>
+<p class="ml-4"><strong>2.3 Rest Days:</strong> The Worker is entitled to one rest day per week, falling on every Sunday.</p>
+</div>
+<div class="space-y-4">
+<h5 class="font-bold text-on-surface">3. DUTIES AND RESPONSIBILITIES</h5>
+<p class="ml-4">The Worker shall diligently and faithfully perform domestic duties for the Employer, which may include cooking, cleaning, childminding, and other reasonable household chores as directed by the Employer.</p>
+</div>
+</div>
+</div>
+<!-- Signature Area -->
+<div class="bg-surface-container-lowest rounded-xl p-gutter border border-outline-variant">
+<h3 class="font-h3 text-h3 text-on-surface mb-2">Sign Document</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">By signing below, you agree to the terms and conditions outlined in the contract above.</p>
+<div class="border-2 border-dashed border-outline-variant rounded-lg h-48 bg-surface-bright flex flex-col items-center justify-center relative mb-stack-md">
+<span class="material-symbols-outlined text-outline mb-2 text-[32px]" data-icon="draw">draw</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Sign Here</p>
+<!-- Simulated Signature Pad Area -->
+</div>
+<div class="flex flex-col sm:flex-row justify-end gap-3">
+<button class="px-6 py-3 rounded-full border border-outline text-primary font-button text-button hover:bg-surface-container-low transition-colors text-center">
+                            Request Changes
+                        </button>
+<button class="px-6 py-3 rounded-full bg-surface-tint text-on-primary font-button text-button hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]" data-icon="signature">signature</span>
+                            Sign Contract
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (JSON) - Visible on Mobile Only -->
+<nav class="md:hidden bg-white/90 dark:bg-slate-950/90 backdrop-blur-lg docked full-width bottom-0 fixed rounded-t-2xl border-t border-slate-200 dark:border-slate-800 shadow-[0_-4px_12px_rgba(40,37,29,0.05)] fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-safe pt-2 h-16">
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 px-4 py-1.5 hover:text-teal-600 dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-sans text-[11px] font-medium mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-teal-100/50 dark:bg-teal-900/40 text-teal-800 dark:text-teal-100 rounded-xl px-4 py-1.5 scale-95 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="description" data-weight="fill" style="font-variation-settings: 'FILL' 1;">description</span>
+<span class="font-sans text-[11px] font-medium mt-1">Contracts</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 px-4 py-1.5 hover:text-teal-600 dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="font-sans text-[11px] font-medium mt-1">Helpers</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 px-4 py-1.5 hover:text-teal-600 dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-sans text-[11px] font-medium mt-1">Profile</span>
+</a>
+</nav>

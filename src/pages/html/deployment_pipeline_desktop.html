@@ -1,0 +1,270 @@
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 h-16 bg-white/90 dark:bg-stone-950/90 backdrop-blur-md border-b border-stone-200 dark:border-stone-800 font-manrope text-sm font-medium">
+<div class="flex items-center gap-4">
+<span class="text-xl font-bold tracking-tight text-teal-950 dark:text-teal-50">AgencyCore Deploy</span>
+</div>
+<div class="flex items-center gap-4 text-teal-900 dark:text-teal-500">
+<div class="hidden md:flex items-center bg-surface-container-lowest rounded-full px-4 py-2 border border-outline-variant">
+<span class="material-symbols-outlined mr-2 text-on-surface-variant">search</span>
+<input class="bg-transparent border-none focus:outline-none text-body-md font-body-md text-on-surface w-48" placeholder="Search..." type="text"/>
+</div>
+<button aria-label="notifications" class="p-2 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors rounded-full">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button aria-label="settings" class="p-2 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors rounded-full">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant">
+<img alt="User profile" class="w-full h-full object-cover" data-alt="Professional headshot of a person with a warm smile, wearing a dark blue shirt, against a light background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHwsrWo2xTQsNHZ2N-4Wr1pvPwU0J-AhaRE-PYjHyZLGg6EjuKd7ENIugrFCW37tnrD7HbuSqAyD0V_nWUtmWnJVzl24H45ldCPWp6kd-j4EyvP_S-jn891deVMFCHyALoZdQQT-9n6kqQrF_DT6xswXFmx6Ucrye5bnZtTeri79AJeI6Mzt8y-xbV7Xig7u6V7Pkt9ZelaznFWvzsZOZxrINTWRUMVXGE83eopGMWC3QsdxnCdV2_R1UIPWp6dAJjI7PTJ02U8Wfw"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar (Desktop) -->
+<nav class="hidden md:flex fixed left-0 top-16 bottom-0 w-64 flex-col pt-4 bg-stone-50 dark:bg-stone-950 border-r border-stone-200 dark:border-stone-800 font-manrope text-sm antialiased z-40">
+<div class="px-6 mb-8 flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-h3">
+                 A
+             </div>
+<div>
+<h2 class="font-h3 text-h3 text-teal-950 dark:text-teal-50 m-0 leading-none">AgencyCore</h2>
+<span class="text-label-caps font-label-caps text-on-surface-variant">Modern Ops</span>
+</div>
+</div>
+<ul class="flex flex-col gap-1 px-3 flex-grow">
+<li>
+<a class="flex items-center gap-3 px-3 py-3 rounded-lg text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:text-teal-800 dark:hover:text-teal-200 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform" data-icon="rocket_launch">rocket_launch</span>
+<span class="font-body-md text-body-md">Pipelines</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-3 py-3 rounded-lg bg-teal-50 dark:bg-teal-900/20 text-teal-900 dark:text-teal-300 border-r-4 border-teal-800 font-semibold opacity-80 transition-all translate-x-1 group" href="#">
+<span class="material-symbols-outlined" data-icon="dynamic_feed" data-weight="fill" style="font-variation-settings: 'FILL' 1;">dynamic_feed</span>
+<span class="font-body-md text-body-md">Deployments</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-3 py-3 rounded-lg text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:text-teal-800 dark:hover:text-teal-200 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform" data-icon="layers">layers</span>
+<span class="font-body-md text-body-md">Environments</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-3 py-3 rounded-lg text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:text-teal-800 dark:hover:text-teal-200 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform" data-icon="inventory_2">inventory_2</span>
+<span class="font-body-md text-body-md">Artifacts</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-3 py-3 rounded-lg text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:text-teal-800 dark:hover:text-teal-200 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform" data-icon="analytics">analytics</span>
+<span class="font-body-md text-body-md">Analytics</span>
+</a>
+</li>
+</ul>
+<div class="px-3 pb-6">
+<ul class="flex flex-col gap-1 border-t border-outline-variant pt-4">
+<li>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:text-teal-800 dark:hover:text-teal-200 transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+<span class="font-body-md text-body-md">Support</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:text-teal-800 dark:hover:text-teal-200 transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+<span class="font-body-md text-body-md">Documentation</span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="md:ml-64 pt-16 min-h-screen bg-surface flex flex-col p-6 md:p-10">
+<div class="max-w-container-max mx-auto w-full flex-grow flex flex-col gap-stack-md">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-outline-variant">
+<div>
+<div class="flex items-center gap-2 mb-1 text-on-surface-variant font-label-caps text-label-caps">
+<span>Deployments</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<span class="text-primary font-bold">Active Pipeline</span>
+</div>
+<h1 class="font-h1 text-h1 text-on-surface">Deployment — Ana Santos</h1>
+</div>
+<button class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors px-6 py-3 rounded-full font-button text-button flex items-center justify-center gap-2 shadow-sm whitespace-nowrap w-full sm:w-auto">
+<span class="material-symbols-outlined">download</span>
+                    Download Report
+                </button>
+</div>
+<!-- Pipeline Overview Bento -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-2">
+<div class="bg-surface-container-lowest p-6 rounded-xl ambient-shadow border border-outline-variant/30 flex flex-col col-span-1 md:col-span-2">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Candidate Profile</span>
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed-variant rounded-full font-label-caps text-label-caps">In Progress</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-surface-tint">
+<img alt="Ana Santos Profile" class="w-full h-full object-cover" data-alt="Professional portrait of a young Filipina woman smiling softly, wearing professional attire, bright well-lit setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuXAk9JcrZs6YrK47tQRdC-Mo1BtZD9_J48_eyoNW0o-m8JkG_UHmXD9aFIZyvXnRuqEqW7GHvm7x5a4aFNqAeYDqnofDofvJGqGOtzw-d9LVALn6QPHcTuOIlRRxhprtDFYRmgTUidKpRroye2AUMKlhYxg51uIuZC4dKCiIhBSupKkfQEh9qkCVTgs3pjoMn93c1iMc4sIZ8R9HWVqFB-VGGu6vKOA8Uvb-pGBJueBwnH6C_1YeplcDIahfTcIQMPBIE2WV_B1wM"/>
+</div>
+<div>
+<h3 class="font-h3 text-h3 text-on-surface m-0">Ana Santos</h3>
+<p class="font-body-md text-body-md text-on-surface-variant m-0">Domestic Helper • Ref: DH-9024</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl ambient-shadow border border-outline-variant/30 flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-2">Target Completion</span>
+<div class="mt-auto">
+<span class="font-display text-h1 text-primary block leading-none mb-1">Oct 15</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Estimated Arrival</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl ambient-shadow border border-outline-variant/30 flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-2">Pipeline Progress</span>
+<div class="mt-auto flex flex-col gap-2">
+<div class="flex justify-between items-end">
+<span class="font-display text-h2 text-on-surface leading-none">40%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">4/10 Stages</span>
+</div>
+<div class="h-2 bg-surface-container-highest rounded-full w-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 40%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Vertical Timeline -->
+<div class="bg-surface-container-lowest rounded-xl ambient-shadow border border-outline-variant/30 p-6 md:p-8 relative">
+<h2 class="font-h2 text-h2 text-on-surface mb-8">Processing Stages</h2>
+<div class="relative pl-4 md:pl-8 border-l-2 border-surface-container-highest ml-2 md:ml-4 space-y-8">
+<!-- Stage 1: Completed -->
+<div class="relative">
+<div class="absolute -left-[29px] md:-left-[41px] top-1 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center border-2 border-surface-container-lowest z-10">
+<span class="material-symbols-outlined text-[14px]" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="bg-surface-container-low p-5 rounded-lg border border-outline-variant/20 hover:border-outline-variant/50 transition-colors">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+<h3 class="font-h3 text-h3 text-on-surface">Candidate Presented</h3>
+<span class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span> Aug 01, 2023
+                                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-0">Initial profile matching and presentation to prospective employer.</p>
+</div>
+</div>
+<!-- Stage 2: Completed -->
+<div class="relative">
+<div class="absolute -left-[29px] md:-left-[41px] top-1 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center border-2 border-surface-container-lowest z-10">
+<span class="material-symbols-outlined text-[14px]" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="bg-surface-container-low p-5 rounded-lg border border-outline-variant/20 hover:border-outline-variant/50 transition-colors">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+<h3 class="font-h3 text-h3 text-on-surface">Interview Requested</h3>
+<span class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span> Aug 05, 2023
+                                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-0">Video interview conducted via Zoom.</p>
+</div>
+</div>
+<!-- Stage 3: Completed -->
+<div class="relative">
+<div class="absolute -left-[29px] md:-left-[41px] top-1 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center border-2 border-surface-container-lowest z-10">
+<span class="material-symbols-outlined text-[14px]" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="bg-surface-container-low p-5 rounded-lg border border-outline-variant/20 hover:border-outline-variant/50 transition-colors">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+<h3 class="font-h3 text-h3 text-on-surface">Candidate Confirmed</h3>
+<span class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span> Aug 10, 2023
+                                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-0">Employer signed confirmation letter and preliminary agreement.</p>
+</div>
+</div>
+<!-- Stage 4: Completed with Asset -->
+<div class="relative">
+<div class="absolute -left-[29px] md:-left-[41px] top-1 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center border-2 border-surface-container-lowest z-10">
+<span class="material-symbols-outlined text-[14px]" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="bg-surface p-5 rounded-lg border border-primary-fixed-dim/50 shadow-sm relative overflow-hidden">
+<div class="absolute top-0 right-0 w-2 h-full bg-primary"></div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+<div class="flex items-center gap-3">
+<h3 class="font-h3 text-h3 text-on-surface m-0">Medical Checkup</h3>
+<span class="px-2 py-0.5 bg-primary-fixed text-on-primary-fixed rounded font-label-caps text-[10px] tracking-wider uppercase">Passed</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span> Aug 18, 2023
+                                </span>
+</div>
+<div class="flex items-center gap-3 bg-surface-container-lowest p-3 rounded border border-outline-variant/30 max-w-sm">
+<div class="w-10 h-10 bg-error-container text-on-error-container rounded flex items-center justify-center">
+<span class="material-symbols-outlined" data-weight="fill">picture_as_pdf</span>
+</div>
+<div class="flex-grow overflow-hidden">
+<p class="font-button text-button text-on-surface truncate m-0">medical_clearance_ASantos.pdf</p>
+<p class="font-body-md text-[12px] text-on-surface-variant m-0">2.4 MB</p>
+</div>
+<button aria-label="View Document" class="text-primary hover:text-primary-container transition-colors p-1">
+<span class="material-symbols-outlined">visibility</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Stage 5: In Progress / Next -->
+<div class="relative">
+<div class="absolute -left-[33px] md:-left-[45px] top-1 w-8 h-8 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center border-[3px] border-primary z-10 shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg border border-primary/20 shadow-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+<h3 class="font-h3 text-h3 text-primary">Insurance Purchase</h3>
+<span class="px-2 py-1 bg-tertiary-fixed text-on-tertiary-fixed-variant rounded-full font-label-caps text-label-caps border border-tertiary-fixed-dim inline-block w-max">Action Required</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">Mandatory insurance policy needs to be procured before proceeding to training and embassy stages.</p>
+<div class="flex gap-3">
+<button class="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors px-4 py-2 rounded-full font-button text-button">Upload Policy</button>
+<button class="border border-outline text-on-surface hover:bg-surface-container-low transition-colors px-4 py-2 rounded-full font-button text-button">Request Quote</button>
+</div>
+</div>
+</div>
+<!-- Future Stages (Pending) -->
+<div class="relative opacity-60">
+<div class="absolute -left-[27px] md:-left-[39px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-outline-variant z-10"></div>
+<div class="p-4 rounded-lg">
+<h3 class="font-h3 text-h3 text-on-surface-variant mb-1">TESDA Training</h3>
+<p class="font-body-md text-body-md text-on-surface-variant/70 mb-0">Domestic Work NC II certification</p>
+</div>
+</div>
+<div class="relative opacity-60">
+<div class="absolute -left-[27px] md:-left-[39px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-outline-variant z-10"></div>
+<div class="p-4 rounded-lg">
+<h3 class="font-h3 text-h3 text-on-surface-variant mb-1">Embassy Processing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant/70 mb-0">Contract verification and visa application</p>
+</div>
+</div>
+<div class="relative opacity-60">
+<div class="absolute -left-[27px] md:-left-[39px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-outline-variant z-10"></div>
+<div class="p-4 rounded-lg">
+<h3 class="font-h3 text-h3 text-on-surface-variant mb-1">Flight Confirmation</h3>
+</div>
+</div>
+<div class="relative opacity-60">
+<div class="absolute -left-[27px] md:-left-[39px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-outline-variant z-10"></div>
+<div class="p-4 rounded-lg">
+<h3 class="font-h3 text-h3 text-on-surface-variant mb-1">Flight Departure</h3>
+</div>
+</div>
+<div class="relative opacity-60">
+<div class="absolute -left-[27px] md:-left-[39px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-outline-variant z-10"></div>
+<div class="p-4 rounded-lg">
+<h3 class="font-h3 text-h3 text-on-surface-variant mb-1">Deployment/Arrival</h3>
+<p class="font-body-md text-body-md text-on-surface-variant/70 mb-0">Arrival at destination and handover to employer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>

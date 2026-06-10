@@ -1,0 +1,329 @@
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-3 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-[0_2px_4px_rgba(40,37,29,0.05)]">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold text-teal-900 tracking-tight">MingHwee Sales</span>
+<nav class="hidden md:flex gap-6">
+<a class="font-body-md text-sm font-medium text-teal-900 border-b-2 border-teal-700 pb-1" href="#">Dashboard</a>
+<a class="font-body-md text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors" href="#">Team</a>
+<a class="font-body-md text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors" href="#">Reports</a>
+<a class="font-body-md text-sm font-medium text-gray-500 hover:text-teal-700 transition-colors" href="#">Settings</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">search</span>
+<input class="pl-10 pr-4 py-2 bg-surface-container-low border-none rounded-full text-sm focus:ring-2 focus:ring-primary" placeholder="Search accounts..." type="text"/>
+</div>
+<button class="material-symbols-outlined text-gray-600 hover:text-primary transition-colors">notifications</button>
+<button class="material-symbols-outlined text-gray-600 hover:text-primary transition-colors">help</button>
+<div class="h-8 w-8 rounded-full overflow-hidden border border-outline-variant">
+<img alt="Manager profile" data-alt="professional portrait of a confident male sales executive in a sharp navy suit and white shirt, blurred office background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2Q5MxB92xRB5oZ4PHwIvdIdOeqnhVj0zl_CZ2FwuiimRhg4A_ib7D4LlVONgz8Cp5TZVzGeV2UADbbd7II95QuwzoetG0oQ6Vf6IvXd8cBgI0b-DYHKXF7Gp09necuQWOdRNrc6ni6oyXd9Yj6nJQRz8XxFGZbKzDOXGvM4jwoVwB3zeZ0Gk_0EE1LZ-sLJ9_YQD1Xg8KyPxcca3lDjZLnymGS1kg4TwyWYsGp8aFVlWJ_w5hSDX1ci-AJHfZ89YZZ63kX4bjWhDi"/>
+</div>
+</div>
+</header>
+<div class="flex pt-[64px]">
+<!-- SideNavBar -->
+<aside class="hidden lg:flex flex-col h-[calc(100vh-64px)] w-64 border-r border-gray-200 bg-slate-50 sticky top-[64px]">
+<div class="p-6">
+<div class="flex items-center gap-3 mb-8">
+<div class="h-10 w-10 bg-primary rounded-lg flex items-center justify-center text-white font-black">MH</div>
+<div>
+<h2 class="text-sm font-black text-teal-900 leading-tight">Sales Management</h2>
+<p class="text-[10px] text-gray-500 uppercase tracking-wider">Global Logistics Portal</p>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 bg-teal-50 text-teal-800 font-semibold border-r-4 border-teal-700 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span class="font-body-md text-sm">Overview</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined">trending_up</span>
+<span class="font-body-md text-sm">Performance</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined">leaderboard</span>
+<span class="font-body-md text-sm">Leaderboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined">account_tree</span>
+<span class="font-body-md text-sm">Pipelines</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined">groups</span>
+<span class="font-body-md text-sm">Consultants</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto p-6 space-y-4">
+<button class="w-full bg-primary text-white py-3 rounded-full font-button text-button shadow-lg hover:opacity-90 transition-all">
+                    Export Report
+                </button>
+<div class="pt-4 border-t border-gray-200">
+<a class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+<span class="font-body-md text-sm">Support</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-body-md text-sm">Logout</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="flex-1 p-8 overflow-y-auto">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
+<div>
+<h1 class="font-h1 text-h1 text-on-surface">Sales Team Performance — April 2026</h1>
+<p class="text-on-surface-variant font-body-md">Embassy &amp; Visa Processing Logistics Division</p>
+</div>
+<div class="flex items-center gap-3 bg-white px-4 py-2 rounded-xl shadow-sm border border-outline-variant">
+<span class="material-symbols-outlined text-primary">calendar_today</span>
+<select class="bg-transparent border-none focus:ring-0 font-body-md font-semibold text-primary">
+<option>April 2026</option>
+<option>March 2026</option>
+<option>February 2026</option>
+</select>
+</div>
+</div>
+<!-- Team Summary Wide Card (Bento Top) -->
+<section class="bg-white rounded-xl p-8 mb-8 shadow-[0_2px_12px_rgba(40,37,29,0.05)] border border-outline-variant flex flex-wrap gap-8 justify-between">
+<div class="flex-1 min-w-[200px]">
+<p class="text-label-caps font-label-caps text-on-surface-variant mb-1">TOTAL LEADS</p>
+<div class="flex items-baseline gap-2">
+<span class="text-h1 font-h1 text-primary">2,482</span>
+<span class="text-xs font-bold text-green-600 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> 12%
+                        </span>
+</div>
+</div>
+<div class="w-px bg-outline-variant hidden md:block"></div>
+<div class="flex-1 min-w-[200px]">
+<p class="text-label-caps font-label-caps text-on-surface-variant mb-1">CONVERTED</p>
+<div class="flex items-baseline gap-2">
+<span class="text-h1 font-h1 text-primary">894</span>
+<span class="text-xs font-bold text-green-600 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> 8%
+                        </span>
+</div>
+</div>
+<div class="w-px bg-outline-variant hidden md:block"></div>
+<div class="flex-1 min-w-[200px]">
+<p class="text-label-caps font-label-caps text-on-surface-variant mb-1">TEAM REVENUE</p>
+<div class="flex items-baseline gap-2">
+<span class="text-h1 font-h1 text-primary">$1.24M</span>
+<span class="text-xs font-bold text-green-600 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> 15%
+                        </span>
+</div>
+</div>
+<div class="w-px bg-outline-variant hidden md:block"></div>
+<div class="flex-1 min-w-[200px]">
+<p class="text-label-caps font-label-caps text-on-surface-variant mb-1">CONVERSION RATE</p>
+<div class="flex items-baseline gap-2">
+<span class="text-h1 font-h1 text-primary">36.1%</span>
+<span class="text-xs font-bold text-red-600 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_down</span> 2%
+                        </span>
+</div>
+</div>
+</section>
+<!-- Performance Charts -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+<!-- Conversion Momentum (Bar Chart Mockup) -->
+<div class="bg-white rounded-xl p-6 shadow-[0_2px_12px_rgba(40,37,29,0.05)] border border-outline-variant">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-h3 text-h3 text-on-surface">Conversion Momentum</h3>
+<span class="material-symbols-outlined text-gray-400 cursor-pointer">more_horiz</span>
+</div>
+<div class="h-64 flex items-end justify-between gap-2 px-4">
+<div class="w-full bg-surface-container rounded-t-lg relative group h-[40%] hover:bg-primary transition-colors">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-on-surface text-white text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100">420</div>
+</div>
+<div class="w-full bg-surface-container rounded-t-lg relative group h-[65%] hover:bg-primary transition-colors"></div>
+<div class="w-full bg-surface-container rounded-t-lg relative group h-[55%] hover:bg-primary transition-colors"></div>
+<div class="w-full bg-primary rounded-t-lg relative group h-[85%]"></div>
+<div class="w-full bg-surface-container rounded-t-lg relative group h-[45%] hover:bg-primary transition-colors"></div>
+<div class="w-full bg-surface-container rounded-t-lg relative group h-[70%] hover:bg-primary transition-colors"></div>
+<div class="w-full bg-surface-container rounded-t-lg relative group h-[60%] hover:bg-primary transition-colors"></div>
+</div>
+<div class="flex justify-between mt-4 px-4 text-label-caps text-on-surface-variant font-label-caps">
+<span>WK1</span><span>WK2</span><span>WK3</span><span>WK4</span><span>WK5</span><span>WK6</span><span>WK7</span>
+</div>
+</div>
+<!-- Lead Source Distribution (Pie Chart Mockup) -->
+<div class="bg-white rounded-xl p-6 shadow-[0_2px_12px_rgba(40,37,29,0.05)] border border-outline-variant">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-h3 text-h3 text-on-surface">Lead Source Distribution</h3>
+<span class="material-symbols-outlined text-gray-400 cursor-pointer">more_horiz</span>
+</div>
+<div class="flex items-center justify-around h-64">
+<div class="relative h-48 w-48 rounded-full border-[24px] border-primary flex items-center justify-center">
+<div class="absolute inset-[-24px] border-[24px] border-secondary-container rounded-full" style="clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 0 100%, 0 50%);"></div>
+<div class="text-center">
+<p class="text-h2 font-h2 text-primary">Direct</p>
+<p class="text-body-md text-on-surface-variant">42%</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+<span class="text-sm font-medium">Direct Referrals (42%)</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-secondary-container"></div>
+<span class="text-sm font-medium">Embassy Portals (31%)</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-tertiary"></div>
+<span class="text-sm font-medium">Email Campaigns (15%)</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary-fixed"></div>
+<span class="text-sm font-medium">Search Organic (12%)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Consultant Leaderboard Table -->
+<section class="bg-white rounded-xl shadow-[0_2px_12px_rgba(40,37,29,0.05)] border border-outline-variant overflow-hidden">
+<div class="px-8 py-6 border-b border-outline-variant flex justify-between items-center">
+<h3 class="font-h3 text-h3 text-on-surface">Consultant Performance Leaderboard</h3>
+<div class="flex gap-2">
+<button class="p-2 border border-outline-variant rounded-lg hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary">filter_list</span>
+</button>
+<button class="p-2 border border-outline-variant rounded-lg hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary">sort</span>
+</button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low text-label-caps font-label-caps text-on-surface-variant">
+<th class="px-8 py-4">CONSULTANT</th>
+<th class="px-4 py-4">LEADS (GEN)</th>
+<th class="px-4 py-4">CONVERTED</th>
+<th class="px-4 py-4">WARM LEADS</th>
+<th class="px-4 py-4">REVENUE (VS TARGET)</th>
+<th class="px-4 py-4">AVG SPEED</th>
+<th class="px-8 py-4 text-right">ACTION</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-lowest transition-colors group">
+<td class="px-8 py-5 flex items-center gap-3">
+<div class="accent-bar h-10 bg-primary opacity-0 group-hover:opacity-100 transition-opacity absolute left-0"></div>
+<img alt="Consultant Sarah" class="w-10 h-10 rounded-full object-cover" data-alt="close-up of a professional woman with a warm smile, wearing a beige blazer, studio lighting, clean background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzgDRxXZksd744I6WR3H3DY4KecKuk5ZGCDE_76JP4-7sa3_E-ioPcOhP2u3LCIiwgYL94SZolz0PdhO47S34kKwSNtRcOjUFIYedoD6_uVlG1N-9jBn7lZ1LmauA0G1T7qDPsHgT6pdks6Y07x8Mwp4zsyhdb2FK_9FWMz-EKYj3yMq8F1VWSw-NzPoKt2WgossAg4qGLmJ23tdp4WhUreYoLZYqPqLuxbpjad5sH9QH7WLvkSo1ckp84X27MdK5NLBQ2ZSBIIpnx"/>
+<div>
+<p class="font-bold text-on-surface">Sarah Jenkins</p>
+<p class="text-xs text-on-surface-variant">Senior Consultant</p>
+</div>
+</td>
+<td class="px-4 py-5">
+<p class="text-on-surface font-semibold">312</p>
+<p class="text-[10px] text-green-600 font-bold">+14% vs Target</p>
+</td>
+<td class="px-4 py-5 font-semibold">124</td>
+<td class="px-4 py-5">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant px-2 py-1 rounded-full text-[10px] font-bold">42 ACTIVE</span>
+</td>
+<td class="px-4 py-5">
+<div class="w-32 bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full" style="width: 92%"></div>
+</div>
+<p class="text-[10px] mt-1 font-bold">$184k / $200k</p>
+</td>
+<td class="px-4 py-5 text-on-surface-variant text-sm">2.4 Days</td>
+<td class="px-8 py-5 text-right">
+<button class="bg-primary text-white text-[12px] px-4 py-2 rounded-full hover:opacity-90 transition-all font-button">View Details</button>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-lowest transition-colors group">
+<td class="px-8 py-5 flex items-center gap-3">
+<div class="accent-bar h-10 bg-primary opacity-0 group-hover:opacity-100 transition-opacity absolute left-0"></div>
+<img alt="Consultant Michael" class="w-10 h-10 rounded-full object-cover" data-alt="Portrait of a young professional man in a grey suit, looking focused and determined, natural window lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlylbP9cYKY9NfdNPbSynyWU95UcI4gR7BNJRq42_XAfjt4Jq6YUmXiJKpZ2LywCd8ECJ_BhECXL6brc9eQ709MpANd_WIWaE0GUL8GLtCtJ-G9KM6fls3FCE9rMn3pwnmicSkaFTjLw46a5iQtGjDMPKvL-abx7Z5u6pEG39_Mm3HHzhkkLs6lWMZaRRqAx5GF-xsameRFg7k2cLrbNCwMuUzIkrxJZj4uAmJxB6o1fyjo7G0UXq_aA3Bv0TXrMJzAGmtEUuYa6n1"/>
+<div>
+<p class="font-bold text-on-surface">Michael Chen</p>
+<p class="text-xs text-on-surface-variant">Logistics Lead</p>
+</div>
+</td>
+<td class="px-4 py-5">
+<p class="text-on-surface font-semibold">284</p>
+<p class="text-[10px] text-red-600 font-bold">-2% vs Target</p>
+</td>
+<td class="px-4 py-5 font-semibold">108</td>
+<td class="px-4 py-5">
+<span class="bg-secondary-container text-on-secondary-container px-2 py-1 rounded-full text-[10px] font-bold">18 ACTIVE</span>
+</td>
+<td class="px-4 py-5">
+<div class="w-32 bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full" style="width: 78%"></div>
+</div>
+<p class="text-[10px] mt-1 font-bold">$156k / $200k</p>
+</td>
+<td class="px-4 py-5 text-on-surface-variant text-sm">3.1 Days</td>
+<td class="px-8 py-5 text-right">
+<button class="bg-primary text-white text-[12px] px-4 py-2 rounded-full hover:opacity-90 transition-all font-button">View Details</button>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-lowest transition-colors group">
+<td class="px-8 py-5 flex items-center gap-3">
+<div class="accent-bar h-10 bg-primary opacity-0 group-hover:opacity-100 transition-opacity absolute left-0"></div>
+<img alt="Consultant Elena" class="w-10 h-10 rounded-full object-cover" data-alt="Close-up of a professional woman with glasses and dark hair, bright office setting, professional and approachable expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6VfbQVrG0ZY6X7dWBuTnP0vY9NaPUX6Oi_HBIQmLTx6-nIJ3nX-FYKIS9hdOstyqXqnJuCTfu_PWQFXmgUgZ4GxH5hEf39hcxyppIt_SRQGloHjLgNaLLsrlvC_KWn2aU5BGOUrSUqlaebvChiL-3JmxYrX5dOV_4h26U5EzjWUPX7kLMssSkxJom0w0yyU7_p2L-AoY8f8nuTA4CLQhbydC6TRm4EbvAfxTgcXAkGwtqSPPmzFNjpASprRB4FT8NWernmq82Opz0"/>
+<div>
+<p class="font-bold text-on-surface">Elena Rodriguez</p>
+<p class="text-xs text-on-surface-variant">Account Executive</p>
+</div>
+</td>
+<td class="px-4 py-5">
+<p class="text-on-surface font-semibold">345</p>
+<p class="text-[10px] text-green-600 font-bold">+22% vs Target</p>
+</td>
+<td class="px-4 py-5 font-semibold">142</td>
+<td class="px-4 py-5">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant px-2 py-1 rounded-full text-[10px] font-bold">56 ACTIVE</span>
+</td>
+<td class="px-4 py-5">
+<div class="w-32 bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full" style="width: 100%"></div>
+</div>
+<p class="text-[10px] mt-1 font-bold">$212k / $200k</p>
+</td>
+<td class="px-4 py-5 text-on-surface-variant text-sm">1.8 Days</td>
+<td class="px-8 py-5 text-right">
+<button class="bg-primary text-white text-[12px] px-4 py-2 rounded-full hover:opacity-90 transition-all font-button">View Details</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</main>
+</div>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="lg:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pt-2 pb-6 bg-white/90 backdrop-blur-md border-t border-gray-100 shadow-[0_-4px_12px_rgba(40,37,29,0.08)] z-50 rounded-t-2xl">
+<button class="flex flex-col items-center justify-center text-teal-800 bg-teal-50/50 rounded-xl px-3 py-1 scale-95 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-['Manrope'] text-[10px] font-bold uppercase tracking-wider">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-gray-400">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-['Manrope'] text-[10px] font-bold uppercase tracking-wider">Metrics</span>
+</button>
+<button class="flex flex-col items-center justify-center text-gray-400">
+<span class="material-symbols-outlined">group</span>
+<span class="font-['Manrope'] text-[10px] font-bold uppercase tracking-wider">Team</span>
+</button>
+<button class="flex flex-col items-center justify-center text-gray-400">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Manrope'] text-[10px] font-bold uppercase tracking-wider">Profile</span>
+</button>
+</nav>

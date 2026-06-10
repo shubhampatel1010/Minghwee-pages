@@ -1,0 +1,259 @@
+<!-- SideNavBar (Shared Component) -->
+<nav class="hidden md:flex h-screen w-64 border-r border-[#E5E3DA] dark:border-slate-800 flex-col fixed left-0 top-0 py-8 px-4 space-y-6 bg-white dark:bg-slate-900 shadow-[4px_0px_20px_rgba(40,37,29,0.05)] z-30">
+<div class="px-4 mb-6">
+<h1 class="font-h2 text-h2 text-[#01696F] font-black tracking-tighter leading-none mb-1">Executive Suite</h1>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest text-[10px]">Super Admin Access</p>
+</div>
+<div class="flex flex-col space-y-2 flex-grow">
+<!-- Active Tab: Overview -->
+<a class="flex items-center gap-3 px-4 py-3 bg-[#D9E5E6] dark:bg-teal-900/40 text-[#01696F] dark:text-teal-300 rounded-lg font-bold font-label-caps text-label-caps uppercase tracking-widest transition-transform hover:scale-[0.99]" href="#">
+<span class="material-symbols-outlined fill" data-icon="dashboard">dashboard</span>
+<span>Overview</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-[#01696F] font-medium font-label-caps text-label-caps uppercase tracking-widest hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span>Financials</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-[#01696F] font-medium font-label-caps text-label-caps uppercase tracking-widest hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span>Team</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-[#01696F] font-medium font-label-caps text-label-caps uppercase tracking-widest hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="database">database</span>
+<span>All Data</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-[#01696F] font-medium font-label-caps text-label-caps uppercase tracking-widest hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+</div>
+<div class="mt-auto pt-6 border-t border-surface-variant flex flex-col gap-4">
+<button class="w-full py-3 px-4 bg-primary-container text-on-primary rounded-full font-button text-button hover:bg-primary transition-colors flex justify-center items-center gap-2">
+                Generate Report
+            </button>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-[#01696F] font-medium font-label-caps text-label-caps uppercase tracking-widest hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span>Log Out</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 md:ml-64 flex flex-col min-h-screen">
+<!-- TopAppBar (Shared Component) -->
+<header class="flex justify-between items-center h-16 px-8 w-full sticky top-0 bg-[#FBFBFA] dark:bg-slate-950 border-b border-[#E5E3DA] dark:border-slate-800 z-40">
+<div class="flex items-center gap-4">
+<h1 class="text-lg font-bold tracking-tighter text-[#01696F] dark:text-teal-500 font-h3 text-h3 leading-none">Command Center</h1>
+</div>
+<div class="flex items-center gap-6">
+<!-- Search (Left side of right cluster) -->
+<div class="hidden sm:flex relative items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline" data-icon="search">search</span>
+<input class="pl-10 pr-4 py-2 bg-white border border-[#E5E3DA] rounded-lg text-sm focus:border-primary-container focus:ring-1 focus:ring-primary-container outline-none transition-all w-64 text-on-surface" placeholder="Search..." type="text"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-slate-500 dark:text-slate-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200 p-2 rounded-full relative">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+<span class="absolute top-1 right-1 w-2.5 h-2.5 bg-error rounded-full border-2 border-[#FBFBFA]"></span>
+</button>
+<button class="text-slate-500 dark:text-slate-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200 p-2 rounded-full">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+</div>
+<div class="flex items-center gap-3 border-l border-[#E5E3DA] pl-6">
+<button class="px-4 py-2 text-[#01696F] dark:text-teal-400 font-manrope tracking-tight text-sm font-semibold hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200 rounded-full border border-[#01696F]">
+                        Support
+                    </button>
+<button class="px-4 py-2 bg-[#01696F] text-white font-manrope tracking-tight text-sm font-semibold rounded-full hover:opacity-80 transition-all duration-150">
+                        New Project
+                    </button>
+<div class="w-8 h-8 rounded-full overflow-hidden ml-2 border border-[#E5E3DA]">
+<img alt="Super Admin Avatar" class="w-full h-full object-cover" data-alt="Close-up professional headshot of a man with short hair wearing a navy blue suit jacket and white shirt against a neutral gray background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv9Mw54HljHKVdsHz6BPN_IeZv8XVq0xCrOgJWp7WnaHFuIPCCO0d07X38V_pINJfCBL4zA2hbz9EKd3l7NYl-29oOA9k5va1QofaY4uHXmXNvCA97q-6OB96pukGmTqJ55Hb-ZlB2NiA7s46HbD6yyDQ6e04WSbXuEphOf2nMAq0m2BWW1xHl9L9drjYjCoHqngzKjFM36S6iTCmaZ79kuojtkWc4Nn4aslqunp1_1IKxGo5G667D3aqrCXMfJA8s4zCWO_tmdOUM"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Canvas -->
+<div class="p-margin-mobile md:p-margin-desktop max-w-container-max mx-auto w-full space-y-stack-lg">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 border-b border-surface-variant pb-6">
+<div>
+<h2 class="font-h1 text-h1 text-on-surface mb-2">MingHwee Command Center</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Wednesday, October 25, 2023</p>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Main KPI Card (Spans 8 cols) -->
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl border border-surface-variant overflow-hidden shadow-[0px_4px_20px_rgba(40,37,29,0.02)] flex flex-col">
+<div class="bg-gradient-to-r from-primary-container to-primary p-6 text-on-primary">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-h3 text-h3">Business Overview</h3>
+<button class="text-on-primary/80 hover:text-white transition-colors">
+<span class="material-symbols-outlined" data-icon="more_horiz">more_horiz</span>
+</button>
+</div>
+<div class="flex items-end gap-4">
+<span class="font-display text-display leading-none">$24,600</span>
+<span class="font-body-lg text-body-lg text-inverse-primary mb-1">MTD Revenue</span>
+</div>
+<div class="mt-6 flex items-center gap-3">
+<div class="flex-1 h-1.5 bg-on-primary/20 rounded-full overflow-hidden">
+<div class="h-full bg-inverse-primary rounded-full" style="width: 82%;"></div>
+</div>
+<span class="font-label-caps text-label-caps">82% to Goal</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-surface-variant bg-surface-container-lowest">
+<div class="p-6 flex flex-col justify-center">
+<div class="flex items-center gap-2 mb-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container" data-icon="work">work</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Active Placements</span>
+</div>
+<span class="font-h2 text-h2 text-on-surface">48</span>
+</div>
+<div class="p-6 flex flex-col justify-center bg-surface-bright/50">
+<div class="flex items-center gap-2 mb-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-inverse-primary" data-icon="fiber_new">fiber_new</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">New Placements</span>
+</div>
+<div class="flex items-end gap-2">
+<span class="font-h2 text-h2 text-on-surface">11</span>
+<span class="text-sm text-primary-container font-semibold mb-1 flex items-center"><span class="material-symbols-outlined text-[16px]" data-icon="arrow_upward">arrow_upward</span> 12%</span>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-center">
+<div class="flex items-center gap-2 mb-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container" data-icon="autorenew">autorenew</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Renewal Rate</span>
+</div>
+<span class="font-h2 text-h2 text-on-surface">78%</span>
+</div>
+</div>
+</div>
+<!-- 4-Tile Quick Access (Spans 4 cols) -->
+<div class="md:col-span-4 grid grid-cols-2 gap-4">
+<button class="bg-surface-container-lowest p-5 rounded-xl border border-surface-variant hover:shadow-[0px_8px_24px_rgba(40,37,29,0.06)] hover:-translate-y-0.5 transition-all flex flex-col items-start gap-4 group">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined" data-icon="trending_up">trending_up</span>
+</div>
+<span class="font-h3 text-[16px] text-on-surface text-left">Sales Performance</span>
+</button>
+<button class="bg-surface-container-lowest p-5 rounded-xl border border-surface-variant hover:shadow-[0px_8px_24px_rgba(40,37,29,0.06)] hover:-translate-y-0.5 transition-all flex flex-col items-start gap-4 group">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined" data-icon="gavel">gavel</span>
+</div>
+<span class="font-h3 text-[16px] text-on-surface text-left">Ops &amp; Compliance</span>
+</button>
+<button class="bg-surface-container-lowest p-5 rounded-xl border border-surface-variant hover:shadow-[0px_8px_24px_rgba(40,37,29,0.06)] hover:-translate-y-0.5 transition-all flex flex-col items-start gap-4 group">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+</div>
+<span class="font-h3 text-[16px] text-on-surface text-left">Financials</span>
+</button>
+<button class="bg-surface-container-lowest p-5 rounded-xl border border-surface-variant hover:shadow-[0px_8px_24px_rgba(40,37,29,0.06)] hover:-translate-y-0.5 transition-all flex flex-col items-start gap-4 group">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined" data-icon="manage_accounts">manage_accounts</span>
+</div>
+<span class="font-h3 text-[16px] text-on-surface text-left">Staff Management</span>
+</button>
+</div>
+<!-- Pending Approvals (Spans 6 cols) -->
+<div class="md:col-span-6 bg-surface-container-lowest rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.02)] p-6">
+<div class="flex justify-between items-center mb-6 border-b border-surface-variant pb-4">
+<h3 class="font-h3 text-h3 flex items-center gap-2">
+<span class="material-symbols-outlined text-error" data-icon="pending_actions">pending_actions</span>
+                            Pending Approvals
+                        </h3>
+<span class="px-2.5 py-1 bg-error-container text-on-error-container rounded-full font-label-caps text-[10px]">3 ACTION REQUIRED</span>
+</div>
+<div class="space-y-4">
+<!-- Item 1 -->
+<div class="flex justify-between items-center p-4 rounded-lg bg-surface-bright border border-surface-variant border-dashed">
+<div class="flex items-start gap-3">
+<div class="mt-1 w-2 h-2 rounded-full bg-error flex-shrink-0"></div>
+<div>
+<p class="font-body-md font-semibold text-on-surface">High-Value Order Override</p>
+<p class="font-body-md text-sm text-on-surface-variant mt-1">Invoice #INV-2023-089 • $12,400</p>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-outline hover:bg-error-container hover:text-on-error-container rounded-full transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="close">close</span>
+</button>
+<button class="p-2 text-primary-container hover:bg-secondary-container rounded-full transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="check">check</span>
+</button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex justify-between items-center p-4 rounded-lg bg-surface-bright border border-surface-variant border-dashed">
+<div class="flex items-start gap-3">
+<div class="mt-1 w-2 h-2 rounded-full bg-outline-variant flex-shrink-0"></div>
+<div>
+<p class="font-body-md font-semibold text-on-surface">Staff Role Escalation</p>
+<p class="font-body-md text-sm text-on-surface-variant mt-1">Sarah Jenkins requesting Manager access</p>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-outline hover:bg-error-container hover:text-on-error-container rounded-full transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="close">close</span>
+</button>
+<button class="p-2 text-primary-container hover:bg-secondary-container rounded-full transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="check">check</span>
+</button>
+</div>
+</div>
+</div>
+<button class="w-full mt-4 py-3 font-button text-button text-primary-container hover:bg-surface-container rounded-lg transition-colors border border-transparent hover:border-surface-variant">View All Approvals</button>
+</div>
+<!-- Real-time Activity Feed (Spans 6 cols) -->
+<div class="md:col-span-6 bg-surface-container-lowest rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.02)] p-6 flex flex-col h-full">
+<div class="flex justify-between items-center mb-6 border-b border-surface-variant pb-4">
+<h3 class="font-h3 text-h3 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container" data-icon="history">history</span>
+                            Activity Feed
+                        </h3>
+</div>
+<div class="relative pl-4 space-y-6 flex-1 overflow-hidden">
+<!-- Timeline Line -->
+<div class="absolute left-6 top-2 bottom-2 w-px bg-surface-variant"></div>
+<!-- Feed Item 1 -->
+<div class="relative flex gap-4">
+<div class="w-5 h-5 rounded-full bg-white border-2 border-primary-container flex-shrink-0 z-10 -ml-0.5 mt-1"></div>
+<div class="flex items-start gap-3 w-full">
+<img alt="Avatar" class="w-8 h-8 rounded-full border border-surface-variant object-cover" data-alt="Headshot of a smiling young woman with dark hair wearing a light blue top." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlf3cJGoZpX6xNjQmybtj2gCb3cbcwJHs_UuxNN6dHtTMd7UPYYw_ZvCS8vZpjipPFCY-N7YtC9oU1d_473XNLsjl0x06dvazIh1MfobzAhW_TZJpfVz2o_l2pMcL-1QerY3ukOpqwEqF3jrPqnBsQ6DiwxCgktUyHbxQrdAw4VvAcSfSpN3SVZmKmaFzKAPAoRIA7-PAv6_r1k12DIRaATOXDTxk80ileS_CerrWQb9pSwqfKEm-i8XjLi72hMBJQQZfuII8evogh"/>
+<div class="flex-1">
+<p class="font-body-md text-sm text-on-surface"><span class="font-semibold">Elena Rossi</span> closed placement <span class="text-primary-container font-medium">#PL-442</span></p>
+<p class="font-label-caps text-label-caps text-on-surface-variant mt-1 lowercase">10 mins ago</p>
+</div>
+</div>
+</div>
+<!-- Feed Item 2 -->
+<div class="relative flex gap-4">
+<div class="w-5 h-5 rounded-full bg-surface-variant border-2 border-white flex-shrink-0 z-10 -ml-0.5 mt-1"></div>
+<div class="flex items-start gap-3 w-full">
+<img alt="Avatar" class="w-8 h-8 rounded-full border border-surface-variant object-cover" data-alt="Headshot of a professional man with short dark hair and glasses wearing a gray shirt." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8ITHkpjTnDcaax9Ur6DmMiVJog87KpzR7wlxo9MHN7gjr9Bkxv2A4JoRATJNQ4BFsFy425Bb1GlykxYArt8N9bqC74T1NmUaDNaMnSTH0JSeIzeI2yJPNkt3QWSxoDFTdNWBnkGIgzWUFfgkcCzt8D_LlMsJV8cQtEPUepbBtiU_xrs4pPq6eBqGlCfkfI5XrhADzRf6URBnbxWUT-u1GeIp-M9W6XH6zg7fRwV7cL3yN7mHSGrTMrzJdCWteanRpV1bI3PhpNHHY"/>
+<div class="flex-1">
+<p class="font-body-md text-sm text-on-surface"><span class="font-semibold">David Chen</span> updated compliance docs for <span class="text-primary-container font-medium">Maria Garcia</span></p>
+<p class="font-label-caps text-label-caps text-on-surface-variant mt-1 lowercase">45 mins ago</p>
+</div>
+</div>
+</div>
+<!-- Feed Item 3 -->
+<div class="relative flex gap-4 pb-2">
+<div class="w-5 h-5 rounded-full bg-surface-variant border-2 border-white flex-shrink-0 z-10 -ml-0.5 mt-1"></div>
+<div class="flex items-start gap-3 w-full">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center font-bold text-xs border border-tertiary-fixed-dim">
+                                    SYS
+                                </div>
+<div class="flex-1">
+<p class="font-body-md text-sm text-on-surface">System generated <span class="font-semibold">Weekly Financial Report</span></p>
+<p class="font-label-caps text-label-caps text-on-surface-variant mt-1 lowercase">2 hours ago</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>

@@ -1,0 +1,239 @@
+<!-- SideNavBar -->
+<nav class="hidden lg:flex flex-col h-screen sticky top-0 p-6 gap-4 w-64 border-r rounded-none border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950 flat no-shadow">
+<div class="mb-8">
+<h1 class="font-black text-teal-900 dark:text-teal-50 text-lg">Finance Hub</h1>
+<p class="font-manrope text-[13px] font-semibold uppercase tracking-wider text-teal-900 dark:text-teal-500">Premium Domestic Care</p>
+</div>
+<div class="flex-1 flex flex-col gap-2">
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg hover:translate-x-1 transition-transform duration-200 tap-highlight-transparent cursor-pointer font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+                Overview
+            </a>
+<a class="flex items-center gap-3 p-3 bg-teal-50 dark:bg-teal-900/20 text-teal-900 dark:text-teal-300 rounded-lg border-l-4 border-teal-900 dark:border-teal-500 hover:translate-x-1 transition-transform duration-200 tap-highlight-transparent cursor-pointer font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_balance_wallet</span>
+                Receivables
+            </a>
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg hover:translate-x-1 transition-transform duration-200 tap-highlight-transparent cursor-pointer font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">payments</span>
+                Payables
+            </a>
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg hover:translate-x-1 transition-transform duration-200 tap-highlight-transparent cursor-pointer font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">assessment</span>
+                Reports
+            </a>
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg hover:translate-x-1 transition-transform duration-200 tap-highlight-transparent cursor-pointer font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">receipt_long</span>
+                Tax Center
+            </a>
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg hover:translate-x-1 transition-transform duration-200 tap-highlight-transparent cursor-pointer font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">history</span>
+                Audit Log
+            </a>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container font-button text-button py-3 rounded-full hover:bg-primary hover:text-on-primary transition-colors">
+            Create Invoice
+        </button>
+<div class="mt-4 pt-4 border-t border-stone-200 flex flex-col gap-2">
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">help</span>
+                Help Center
+            </a>
+<a class="flex items-center gap-3 p-3 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-lg font-manrope text-[13px] font-semibold uppercase tracking-wider" href="#">
+<span class="material-symbols-outlined">logout</span>
+                Log Out
+            </a>
+</div>
+</nav>
+<div class="flex-1 flex flex-col min-w-0">
+<!-- TopAppBar -->
+<header class="docked full-width top-0 z-50 bg-white/95 dark:bg-stone-950/95 backdrop-blur-md border-b border-stone-200 dark:border-stone-800 shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<div class="flex items-center justify-between px-10 h-16 max-w-[1200px] mx-auto w-full">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tight text-teal-900 dark:text-teal-50 lg:hidden">AgencyCore Financial</span>
+<nav class="hidden md:flex items-center gap-6 font-manrope text-sm font-medium tracking-tight">
+<a class="text-stone-500 dark:text-stone-400 hover:text-teal-700 dark:hover:text-stone-200 transition-colors active:scale-95 duration-200 ease-in-out" href="#">Dashboard</a>
+<a class="text-teal-900 dark:text-teal-400 font-semibold border-b-2 border-teal-900 dark:border-teal-400 pb-5 -mb-[21px] active:scale-95 duration-200 ease-in-out" href="#">Ledger</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-teal-700 dark:hover:text-stone-200 transition-colors active:scale-95 duration-200 ease-in-out" href="#">Invoices</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-teal-700 dark:hover:text-stone-200 transition-colors active:scale-95 duration-200 ease-in-out" href="#">Payments</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-teal-700 dark:hover:text-stone-200 transition-colors active:scale-95 duration-200 ease-in-out" href="#">Clients</a>
+</nav>
+</div>
+<div class="flex items-center gap-4 text-teal-900 dark:text-teal-500">
+<button class="hover:bg-stone-50 dark:hover:bg-stone-900 rounded-lg transition-all p-2">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="hover:bg-stone-50 dark:hover:bg-stone-900 rounded-lg transition-all p-2">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center overflow-hidden ml-2">
+<img alt="Financial Controller Profile" class="w-full h-full object-cover" data-alt="professional portrait of a confident male financial controller in a modern office with natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChTkDD3p0BRqgIi8eeqRKa0nh-km2L5Eca1LMPBLCDFEDhsfJh-6sPxrcMuh9F71JsLLnTMdYeD3doaliDGmwnNSpJRjRqVazedW9F5zNeuQ06Kw8lQU5L2J7rFxELt_vdDA-qqAb9g2CbF-kgLU-HvWoJQxWlntpq-z_HQ8iT7tnPfW_QFxPt-m9Q3JNntTm35YtUAPJV8-8SjaHhtfHHBbv8VT3k5Q8rREkw_HZgTq8qRrPNaKDPPe-yn56leOvkIhKBUsit_2-r"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-1 overflow-y-auto p-6 md:p-margin-desktop w-full max-w-container-max mx-auto">
+<div class="mb-stack-md">
+<h2 class="font-h2 text-h2 text-on-background">Accounts Receivable</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Manage outstanding invoices and track collections.</p>
+</div>
+<!-- KPIs -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-unit mb-stack-md">
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-surface-variant shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant uppercase mb-2">Total Outstanding</h3>
+<div class="font-display text-[40px] font-bold text-on-background tabular-nums">$4,200</div>
+</div>
+<div class="bg-error-container/20 rounded-xl p-6 border border-error/20 shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<h3 class="font-label-caps text-label-caps text-error uppercase mb-2">Overdue</h3>
+<div class="font-display text-[40px] font-bold text-error tabular-nums">$1,800</div>
+</div>
+<div class="bg-primary-container/20 rounded-xl p-6 border border-primary/20 shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<h3 class="font-label-caps text-label-caps text-primary uppercase mb-2">Collected (MTD)</h3>
+<div class="font-display text-[40px] font-bold text-primary tabular-nums">$31,200</div>
+</div>
+</div>
+<!-- Filters -->
+<div class="flex flex-wrap gap-2 mb-stack-sm">
+<button class="px-4 py-2 rounded-full bg-surface-variant text-on-surface font-button text-button">All</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface-variant font-button text-button hover:bg-surface-container-low transition-colors">Outstanding</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface-variant font-button text-button hover:bg-surface-container-low transition-colors">Overdue</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface-variant font-button text-button hover:bg-surface-container-low transition-colors">Paid This Month</button>
+</div>
+<!-- Table Card -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant shadow-[0_4px_20px_rgba(40,37,29,0.02)] overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low border-b border-surface-variant">
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase whitespace-nowrap">Invoice #</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase">Payer</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase">Type</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase">Description</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase text-right">Amount</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase">Due Date</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase">Status</th>
+<th class="p-4 font-label-caps text-label-caps text-on-surface-variant uppercase text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md text-on-surface divide-y divide-surface-variant">
+<tr class="hover:bg-surface-bright transition-colors">
+<td class="p-4 font-medium tabular-nums">INV-2023-089</td>
+<td class="p-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm">JL</div>
+<span>James Lin</span>
+</div>
+</td>
+<td class="p-4 text-on-surface-variant">Singapore Employer</td>
+<td class="p-4 truncate max-w-[200px]">Placement Fee - Domestic Helper</td>
+<td class="p-4 text-right font-medium tabular-nums text-on-background">$1,200.00</td>
+<td class="p-4 text-error tabular-nums">Oct 12, 2023</td>
+<td class="p-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-caps text-label-caps">
+                                        Overdue
+                                    </span>
+</td>
+<td class="p-4 text-right">
+<button class="text-primary hover:text-primary-container transition-colors p-1" title="Send Reminder">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</button>
+<button class="text-on-surface-variant hover:text-on-surface transition-colors p-1 ml-2" title="View Details">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-bright transition-colors">
+<td class="p-4 font-medium tabular-nums">INV-2023-094</td>
+<td class="p-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center font-bold text-sm">AC</div>
+<span>Apex Corp</span>
+</div>
+</td>
+<td class="p-4 text-on-surface-variant">Client Partner</td>
+<td class="p-4 truncate max-w-[200px]">Monthly Retainer - Oct</td>
+<td class="p-4 text-right font-medium tabular-nums text-on-background">$3,000.00</td>
+<td class="p-4 tabular-nums">Oct 25, 2023</td>
+<td class="p-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-variant text-on-surface-variant font-label-caps text-label-caps">
+                                        Outstanding
+                                    </span>
+</td>
+<td class="p-4 text-right">
+<button class="text-primary hover:text-primary-container transition-colors p-1" title="Send Reminder">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</button>
+<button class="text-on-surface-variant hover:text-on-surface transition-colors p-1 ml-2" title="View Details">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-bright transition-colors">
+<td class="p-4 font-medium tabular-nums">INV-2023-085</td>
+<td class="p-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm">ST</div>
+<span>Sarah Tan</span>
+</div>
+</td>
+<td class="p-4 text-on-surface-variant">Singapore Employer</td>
+<td class="p-4 truncate max-w-[200px]">Renewal Processing Fee</td>
+<td class="p-4 text-right font-medium tabular-nums text-on-background">$600.00</td>
+<td class="p-4 text-error tabular-nums">Oct 05, 2023</td>
+<td class="p-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-caps text-label-caps">
+                                        Overdue
+                                    </span>
+</td>
+<td class="p-4 text-right">
+<button class="text-primary hover:text-primary-container transition-colors p-1" title="Send Reminder">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</button>
+<button class="text-on-surface-variant hover:text-on-surface transition-colors p-1 ml-2" title="View Details">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-bright transition-colors">
+<td class="p-4 font-medium tabular-nums">INV-2023-090</td>
+<td class="p-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-sm">EW</div>
+<span>Emily Wong</span>
+</div>
+</td>
+<td class="p-4 text-on-surface-variant">Singapore Employer</td>
+<td class="p-4 truncate max-w-[200px]">Training Fees Reimbursement</td>
+<td class="p-4 text-right font-medium tabular-nums text-on-background">$450.00</td>
+<td class="p-4 tabular-nums text-on-surface-variant">Oct 15, 2023</td>
+<td class="p-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary-container text-on-primary-container font-label-caps text-label-caps">
+                                        Paid
+                                    </span>
+</td>
+<td class="p-4 text-right">
+<button class="text-on-surface-variant hover:text-on-surface transition-colors p-1" title="View Details">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Bulk Actions Bar -->
+<div class="bg-surface-container p-4 border-t border-surface-variant flex items-center justify-between">
+<span class="font-body-md text-sm text-on-surface-variant">Showing 4 of 24 invoices</span>
+<div class="flex gap-3">
+<button class="flex items-center gap-2 px-4 py-2 rounded-full border border-primary-container text-primary-container font-button text-button hover:bg-primary-container/10 transition-colors">
+<span class="material-symbols-outlined text-[18px]">ios_share</span>
+                            Export AR Report
+                        </button>
+<button class="flex items-center gap-2 px-4 py-2 rounded-full bg-primary-container text-on-primary-container font-button text-button hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">forward_to_inbox</span>
+                            Send Bulk Reminders
+                        </button>
+</div>
+</div>
+</div>
+</main>
+</div>

@@ -1,0 +1,327 @@
+<!-- TopAppBar -->
+<header class="bg-white/80 dark:bg-slate-900/80 backdrop-blur-md font-manrope antialiased docked full-width top-0 border-b border-b border-teal-100 dark:border-teal-800/50 flat no shadows flex justify-between items-center w-full px-6 h-16 fixed top-0 z-50">
+<div class="flex items-center gap-4">
+<span class="text-xl font-extrabold tracking-tight text-teal-900 dark:text-teal-100">AgencyCore</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden md:block">
+<input class="pl-10 pr-4 py-2 bg-surface-container-low border border-outline-variant rounded-full text-body-md font-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent w-64 transition-all hover:bg-surface-container" placeholder="Search..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-outline text-xl">search</span>
+</div>
+<button class="p-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors Active: scale-95 duration-100 flex items-center justify-center">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors Active: scale-95 duration-100 flex items-center justify-center">
+<span class="material-symbols-outlined">help</span>
+</button>
+<div class="h-8 w-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center overflow-hidden border border-outline-variant cursor-pointer">
+<img alt="Manager Avatar" class="h-full w-full object-cover" data-alt="Professional headshot of a smiling manager with short hair against a warm neutral background, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDISMUUnE-dmPVl6-2N1Ju51Ir85UdemxlA005_z5h40F72vlLcZnyqSBMlgQSTgOedjyQH7ApvCREEIEZWZWw3SSUFLLIVLQjc--oLEQaD8GoANqI5tIZ-JwM5XFjLrB9o_ZDA33B37lCdVNtVKXFsEMgdE0nnrlT4Fad3EKM7tseQzWfRz64e5xTg2VFZf8evcE0RZLSRFRFWb9FfvHuNw8Q57Ze4U2vHCSOnqylZq_DwYoaAQ1h4ed-u9E82DzI7YpTu6ITSM1Yj"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar -->
+<nav class="bg-slate-50 dark:bg-slate-950 text-teal-800 dark:text-teal-400 font-manrope text-sm font-medium docked left-0 h-screen w-64 border-r border-r border-teal-100 dark:border-teal-800/30 flat fixed left-0 top-0 h-screen flex flex-col pt-20 pb-6 hidden md:flex z-40">
+<div class="px-6 mb-8 flex items-center gap-3">
+<div class="h-10 w-10 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-lg shadow-sm">
+                A
+            </div>
+<div>
+<h2 class="text-lg font-bold text-teal-900 dark:text-teal-100 leading-tight">AgencyCore</h2>
+<p class="text-xs text-outline font-normal">Finance Manager</p>
+</div>
+</div>
+<div class="px-3 flex-1 space-y-1">
+<a class="flex items-center gap-3 bg-teal-50 dark:bg-teal-900/20 text-teal-800 dark:text-teal-200 rounded-lg px-4 py-2.5 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+                Overview
+            </a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">payments</span>
+                Cash Flow
+            </a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">account_balance_wallet</span>
+                Receivables
+            </a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">receipt_long</span>
+                Payables
+            </a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">bar_chart</span>
+                Reports
+            </a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">settings</span>
+                Settings
+            </a>
+</div>
+<div class="px-6 mb-6">
+<button class="w-full flex items-center justify-center gap-2 bg-primary-container text-on-primary-container font-button text-button py-2.5 px-4 rounded-full hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-sm">download</span>
+                Export Data
+            </button>
+</div>
+<div class="px-3 pt-4 border-t border-teal-100 dark:border-teal-800/30 space-y-1">
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+                Support
+            </a>
+<a class="flex items-center gap-3 text-slate-600 dark:text-slate-400 px-4 py-2.5 rounded-lg hover:bg-teal-50/50 dark:hover:bg-teal-900/10 hover:text-teal-700 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">logout</span>
+                Log Out
+            </a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-24 pl-0 md:pl-64 min-h-screen">
+<div class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop pb-12 flex flex-col gap-stack-md">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-2">
+<div>
+<h1 class="font-h1 text-h1 text-on-surface">Finance Overview</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">High-level financial standing across operations.</p>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-low px-4 py-2 rounded-full border border-outline-variant cursor-pointer hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary text-xl">calendar_month</span>
+<span class="font-button text-button text-primary">April 2026</span>
+<span class="material-symbols-outlined text-primary text-xl">expand_more</span>
+</div>
+</div>
+<!-- High-Impact Cash Flow Summary Card -->
+<div class="bg-primary-container text-on-primary-container rounded-xl p-8 shadow-[0_4px_20px_rgba(40,37,29,0.05)] border border-primary-fixed-dim/20 relative overflow-hidden">
+<!-- Decorative background accent -->
+<div class="absolute right-0 top-0 w-64 h-64 bg-primary rounded-full blur-3xl opacity-30 -translate-y-1/2 translate-x-1/3"></div>
+<h3 class="font-label-caps text-label-caps text-on-primary-container/80 uppercase tracking-wider mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">account_balance</span>
+                    Cash Flow Summary
+                </h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 divide-y md:divide-y-0 md:divide-x divide-on-primary-container/20">
+<div class="flex flex-col gap-2 pt-4 md:pt-0">
+<span class="font-body-md text-body-md text-on-primary-container/80">Total Revenue In</span>
+<div class="flex items-baseline gap-2">
+<span class="font-display text-display tabular-nums tracking-tight">$31,200</span>
+<span class="material-symbols-outlined text-primary-fixed text-sm bg-primary-fixed/20 p-1 rounded-full">arrow_upward</span>
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-4 md:pt-0 md:pl-6">
+<span class="font-body-md text-body-md text-on-primary-container/80">Total Payouts Out</span>
+<div class="flex items-baseline gap-2">
+<span class="font-display text-display tabular-nums tracking-tight text-tertiary-fixed-dim">$8,640</span>
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-sm bg-tertiary-fixed-dim/20 p-1 rounded-full">arrow_downward</span>
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-4 md:pt-0 md:pl-6">
+<span class="font-body-md text-body-md text-primary-fixed font-semibold">Net Cash Position</span>
+<div class="flex items-baseline gap-2">
+<span class="font-display text-display tabular-nums tracking-tight text-primary-fixed">$22,560</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Two-Column Grid: Receivables & Payables -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+<!-- Accounts Receivable Card -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_4px_20px_rgba(40,37,29,0.02)] border border-outline-variant/30 flex flex-col h-full hover:shadow-[0_8px_30px_rgba(40,37,29,0.04)] transition-shadow duration-300">
+<div class="flex justify-between items-center mb-6">
+<h2 class="font-h3 text-h3 text-on-surface flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-base">call_received</span>
+</div>
+                            Accounts Receivable
+                        </h2>
+<button class="text-primary font-button text-button hover:underline">View All</button>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-8">
+<div class="bg-surface-container-low p-4 rounded-lg border border-outline-variant/20">
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">Total Billed</span>
+<span class="font-h2 text-h2 text-on-surface tabular-nums">$35,400</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-lg border border-outline-variant/20">
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">Outstanding</span>
+<span class="font-h2 text-h2 text-tertiary-container tabular-nums">$4,200</span>
+</div>
+</div>
+<div class="mt-auto">
+<div class="flex justify-between items-end mb-2">
+<span class="font-body-md text-body-md text-on-surface-variant">Collected ($31,200)</span>
+<span class="font-label-caps text-label-caps text-primary">88%</span>
+</div>
+<!-- Mini Source Breakdown Bar -->
+<div class="w-full h-3 bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-primary-container" style="width: 88%"></div>
+<div class="h-full bg-tertiary-container" style="width: 12%"></div>
+</div>
+<div class="flex gap-4 mt-3 font-label-caps text-label-caps text-on-surface-variant">
+<div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-primary-container"></span> Collected</div>
+<div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-tertiary-container"></span> Outstanding</div>
+</div>
+</div>
+</div>
+<!-- Accounts Payable Card -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_4px_20px_rgba(40,37,29,0.02)] border border-outline-variant/30 flex flex-col h-full hover:shadow-[0_8px_30px_rgba(40,37,29,0.04)] transition-shadow duration-300">
+<div class="flex justify-between items-center mb-6">
+<h2 class="font-h3 text-h3 text-on-surface flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-tertiary-container/10 flex items-center justify-center text-tertiary-container">
+<span class="material-symbols-outlined text-base">call_made</span>
+</div>
+                            Accounts Payable
+                        </h2>
+<button class="text-primary font-button text-button hover:underline">View All</button>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-8">
+<div class="bg-surface-container-low p-4 rounded-lg border border-outline-variant/20">
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">Total Payable</span>
+<span class="font-h2 text-h2 text-on-surface tabular-nums">$9,840</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-lg border border-outline-variant/20">
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">Pending</span>
+<span class="font-h2 text-h2 text-tertiary-container tabular-nums">$720</span>
+</div>
+</div>
+<div class="mt-auto">
+<div class="flex justify-between items-end mb-2">
+<span class="font-body-md text-body-md text-on-surface-variant">Paid Out ($8,640)</span>
+<span class="font-label-caps text-label-caps text-primary">88%</span>
+</div>
+<!-- Mini Source Breakdown Bar -->
+<div class="w-full h-3 bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-outline" style="width: 88%"></div>
+<div class="h-full bg-error" style="width: 12%"></div>
+</div>
+<div class="flex gap-4 mt-3 font-label-caps text-label-caps text-on-surface-variant">
+<div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-outline"></span> Paid Out</div>
+<div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-error"></span> Pending</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 12-Month Revenue Chart Card -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_4px_20px_rgba(40,37,29,0.02)] border border-outline-variant/30 w-full mt-4">
+<div class="flex justify-between items-center mb-8">
+<div>
+<h2 class="font-h3 text-h3 text-on-surface">12-Month Revenue Breakdown</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Monthly historical tracking of gross revenue versus expenditures.</p>
+</div>
+<div class="flex items-center gap-4 hidden sm:flex">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-sm bg-primary-container"></div>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Gross Revenue</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-sm bg-outline-variant"></div>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Payouts</span>
+</div>
+</div>
+</div>
+<!-- Mock Bar Chart Wrapper -->
+<div class="relative h-64 w-full flex items-end justify-between gap-2 sm:gap-4 mt-4 border-b border-surface-container-highest pb-2 px-2">
+<!-- Y-Axis Lines -->
+<div class="absolute inset-0 flex flex-col justify-between pointer-events-none pb-8">
+<div class="w-full border-t border-dashed border-surface-container-highest h-0"></div>
+<div class="w-full border-t border-dashed border-surface-container-highest h-0"></div>
+<div class="w-full border-t border-dashed border-surface-container-highest h-0"></div>
+<div class="w-full border-t border-dashed border-surface-container-highest h-0"></div>
+</div>
+<!-- Bars -->
+<!-- May -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 60%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 20%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">May</span>
+</div>
+<!-- Jun -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 65%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 18%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Jun</span>
+</div>
+<!-- Jul -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 55%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 22%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Jul</span>
+</div>
+<!-- Aug -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 70%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 25%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Aug</span>
+</div>
+<!-- Sep -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 75%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 20%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Sep</span>
+</div>
+<!-- Oct -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 60%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 15%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Oct</span>
+</div>
+<!-- Nov -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 80%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 30%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Nov</span>
+</div>
+<!-- Dec -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 85%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 25%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Dec</span>
+</div>
+<!-- Jan -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 65%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 18%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Jan</span>
+</div>
+<!-- Feb -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 70%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 20%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Feb</span>
+</div>
+<!-- Mar -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<div class="w-full bg-primary-container/90 transition-all group-hover:bg-primary-container" style="height: 80%"></div>
+<div class="w-full bg-outline-variant/80 transition-all group-hover:bg-outline-variant" style="height: 22%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-on-surface-variant mt-3 block">Mar</span>
+</div>
+<!-- Apr -->
+<div class="flex flex-col items-center w-full h-full justify-end group z-10">
+<div class="w-full max-w-[40px] flex flex-col-reverse h-full justify-start rounded-t-sm overflow-hidden">
+<!-- Current Month Highlight -->
+<div class="w-full bg-primary transition-all group-hover:bg-primary" style="height: 90%"></div>
+<div class="w-full bg-outline transition-all group-hover:bg-outline" style="height: 28%"></div>
+</div>
+<span class="font-nav-label text-nav-label text-primary font-bold mt-3 block">Apr</span>
+</div>
+</div>
+</div>
+</div>
+</main>

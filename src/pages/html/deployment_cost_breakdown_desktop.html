@@ -1,0 +1,231 @@
+<!-- SideNavBar -->
+<nav class="hidden md:flex flex-col h-screen left-0 border-r w-64 border-slate-200 dark:border-slate-800 bg-surface-container-lowest p-4 gap-2 sticky top-0 z-40 shrink-0 shadow-sm">
+<div class="flex items-center gap-3 px-4 py-4 mb-4">
+<div class="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-on-primary font-bold text-lg">A</div>
+<div>
+<h1 class="text-lg font-bold text-[#004F54] dark:text-teal-500 font-h3">AgencyCore</h1>
+<p class="text-xs text-on-surface-variant font-body-md opacity-80">Financial Intelligence</p>
+</div>
+</div>
+<div class="flex flex-col gap-1 flex-grow">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:pl-2 rounded-lg font-['Manrope'] text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+                Overview
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:pl-2 rounded-lg font-['Manrope'] text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+                Revenue
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 bg-teal-50 dark:bg-teal-900/20 text-[#004F54] dark:text-teal-300 rounded-lg font-['Manrope'] text-sm font-medium transition-all duration-200 ease-in-out scale-[0.98]" href="#">
+<span class="material-symbols-outlined filled" data-icon="receipt_long">receipt_long</span>
+                Costs
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:pl-2 rounded-lg font-['Manrope'] text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="trending_up">trending_up</span>
+                Net Margin
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:pl-2 rounded-lg font-['Manrope'] text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="assessment">assessment</span>
+                Reports
+            </a>
+</div>
+<div class="mt-auto flex flex-col gap-1 border-t border-surface-container-high pt-4">
+<button class="flex items-center justify-center gap-2 w-full py-2.5 mb-2 bg-primary-container text-on-primary-container rounded-full font-button hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">download</span>
+                Export Data
+            </button>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:pl-2 rounded-lg font-['Manrope'] text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+                Settings
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:pl-2 rounded-lg font-['Manrope'] text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="contact_support">contact_support</span>
+                Support
+            </a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 flex flex-col min-w-0 bg-background">
+<!-- TopAppBar -->
+<header class="flex justify-between items-center h-16 px-6 w-full sticky top-0 z-30 bg-[#F7FAFA] dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-[0_4px_20px_rgba(40,37,29,0.02)] font-['Manrope'] antialiased shrink-0">
+<div class="flex items-center gap-4">
+<button class="md:hidden text-on-surface p-2 rounded-full hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<span class="text-xl font-extrabold tracking-tight text-[#004F54] dark:text-teal-500">AgencyCore Finance</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden md:flex relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<input class="pl-10 pr-4 py-1.5 bg-surface-container-low border border-outline-variant rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent w-64 transition-all" placeholder="Search..." type="text"/>
+</div>
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:text-[#004F54] transition-colors duration-200 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full relative">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+<span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full border-2 border-surface-container-lowest"></span>
+</button>
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:text-[#004F54] transition-colors duration-200 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full hidden sm:block">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+<div class="h-8 w-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-bold ml-2 cursor-pointer border border-outline-variant/30">
+<img alt="User profile avatar" class="w-full h-full rounded-full object-cover" data-alt="professional headshot of a woman in business attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsQv3VoIdBEj37CIGQOu0Egwp6I65lOAnejWxExk4sAauESGOHg0STAziLEeoHz6oXep_hU2D1IzO1u8-ZhwmtzP7MT1U-FNs76w-9AAfXEcAQgK83mt-P0giGbJCxwTCGkKtTCTCzt6mdhp6KQi9mlWu77kfD9NC_FrdlL9R-f5NFJmDqB4FpsgOarC3DT2eSgkI7g8Ek0xbFzUJy7HYUh0oF42qz8tFYMejldau9YjQHtVJU5m0dMQU1wSNeAZOh8xgumYpXAe56"/>
+</div>
+</div>
+</header>
+<!-- Page Content Canvas -->
+<main class="flex-1 overflow-y-auto p-4 md:p-margin-desktop w-full max-w-[container-max] mx-auto">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-stack-md gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-on-surface-variant font-label-caps uppercase tracking-wider text-xs">Deployment ID: DPL-2023-8942</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant text-[10px] font-bold uppercase tracking-wider">Completed</span>
+</div>
+<h1 class="font-h1 text-h1 text-on-surface">Cost Sheet — Ana Santos</h1>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-full font-button text-button text-on-surface hover:bg-surface-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+                    Export PDF
+                </button>
+</div>
+<!-- Financial Summary Bento Box -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_4px_20px_rgba(40,37,29,0.02)] border border-surface-container-high mb-stack-md flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+<!-- Decorative background accent -->
+<div class="absolute -right-20 -top-20 w-64 h-64 bg-primary-fixed/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex flex-col gap-1 relative z-10 w-full md:w-auto">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Total Net Margin</span>
+<div class="flex items-baseline gap-3">
+<span class="font-display text-display text-[#01696F]">$1,520</span>
+<span class="font-body-md text-body-md text-on-surface-variant">USD</span>
+</div>
+</div>
+<div class="flex flex-col items-center justify-center relative z-10 w-full md:w-auto">
+<div class="px-4 py-2 bg-[#01696F]/10 rounded-full flex items-center gap-2 border border-[#01696F]/20">
+<span class="material-symbols-outlined text-[#01696F] text-[20px] filled">trending_up</span>
+<span class="font-button text-button text-[#01696F]">62.6% Profit Margin</span>
+</div>
+</div>
+<div class="w-full md:w-1/3 flex flex-col gap-3 relative z-10">
+<div class="flex justify-between items-center text-sm">
+<span class="font-body-md text-on-surface-variant">Revenue</span>
+<span class="font-h3 text-on-surface">$2,430</span>
+</div>
+<div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-[#01696F] rounded-full" style="width: 100%;"></div>
+</div>
+<div class="flex justify-between items-center text-sm mt-1">
+<span class="font-body-md text-on-surface-variant">Cost</span>
+<span class="font-h3 text-error">-$910</span>
+</div>
+<div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-error rounded-full" style="width: 37.4%;"></div>
+</div>
+</div>
+</div>
+<!-- Detail Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+<!-- Revenue Breakdown -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-[0_4px_20px_rgba(40,37,29,0.02)] flex flex-col h-full">
+<div class="p-5 border-b border-surface-container-highest flex items-center justify-between bg-surface-bright rounded-t-xl">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-[#01696F]/10 flex items-center justify-center text-[#01696F]">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+</div>
+<h2 class="font-h3 text-h3 text-on-surface">Revenue Breakdown</h2>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col gap-4">
+<!-- Items -->
+<div class="flex justify-between items-center pb-3 border-b border-surface-container-lowest border-dashed">
+<span class="font-body-md text-on-surface">Placement Fee</span>
+<span class="font-h3 text-on-surface text-[18px]">$1,800</span>
+</div>
+<div class="flex justify-between items-center pb-3 border-b border-surface-container-lowest border-dashed">
+<span class="font-body-md text-on-surface">Service Fees</span>
+<span class="font-h3 text-on-surface text-[18px]">$450</span>
+</div>
+<div class="flex justify-between items-center pb-3 border-b border-surface-container-lowest border-dashed">
+<span class="font-body-md text-on-surface">Insurance Markup</span>
+<span class="font-h3 text-on-surface text-[18px]">$180</span>
+</div>
+</div>
+<div class="p-5 bg-surface-bright border-t border-surface-container-highest rounded-b-xl flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Subtotal Revenue</span>
+<span class="font-h2 text-h2 text-[#01696F]">$2,430</span>
+</div>
+</div>
+<!-- Cost Breakdown -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-[0_4px_20px_rgba(40,37,29,0.02)] flex flex-col h-full">
+<div class="p-5 border-b border-surface-container-highest flex items-center justify-between bg-surface-bright rounded-t-xl">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-error/10 flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-[18px]">money_off</span>
+</div>
+<h2 class="font-h3 text-h3 text-on-surface">Cost Breakdown</h2>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col gap-3">
+<!-- Items -->
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Medical</span>
+<span class="font-body-md text-on-surface font-medium">$120</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Transport</span>
+<span class="font-body-md text-on-surface font-medium">$45</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">TESDA</span>
+<span class="font-body-md text-on-surface font-medium">$85</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Embassy fee</span>
+<span class="font-body-md text-on-surface font-medium">$60</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Runner fee</span>
+<span class="font-body-md text-on-surface font-medium">$50</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Flight</span>
+<span class="font-body-md text-on-surface font-medium">$320</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Accommodation</span>
+<span class="font-body-md text-on-surface font-medium">$80</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">MOM fee</span>
+<span class="font-body-md text-on-surface font-medium">$35</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">Admin overhead</span>
+<span class="font-body-md text-on-surface font-medium">$115</span>
+</div>
+</div>
+<div class="p-5 bg-surface-bright border-t border-surface-container-highest rounded-b-xl flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Subtotal Cost</span>
+<span class="font-h2 text-h2 text-error">-$910</span>
+</div>
+</div>
+</div>
+</main>
+</div>
+<!-- BottomNavBar (Mobile Only) - Suppressed because this is a desktop shell, but included per JSON instructions if it were mobile. Since instructions say "Responsive Pivot: On WEB hidden md:flex", we ensure it's hidden on desktop.-->
+<nav class="md:hidden fixed bottom-0 left-0 w-full h-20 z-50 flex justify-around items-center px-4 pb-safe bg-white/90 dark:bg-slate-950/90 backdrop-blur-md border-t rounded-t-xl border-slate-200 dark:border-slate-800 shadow-[0_-4px_12px_rgba(0,0,0,0.05)] font-['Manrope'] text-[11px] font-semibold uppercase tracking-wider">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 hover:text-[#004F54] dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" data-icon="home">home</span>
+            Home
+        </a>
+<a class="flex flex-col items-center justify-center text-[#004F54] dark:text-teal-400 bg-teal-50 dark:bg-teal-900/30 rounded-xl px-4 py-1 scale-95 duration-100" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1 filled" data-icon="analytics">analytics</span>
+            Costs
+        </a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 hover:text-[#004F54] dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" data-icon="account_balance_wallet">account_balance_wallet</span>
+            Revenue
+        </a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 hover:text-[#004F54] dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" data-icon="tune">tune</span>
+            Settings
+        </a>
+</nav>

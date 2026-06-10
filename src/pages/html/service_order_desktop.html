@@ -1,0 +1,202 @@
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-8 py-4 max-w-[1200px] mx-auto bg-[#F7F6F2] dark:bg-slate-950/80 backdrop-blur-md border-b border-stone-200 dark:border-slate-800 left-1/2 -translate-x-1/2">
+<div class="text-xl font-bold text-[#01696F] dark:text-teal-500 font-h1">Serene Concierge</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-manrope uppercase tracking-wider text-sm font-semibold text-stone-500 dark:text-slate-400 hover:text-[#01696F] transition-colors" href="#">Dashboard</a>
+<a class="font-manrope uppercase tracking-wider text-sm font-semibold text-[#01696F] dark:text-teal-400 border-b-2 border-[#01696F] pb-1 transition-all" href="#">Services</a>
+<a class="font-manrope uppercase tracking-wider text-sm font-semibold text-stone-500 dark:text-slate-400 hover:text-[#01696F] transition-colors" href="#">Applications</a>
+<a class="font-manrope uppercase tracking-wider text-sm font-semibold text-stone-500 dark:text-slate-400 hover:text-[#01696F] transition-colors" href="#">Documents</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-stone-600 hover:text-[#01696F] transition-all">notifications</button>
+<button class="material-symbols-outlined text-stone-600 hover:text-[#01696F] transition-all">help_outline</button>
+<div class="w-10 h-10 rounded-full overflow-hidden border border-stone-200">
+<img alt="User profile avatar" data-alt="professional portrait of a male user in a soft lit studio setting for a profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyDfxAE9-aN0vYnIIUD5hQYcPOInYSxSLE0_A7trGagRkuYd5xp3hHNOjgElR6sZuMjeeBYd3qnxksc5pfTjYYsxOjO78q5WZDFKbhzq1L2Kggso2TqKYUKygGTwtnadaw8ZHynsnauMF9E9hmIzMM96YO-CyHv_H6oNREyj8BJKRXW_4syC4p5bnzUOlnzWqZffJoCQGpyegc1pFBg1tTdhvBIWpuGQdpOarVvKJ_Ah4UFIVCibNe81OoIlsjY4ypDfLG72PJxa2N"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar -->
+<aside class="hidden lg:flex flex-col fixed left-0 top-0 h-full py-6 w-64 bg-stone-50 dark:bg-slate-900 border-r border-stone-200 dark:border-slate-800 z-40">
+<div class="px-6 mb-10 mt-16">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-[#01696F] flex items-center justify-center text-white">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">concierge</span>
+</div>
+<div>
+<h2 class="text-lg font-black text-[#01696F] dark:text-teal-500 font-h2 leading-none">Concierge Elite</h2>
+<p class="text-xs text-stone-500 font-label-caps mt-1">Premium Support</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 px-4 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 bg-stone-200/50 dark:bg-teal-900/20 text-[#01696F] dark:text-teal-300 border-r-4 border-[#01696F] font-manrope text-sm font-medium scale-[0.99]" href="#">
+<span class="material-symbols-outlined">concierge</span> Services
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-stone-600 dark:text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined">calendar_today</span> My Bookings
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-stone-600 dark:text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined">gavel</span> Legal Desk
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-stone-600 dark:text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined">payments</span> Payments
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-stone-600 dark:text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined">library_books</span> Resources
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-stone-600 dark:text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined">settings</span> Settings
+            </a>
+</nav>
+<div class="px-6 pt-6">
+<button class="w-full py-3 bg-[#01696F] text-white rounded-full font-button text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-all">
+                Contact Consultant
+            </button>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="lg:ml-64 pt-24 pb-32 px-4 md:px-10 max-w-[1200px] mx-auto min-h-screen">
+<!-- Header Section -->
+<div class="mb-12">
+<h1 class="font-h1 text-display text-[#28251D] mb-2">Select a Service</h1>
+<p class="text-body-lg text-secondary">Choose the service you need assistance with today.</p>
+</div>
+<!-- Service Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-[0_8px_30px_rgb(40,37,29,0.05)] transition-all cursor-pointer group">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[#01696F] text-3xl">home_work</span>
+</div>
+<h3 class="font-h2 text-[#28251D] mb-3">Temporary Accommodation</h3>
+<p class="text-body-md text-secondary mb-8">Short-term housing solutions with curated amenities and prime locations.</p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+                        $500 - $1200
+                    </div>
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+                        1-3 Days
+                    </div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-[0_8px_30px_rgb(40,37,29,0.05)] transition-all cursor-pointer group">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[#01696F] text-3xl">flight_takeoff</span>
+</div>
+<h3 class="font-h2 text-[#28251D] mb-3">Home Leave Processing</h3>
+<p class="text-body-md text-secondary mb-8">End-to-end management of return flights, visa re-entry, and logistics.</p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+                        $150 - $450
+                    </div>
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+                        2-5 Days
+                    </div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-[0_8px_30px_rgb(40,37,29,0.05)] transition-all cursor-pointer group">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[#01696F] text-3xl">swap_horiz</span>
+</div>
+<h3 class="font-h2 text-[#28251D] mb-3">Transfer</h3>
+<p class="text-body-md text-secondary mb-8">Seamlessly migrate existing service contracts with full legal compliance.</p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+                        $300 - $800
+                    </div>
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+                        7-14 Days
+                    </div>
+</div>
+</div>
+<!-- Card 4 (SELECTED) -->
+<div class="relative bg-teal-50/50 p-8 rounded-xl border-2 border-[#01696F] shadow-[0_8px_30px_rgb(1,105,111,0.08)] transition-all cursor-pointer group">
+<div class="absolute top-4 right-4 w-8 h-8 bg-[#01696F] rounded-full flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div class="w-14 h-14 rounded-full bg-[#01696F]/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[#01696F] text-3xl">autorenew</span>
+</div>
+<h3 class="font-h2 text-[#28251D] mb-3">Renewal</h3>
+<p class="text-body-md text-[#28251D] mb-8 opacity-80">Automated extension of existing permits and service agreements.</p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-label-caps text-[#01696F]">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+                        $200 - $600
+                    </div>
+<div class="flex items-center gap-2 text-label-caps text-[#01696F]">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+                        3-5 Days
+                    </div>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-[0_8px_30px_rgb(40,37,29,0.05)] transition-all cursor-pointer group">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[#01696F] text-3xl">person_add</span>
+</div>
+<h3 class="font-h2 text-[#28251D] mb-3">Direct Hire</h3>
+<p class="text-body-md text-secondary mb-8">Facilitated hiring process for known candidates with full administrative support.</p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+                        $800 - $1500
+                    </div>
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+                        10-20 Days
+                    </div>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-[0_8px_30px_rgb(40,37,29,0.05)] transition-all cursor-pointer group">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[#01696F] text-3xl">gavel</span>
+</div>
+<h3 class="font-h2 text-[#28251D] mb-3">Legal Support</h3>
+<p class="text-body-md text-secondary mb-8">Consultations and documentation review by certified legal professionals.</p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+                        $100 - $400 / hr
+                    </div>
+<div class="flex items-center gap-2 text-label-caps text-secondary">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+                        24hr Response
+                    </div>
+</div>
+</div>
+</div>
+</main>
+<!-- Sticky Bottom CTA -->
+<footer class="fixed bottom-0 w-full flex justify-between items-center px-10 py-6 z-40 bg-white/90 backdrop-blur-md border-t border-stone-100 shadow-[0_-4px_20px_rgba(0,0,0,0.03)] lg:pl-72">
+<div class="hidden sm:block">
+<p class="text-label-caps text-stone-400">Step 1 of 4</p>
+<p class="font-h3 text-on-surface">Service: <span class="text-[#01696F]">Renewal</span></p>
+</div>
+<div class="flex gap-4 w-full sm:w-auto">
+<button class="flex-1 sm:flex-none px-10 py-4 border border-outline text-secondary font-button rounded-full hover:bg-stone-50 transition-all">
+                Cancel
+            </button>
+<button class="flex-1 sm:flex-none px-12 py-4 bg-[#01696F] text-white font-button rounded-full hover:opacity-90 shadow-lg shadow-teal-900/10 flex items-center justify-center gap-2">
+                Continue <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</footer>
+<!-- Universal Footer (Legal Info) -->
+<div class="lg:ml-64 border-t border-stone-100 dark:border-slate-900 py-4 px-10 flex justify-between items-center bg-white">
+<p class="font-manrope text-xs text-stone-500">© 2024 Serene Concierge. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="font-manrope text-xs text-stone-400 hover:text-[#01696F] transition-colors" href="#">Terms of Service</a>
+<a class="font-manrope text-xs text-stone-400 hover:text-[#01696F] transition-colors" href="#">Privacy Policy</a>
+<a class="font-manrope text-xs text-stone-400 hover:text-[#01696F] transition-colors" href="#">Contact Support</a>
+</div>
+</div>

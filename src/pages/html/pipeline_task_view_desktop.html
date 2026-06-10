@@ -1,0 +1,294 @@
+<!-- SideNavBar Component -->
+<nav class="hidden lg:flex flex-col fixed left-0 top-0 h-full z-40 py-6 bg-slate-50 dark:bg-slate-950 text-teal-700 dark:text-teal-400 font-manrope text-sm h-screen w-64 border-r border-slate-200 dark:border-slate-800">
+<div class="px-6 mb-8 flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center overflow-hidden">
+<img alt="Agency Logo" class="w-full h-full object-cover" data-alt="Minimalist abstract geometric logo representing a modern corporate agency, deep teal and white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh-Vuzq27AGcxoxFKmJU9Yk6Sf05fVih1iYvOe51lRDzvQO3JLC5Y2xQmAXYCdKfStp6ruTYw8fcuEEhMAs7M0AEo9aNlfhNmOGN2mLuwDpdDBsVRDA4X_zcyH9HcspCcy6S96nYovHCproFgIWKdeDSrFfWzC9n-1nhCHqOpyzbO3Yk1QsdGHXXFwaHrwa_TTj0xZVkyMDWtHB7NyeWrMeID-bEKA7uoEDiwaJ0wuiUteYisYCybxsMQvv1kOtgTGbPlgIj1VE9fB"/>
+</div>
+<div>
+<h1 class="text-lg font-black text-teal-800 dark:text-teal-100 leading-tight">MingHwee Admin</h1>
+<p class="text-xs text-slate-500">Regulatory Ops</p>
+</div>
+</div>
+<div class="px-4 mb-6">
+<button class="w-full bg-primary-container text-on-primary-container font-button text-button py-3 px-4 rounded-full flex items-center justify-center gap-2 hover:bg-primary hover:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-lg">add</span>
+                New Placement
+            </button>
+</div>
+<div class="flex-1 flex flex-col gap-1 px-4 overflow-y-auto">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-teal-50 dark:bg-teal-900/20 text-teal-700 dark:text-teal-300 font-bold border-r-4 border-teal-700 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">account_tree</span>
+                Pipeline
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">person_search</span>
+                Helpers
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">business</span>
+                Employers
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">assignment</span>
+                Contracts
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">settings</span>
+                Settings
+            </a>
+</div>
+<div class="mt-auto px-4 flex flex-col gap-1 pt-6 border-t border-slate-200 dark:border-slate-800 mx-4">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+                Support
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined">logout</span>
+                Logout
+            </a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 lg:ml-64 min-h-screen flex flex-col">
+<!-- TopNavBar Component -->
+<header class="bg-white dark:bg-slate-900 text-teal-700 dark:text-teal-400 font-manrope text-sm font-medium docked full-width top-0 border-b z-50 border-slate-200 dark:border-slate-800 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] flex justify-between items-center w-full px-6 py-3 sticky top-0">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tight text-teal-800 dark:text-teal-100 lg:hidden">MingHwee Portal</span>
+<nav class="hidden md:flex items-center gap-6">
+<!-- Navigation links intentionally left minimal as SideNav takes primary duty in this layout -->
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="pl-10 pr-4 py-2 bg-surface-container-low border-none rounded-full text-sm focus:ring-2 focus:ring-primary-container w-64" placeholder="Search..." type="text"/>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-full text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-300 transition-colors active:scale-95 duration-200 relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full"></span>
+</button>
+<button class="p-2 rounded-full text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-300 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined">help_outline</span>
+</button>
+</div>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant cursor-pointer ml-2">
+<img alt="Admin User Avatar" class="w-full h-full object-cover" data-alt="Professional headshot of a corporate administrative woman with glasses, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpkkLYqVhQw0IIwhrgjBMKKPmyFvxhWi5RvDWsGSq5z9EaKcgzDdZAaNSvcHrVIMlMsIoOsDqScukqXUHlPJiqym_yOPeTc2jFRqMIWLPLfSFg2d7v4LnTyrnegMVMnfsZcCQyEAzJd6_BXNk04GX_Rk12FW8iP9M-0wjNNVTQ7KiFDPuKXjDKHv-IxCDGOHq7sqzyE4AmmoAckcNexOHRKY6JQeARV-M9ydfzm0yESuItcatZRCCSSEuxhuNctS7LQEjRMdfGQSBt"/>
+</div>
+</div>
+</header>
+<!-- Page Content -->
+<div class="p-6 lg:p-10 max-w-[1200px] mx-auto w-full flex-1 flex flex-col gap-stack-md">
+<!-- Page Header & Actions -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<h2 class="font-h2 text-h2 text-on-surface mb-1">My Active Pipelines (18)</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Manage and track helper placement progress.</p>
+</div>
+<div class="flex items-center gap-3">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="pl-9 pr-4 py-2 border border-outline-variant rounded-lg text-sm bg-surface-container-lowest focus:ring-2 focus:ring-primary-container focus:border-primary-container w-full md:w-64 shadow-sm" placeholder="Search helper or employer..." type="text"/>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 border border-outline-variant rounded-lg text-on-surface-variant font-button text-sm hover:bg-surface-container-low transition-colors shadow-sm bg-surface-container-lowest">
+<span class="material-symbols-outlined text-[18px]">filter_list</span>
+                        Filter
+                    </button>
+<button class="flex items-center gap-2 px-4 py-2 border border-outline-variant rounded-lg text-on-surface-variant font-button text-sm hover:bg-surface-container-low transition-colors shadow-sm bg-surface-container-lowest">
+<span class="material-symbols-outlined text-[18px]">sort</span>
+                        Sort
+                    </button>
+</div>
+</div>
+<!-- Filter Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto pb-2 -mx-6 px-6 lg:mx-0 lg:px-0 scrollbar-hide">
+<button class="px-4 py-2 rounded-full bg-secondary-container text-on-secondary-container font-button text-sm whitespace-nowrap transition-colors">
+                    All Active
+                </button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant text-on-surface-variant font-button text-sm whitespace-nowrap hover:bg-surface-container-low transition-colors flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+                    Urgent
+                </button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant text-on-surface-variant font-button text-sm whitespace-nowrap hover:bg-surface-container-low transition-colors">
+                    Awaiting Action
+                </button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant text-on-surface-variant font-button text-sm whitespace-nowrap hover:bg-surface-container-low transition-colors">
+                    On Track
+                </button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest border border-outline-variant text-on-surface-variant font-button text-sm whitespace-nowrap hover:bg-surface-container-low transition-colors flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+                    Stalled
+                </button>
+</div>
+<!-- Data Grid (Bento/Card Style List) -->
+<div class="flex flex-col gap-3">
+<!-- Row 1: On Track -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-4 flex flex-col md:flex-row md:items-center gap-4 hover:shadow-md transition-shadow cursor-pointer relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1 h-full bg-primary-container"></div>
+<!-- Helper Info -->
+<div class="flex items-center gap-3 w-full md:w-2/12 pl-2">
+<div class="w-10 h-10 rounded-full bg-surface-variant overflow-hidden flex-shrink-0">
+<img alt="Helper Photo" class="w-full h-full object-cover" data-alt="Portrait of a professional Southeast Asian domestic helper smiling softly, well-lit studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdoCCiq6c60ljiBmxy6pKJTDvQf8YvDWfLM7_sg-hXGXeGByXClk1ej5FoUuZi9_f_C1zpwAklGHbe1oYcUFVI1ld6a6FeHBZlKyGXDok0SuGriuoVNa2MZf-zN0qDzXKPxuWTFK1HQEVjXKjqMYRscE2lLBvDE21NfNyPH1wpVtFtwOH2tCWqIKZMaCeIt9-yir1jpUJ97usBKvuj6qZlyLD1YMvYfLaydmAb81EY_y3A_ckIFykidEAUQICZeInK03IadEcS0B2r"/>
+</div>
+<div>
+<p class="font-button text-sm text-on-surface">Maria Santos</p>
+<div class="flex items-center gap-1 text-xs text-on-surface-variant">
+<span class="text-[10px]">🇵🇭</span> PHL
+                            </div>
+</div>
+</div>
+<!-- Employer -->
+<div class="w-full md:w-1/12">
+<p class="font-label-caps text-label-caps text-outline mb-1 hidden md:block">Employer</p>
+<p class="font-body-md text-sm text-on-surface-variant">JL</p>
+</div>
+<!-- Stage -->
+<div class="w-full md:w-2/12">
+<p class="font-label-caps text-label-caps text-outline mb-1 hidden md:block">Stage</p>
+<span class="inline-flex items-center px-2 py-1 rounded-md bg-primary-fixed-dim/20 text-on-primary-fixed-variant font-label-caps text-[11px]">
+                            MOM Processing
+                        </span>
+</div>
+<!-- Status -->
+<div class="w-full md:w-2/12">
+<p class="font-label-caps text-label-caps text-outline mb-1 hidden md:block">Status</p>
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-tint"></span>
+<p class="font-body-md text-sm text-on-surface-variant">2 days in stage</p>
+</div>
+</div>
+<!-- Next Action -->
+<div class="w-full md:w-3/12">
+<p class="font-label-caps text-label-caps text-outline mb-1 hidden md:block">Next Action</p>
+<p class="font-body-md text-sm text-on-surface truncate">Awaiting IPA Approval</p>
+</div>
+<!-- Assigned -->
+<div class="w-full md:w-1/12 flex items-center md:justify-center">
+<p class="font-label-caps text-label-caps text-outline mb-1 hidden md:block absolute -top-8 opacity-0">Assigned</p>
+<div class="w-7 h-7 rounded-full bg-surface-variant overflow-hidden border border-white" title="Assigned to Sarah">
+<img alt="Admin Avatar" class="w-full h-full object-cover" data-alt="Professional headshot of a corporate administrative woman with glasses, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLZDCEEe7O3ItOH95klxogE5kwzBcPznnjQmVwmAF80d7ecC33dwJw8AqrtQUlsJr5b8UXMvV9H5FaZa4bNKTrem1cSEvMamca0zrM3rHU5TCdYwCXNp_uJzxQbKylfJQi7iNECY5wSrpkC6pryK0Z6FsdPvmkm1mxZAtJ1zDYdornql59MkXFlDxrKGHkofBX26P8ZYpXawip7_zdnt7YxhA92hYfVHj8IRWF6ifYaaY9Pdw9VIzxuyQPgyLlPss-9_FwKLaJIt_n"/>
+</div>
+</div>
+<!-- Action -->
+<div class="w-full md:w-1/12 flex justify-end">
+<button class="p-2 text-outline hover:text-primary-container transition-colors rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Row 2: Stalled / Urgent -->
+<div class="bg-surface-container-lowest border border-tertiary/30 rounded-xl p-4 flex flex-col md:flex-row md:items-center gap-4 hover:shadow-md transition-shadow cursor-pointer relative overflow-hidden bg-tertiary-fixed/10">
+<div class="absolute top-0 left-0 w-1 h-full bg-tertiary"></div>
+<!-- Helper Info -->
+<div class="flex items-center gap-3 w-full md:w-2/12 pl-2">
+<div class="w-10 h-10 rounded-full bg-surface-variant overflow-hidden flex-shrink-0">
+<img alt="Helper Photo" class="w-full h-full object-cover" data-alt="Portrait of a young Indonesian woman in professional attire, soft neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGnVmKoFnym0V5G7Wnzhka1h_jW0hMMan6EKnLoZC6GyamKsS4rDyZCIbsVxXECLgeQo11tLg21q0yZQs2xNbWPkkOEYb6OgI5FeY_BOluLv4Z43aETXEU_xsdEPZcHX3wMKhDR344laOVmAceEdK6T4CSh_t8N6zVVk9mEPT59SsplsH7dWS16tkZcNxR8P-xmF8mpi60VQrRGGbir1ySabCKJbC6S2lUeKu19NRxJkGC9mXGwaRJnr12eb-iDKnWnqRLbm-i38AR"/>
+</div>
+<div>
+<p class="font-button text-sm text-on-surface">Siti Nurhaliza</p>
+<div class="flex items-center gap-1 text-xs text-on-surface-variant">
+<span class="text-[10px]">🇮🇩</span> IDN
+                            </div>
+</div>
+</div>
+<!-- Employer -->
+<div class="w-full md:w-1/12">
+<p class="font-body-md text-sm text-on-surface-variant">KW</p>
+</div>
+<!-- Stage -->
+<div class="w-full md:w-2/12">
+<span class="inline-flex items-center px-2 py-1 rounded-md bg-surface-variant text-on-surface-variant font-label-caps text-[11px]">
+                            Medical Clearance
+                        </span>
+</div>
+<!-- Status -->
+<div class="w-full md:w-2/12">
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+<p class="font-button text-sm text-error">5 days in stage</p>
+</div>
+</div>
+<!-- Next Action -->
+<div class="w-full md:w-3/12">
+<p class="font-body-md text-sm text-on-surface font-medium">Upload medical cert by Apr 27</p>
+</div>
+<!-- Assigned -->
+<div class="w-full md:w-1/12 flex items-center md:justify-center">
+<div class="w-7 h-7 rounded-full bg-surface-variant overflow-hidden border border-white" title="Assigned to John">
+<img alt="Admin Avatar" class="w-full h-full object-cover" data-alt="Headshot of a corporate administrative man, soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfgQEOZpUZ2q0kPIbzC8NovHtrFxNHluQUtns-01NSC-340qJ9wl5vm6lzOyjLJGn5om-wiP-WZFAZv3Sknk1jfdOZOymvBlSARSSN4bsM57TLi9b9R7FTtocTbzr8vsXEcqx-zJHEGXacYNuzc7i1zV0HSrWjOggqOr17lXhtzeb30TmVE04aAZLIuBfEL-BW5btXs-6H-BECVQzCqlE5Fqd6KoDOT-P4Jtscg_CY7zyMM7s7CPFbNx87rmbugejaUjjHbWILfr66"/>
+</div>
+</div>
+<!-- Action -->
+<div class="w-full md:w-1/12 flex justify-end">
+<button class="p-2 text-outline hover:text-primary-container transition-colors rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Row 3: Matching -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-4 flex flex-col md:flex-row md:items-center gap-4 hover:shadow-md transition-shadow cursor-pointer relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1 h-full bg-outline-variant"></div>
+<!-- Helper Info -->
+<div class="flex items-center gap-3 w-full md:w-2/12 pl-2">
+<div class="w-10 h-10 rounded-full bg-surface-variant overflow-hidden flex-shrink-0 flex items-center justify-center text-outline">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div>
+<p class="font-button text-sm text-on-surface italic text-outline">Pending Match</p>
+<div class="flex items-center gap-1 text-xs text-outline-variant">
+                                --
+                            </div>
+</div>
+</div>
+<!-- Employer -->
+<div class="w-full md:w-1/12">
+<p class="font-body-md text-sm text-on-surface-variant">AT</p>
+</div>
+<!-- Stage -->
+<div class="w-full md:w-2/12">
+<span class="inline-flex items-center px-2 py-1 rounded-md bg-secondary-fixed text-on-secondary-fixed-variant font-label-caps text-[11px]">
+                            Matching
+                        </span>
+</div>
+<!-- Status -->
+<div class="w-full md:w-2/12">
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+<p class="font-body-md text-sm text-on-surface-variant">1 day in stage</p>
+</div>
+</div>
+<!-- Next Action -->
+<div class="w-full md:w-3/12">
+<p class="font-body-md text-sm text-on-surface truncate">Send 3 candidate profiles</p>
+</div>
+<!-- Assigned -->
+<div class="w-full md:w-1/12 flex items-center md:justify-center">
+<div class="w-7 h-7 rounded-full bg-surface-variant overflow-hidden border border-white" title="Assigned to Sarah">
+<img alt="Admin Avatar" class="w-full h-full object-cover" data-alt="Professional headshot of a corporate administrative woman with glasses, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlIkH5B0VXvtd_mGGshYPWJLAfYznYzkFgsQ7UxBHkjLTkdt7Lmglqic11utEQrsjurj6JF_kjeQ539ikZMZbd_EOaBo54U7_cJ_Lyqd9k7IWh8Eej2cbz4YgPeWY72Kgo5lvJ5Qxklc0ZB85eAMbDgccQHM-kkah9kFIeK_rBpuwDo-4Jamuevs5L_Yd0TFyIEPuvhwjIsvplwgSSzWTkKxF3KPj213CYZK69DwoZc3nFI8Krr8Ox6tcpjOBlLJTOpV7WSfIHgPP6"/>
+</div>
+</div>
+<!-- Action -->
+<div class="w-full md:w-1/12 flex justify-end">
+<button class="p-2 text-outline hover:text-primary-container transition-colors rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="flex items-center justify-between mt-4 py-4 border-t border-outline-variant">
+<p class="font-body-md text-sm text-on-surface-variant">Showing 1 to 3 of 18 pipelines</p>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded border border-outline-variant text-outline hover:bg-surface-container-low disabled:opacity-50" disabled="">
+<span class="material-symbols-outlined text-sm">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded bg-primary-container text-on-primary-container font-button text-sm flex items-center justify-center">1</button>
+<button class="w-8 h-8 rounded border border-outline-variant text-on-surface-variant hover:bg-surface-container-low font-button text-sm flex items-center justify-center">2</button>
+<button class="w-8 h-8 rounded border border-outline-variant text-on-surface-variant hover:bg-surface-container-low font-button text-sm flex items-center justify-center">3</button>
+<button class="p-2 rounded border border-outline-variant text-on-surface-variant hover:bg-surface-container-low">
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</main>

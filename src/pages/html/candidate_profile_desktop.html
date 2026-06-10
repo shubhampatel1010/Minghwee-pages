@@ -1,0 +1,173 @@
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full h-16 z-50 bg-stone-50/95 dark:bg-slate-950/95 backdrop-blur-md border-b border-stone-200 dark:border-slate-800 shadow-sm shadow-stone-200/50 dark:shadow-none font-manrope text-sm font-medium tracking-tight">
+<div class="flex justify-between items-center px-10 max-w-[1440px] mx-auto h-full">
+<div class="text-xl font-extrabold tracking-tighter text-teal-900 dark:text-teal-50">AgencyCore</div>
+<div class="hidden md:flex gap-8 h-full items-center">
+<!-- Active Nav Item -->
+<a class="text-teal-700 dark:text-teal-400 border-b-2 border-teal-700 h-full flex items-center pt-1 active:opacity-80" href="#">Candidates</a>
+<!-- Inactive Nav Items -->
+<a class="text-stone-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 transition-all h-full flex items-center pt-1 active:opacity-80" href="#">Placements</a>
+<a class="text-stone-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 transition-all h-full flex items-center pt-1 active:opacity-80" href="#">Employers</a>
+<a class="text-stone-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 transition-all h-full flex items-center pt-1 active:opacity-80" href="#">Reporting</a>
+</div>
+<div class="flex gap-4 items-center">
+<button class="text-stone-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 transition-all active:opacity-80">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="text-stone-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-300 transition-all active:opacity-80">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-surface-container-highest overflow-hidden border border-outline-variant ml-2">
+<img alt="Administrator Avatar" class="w-full h-full object-cover" data-alt="close-up portrait of a professional administrator in a bright office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDb_WkS6WOX0uSAM6-lws6oFnogPuZLpCVUyvzHJPUdGSvtM_p1HNo6hnMpj2GQSOZc8RbtRE1_rO2_fNhwQJuOxulUQ5XWrlT0mCOqKB1Qd-Z7Lh8Y1wEwXs5HHTFrUd5upgQbfJg4xcsSigzYmt28TUmvtIzjn3Nu7c-vujpCkqt4Aa9IvVQJmZgKwqVa4aCJ2LYqZZOaI43M_6DiK8mZ0KZbs9HTDHxyJbVgmetKLyF6SdW_K7GqIlCy3w8sTjkQozd5omxMNpDe"/>
+</div>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="max-w-container-max mx-auto px-margin-desktop pt-[104px] pb-[140px] flex flex-col md:flex-row gap-gutter">
+<!-- Left Column (Narrow) -->
+<aside class="w-full md:w-[340px] flex-shrink-0 flex flex-col gap-stack-sm">
+<!-- Candidate Photo -->
+<div class="relative rounded-xl overflow-hidden shadow-[0_4px_20px_0_rgba(40,37,29,0.02)] bg-surface-container-lowest border border-outline-variant/30 h-[420px]">
+<img class="w-full h-full object-cover" data-alt="high quality professional portrait of a young filipina woman smiling softly, natural lighting, clean background, wearing a neat uniform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFx5UJv5K_9ODPzS69KvSKjcele6uxsdpqAsptZPJC5UAerpFvX_z6GSh7LJPirt1DI5tILNH7K_yiy8jDAfZ3jQ753fFwQ-7sNpMGD3R2XUIWA_Y6hMhSBzn66UZ_oXT_xLYKj_WSHlfix6tTy2nkZdtlEKxGUhQSxymLgNJhUSiXC8jGJHQo4UfEkkSMn3vSF0gSmOJ8Cw7foH5HpBuWLMie4-z2CeFvgNpqIaXOl5y_XLzw454dluvF0QbeXm8dQILxaFUWrEfd"/>
+<div class="absolute top-4 right-4 bg-primary-container text-on-primary-container font-label-caps text-label-caps px-3 py-1.5 rounded-full flex items-center gap-1 shadow-sm border border-primary-container/20 backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+                    VERIFIED
+                </div>
+</div>
+<!-- Bento Stats Card -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_4px_20px_0_rgba(40,37,29,0.02)] border border-outline-variant/30">
+<div class="grid grid-cols-2 gap-y-6 gap-x-4">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">AGE</span>
+<span class="font-h3 text-h3 text-on-surface">28</span>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">EXPERIENCE</span>
+<span class="font-h3 text-h3 text-on-surface">5 yrs</span>
+</div>
+<div class="col-span-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">ORIGIN</span>
+<span class="font-h3 text-h3 text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">location_on</span>
+                            Philippines
+                        </span>
+</div>
+</div>
+</div>
+</aside>
+<!-- Right Column (Wide) -->
+<article class="flex-1 flex flex-col gap-stack-lg">
+<!-- Header Section -->
+<header class="flex items-center gap-4">
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-variant transition-colors group">
+<span class="material-symbols-outlined group-hover:-translate-x-0.5 transition-transform">arrow_back</span>
+</button>
+<h1 class="font-h1 text-h1 text-on-background">Candidate — Ana Santos</h1>
+</header>
+<!-- Video Introduction -->
+<section class="flex flex-col gap-stack-sm">
+<h2 class="font-h2 text-h2 text-on-surface">Video Introduction</h2>
+<div class="relative w-full h-[360px] rounded-xl overflow-hidden shadow-[0_4px_20px_0_rgba(40,37,29,0.02)] bg-surface-container border border-outline-variant/30 group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="professional woman sitting in a bright modern room, looking directly at camera, soft natural lighting from a window" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1oXOk4sjXbFbRYmR6W0uy0Pqgu05ftzH7DgbU58TsUN1jtZtIjY7xvMwcEYCV5Gbx2O8jiJJ6nogOothNgNsOMx1w2LYejJc8q2UDWUqUTKEddZWhp3LABPBJmnPgXU2lbgiBvcvKgCtQSXebzTqZH82lke3cV_iC3a9arlGZADnyyhvykIMlJ3yEgV9zAZrqMzHo1yA7wMPNxPQqtnS5npfNY-7JQMPUhZOtoJoB43NfK_Ks2l97ZGgLctQ9t59yYBPlHq2I6M0I"/>
+<div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-16 h-16 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-[32px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/90 backdrop-blur-sm px-3 py-1.5 rounded-md font-nav-label text-nav-label text-on-surface">
+                        02:15
+                    </div>
+</div>
+</section>
+<!-- Professional Background -->
+<section class="flex flex-col gap-stack-sm">
+<h2 class="font-h2 text-h2 text-on-surface">Professional Background</h2>
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_4px_20px_0_rgba(40,37,29,0.02)] border border-outline-variant/30">
+<div class="relative pl-6 border-l-2 border-surface-container-high space-y-stack-md ml-2 my-2">
+<!-- Timeline Item 1 -->
+<div class="relative">
+<div class="absolute -left-[31px] top-1.5 w-[14px] h-[14px] rounded-full bg-primary border-2 border-surface-container-lowest shadow-sm"></div>
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-h3 text-h3 text-on-background">Housekeeper &amp; Nanny</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">Singapore</p>
+</div>
+<span class="px-3 py-1 bg-surface-container text-on-surface-variant rounded-md font-label-caps text-label-caps">3 YEARS</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                                Managed daily household operations for a family of four. Responsibilities included deep cleaning, meal preparation (Western and Asian cuisines), and providing full-time childcare for two toddlers. Commended for excellent organizational skills and a proactive approach to household management.
+                            </p>
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative">
+<div class="absolute -left-[31px] top-1.5 w-[14px] h-[14px] rounded-full bg-surface-variant border-2 border-surface-container-lowest shadow-sm"></div>
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-h3 text-h3 text-on-background">Domestic Helper</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">Philippines</p>
+</div>
+<span class="px-3 py-1 bg-surface-container text-on-surface-variant rounded-md font-label-caps text-label-caps">2 YEARS</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                                Provided comprehensive care for elderly family members, including medication management and mobility assistance. Maintained the cleanliness of a large estate and assisted with grocery shopping and basic administrative tasks.
+                            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Languages -->
+<section class="flex flex-col gap-stack-sm">
+<h2 class="font-h2 text-h2 text-on-surface">Languages</h2>
+<div class="flex flex-wrap gap-3">
+<button class="px-5 py-2.5 rounded-full bg-secondary-container text-on-secondary-container font-button text-button border border-secondary-container hover:bg-secondary-container/80 transition-colors flex items-center gap-2">
+                        English <span class="opacity-70 font-normal border-l border-on-secondary-container/20 pl-2 ml-1">Fluent</span>
+</button>
+<button class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface font-button text-button border border-outline-variant/50 hover:bg-surface-container-high transition-colors flex items-center gap-2">
+                        Tagalog <span class="opacity-70 font-normal border-l border-on-surface/20 pl-2 ml-1">Native</span>
+</button>
+<button class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface font-button text-button border border-outline-variant/50 hover:bg-surface-container-high transition-colors flex items-center gap-2">
+                        Cantonese <span class="opacity-70 font-normal border-l border-on-surface/20 pl-2 ml-1">Basic</span>
+</button>
+</div>
+</section>
+<!-- Employer Feedback -->
+<section class="flex flex-col gap-stack-sm">
+<h2 class="font-h2 text-h2 text-on-surface">Employer Feedback</h2>
+<div class="bg-primary-container text-on-primary-container rounded-xl p-8 shadow-[0_4px_20px_0_rgba(40,37,29,0.02)] relative overflow-hidden">
+<span class="material-symbols-outlined absolute -top-4 -left-2 text-[120px] opacity-10" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<div class="relative z-10">
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed italic mb-6">
+                            "Ana was an absolute blessing to our family. She is incredibly hardworking, trustworthy, and always anticipates what needs to be done. Our children adored her, and her cooking is fantastic. We were very sad to see her go when our contract ended."
+                        </p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-on-primary-container/20 flex items-center justify-center font-button text-button text-on-primary-container">
+                                TF
+                            </div>
+<div>
+<p class="font-button text-button text-on-primary-container block">The Tan Family, SG</p>
+<p class="font-nav-label text-nav-label text-on-primary-container/70 mt-1">Previous Employer (2020 - 2023)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</article>
+</main>
+<!-- Sticky Footer Actions -->
+<div class="fixed bottom-0 left-0 w-full bg-surface-container-lowest border-t border-outline-variant/30 z-40 shadow-[0_-4px_24px_0_rgba(40,37,29,0.04)]">
+<div class="max-w-container-max mx-auto px-margin-desktop py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+<a class="font-button text-button text-error hover:underline px-2 py-1" href="#">Decline</a>
+<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+<button class="px-6 py-3 rounded-full border border-primary-container text-primary-container font-button text-button hover:bg-primary-container/5 transition-colors w-full sm:w-auto text-center flex justify-center items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+                    Shortlist
+                </button>
+<button class="px-6 py-3 rounded-full bg-primary-container text-on-primary-container font-button text-button hover:bg-primary transition-colors shadow-sm w-full sm:w-auto text-center flex justify-center items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+                    Request Interview
+                </button>
+</div>
+</div>
+</div>

@@ -1,0 +1,357 @@
+<!-- TopNavBar Shell -->
+<header class="fixed top-0 w-full z-50 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm flex justify-between items-center h-16 px-6 w-full font-['Manrope'] antialiased">
+<div class="flex items-center gap-8">
+<span class="text-xl font-extrabold text-[#01696F] tracking-tight">MingHwee Agency</span>
+<div class="hidden md:flex gap-6">
+<button class="text-[#01696F] font-semibold border-b-2 border-[#01696F] pb-2 text-button font-button">Overview</button>
+<button class="text-slate-500 hover:text-slate-800 transition-colors text-button font-button">Applications</button>
+<button class="text-slate-500 hover:text-slate-800 transition-colors text-button font-button">Analytics</button>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-slate-50 relative group transition-colors">
+<span class="material-symbols-outlined text-slate-600">notifications</span>
+<span class="absolute top-2 right-2 block h-2.5 w-2.5 rounded-full bg-error border-2 border-white"></span>
+</button>
+<button class="p-2 rounded-full hover:bg-slate-50 transition-colors">
+<span class="material-symbols-outlined text-slate-600">settings</span>
+</button>
+<div class="h-8 w-8 rounded-full overflow-hidden border border-outline-variant">
+<img alt="Manager Profile" class="h-full w-full object-cover" data-alt="Professional portrait of a male manager in a corporate setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWidBZjV_iJ0zM47UXPcFy4BmTUO23dc83ZuS4aSNkEi9essKVOdXtWZG9MX47KxoKUYD-22Nz8z9AJ-2PTItl6khuREyydFvJdtRYUVJ2d78G-4GE83zkuwpFt7g3FuXg_kre6NmtVKaDrCB3ZUcX7QOgePkAWBAY1fZGgYWmXHXTQRlbHsNCalP0WTl_jlf0t2m8rch4aQRe6DVeDDY5UJYo2HKJga-25005OtUlO7mbYqLNU9wK5ll2kAi9BzLEJWzNUfY7CEqB"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar Shell -->
+<aside class="h-screen w-64 fixed left-0 top-0 pt-16 z-40 border-r border-slate-200 bg-slate-50 flex flex-col py-4 gap-2 font-['Manrope'] text-sm font-medium">
+<div class="px-6 py-6 border-b border-slate-200 mb-4">
+<h2 class="text-lg font-bold text-slate-900">Manager Portal</h2>
+<p class="text-xs text-slate-500">Domestic Helper Logistics</p>
+</div>
+<nav class="flex-1 px-3 space-y-1">
+<a class="flex items-center gap-3 px-3 py-2.5 bg-teal-50 text-[#01696F] border-r-4 border-[#01696F] transition-all duration-200" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-slate-100 hover:pl-4 transition-all duration-200" href="#">
+<span class="material-symbols-outlined">trending_up</span>
+<span>Sales Performance</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-slate-100 hover:pl-4 transition-all duration-200" href="#">
+<span class="material-symbols-outlined">account_tree</span>
+<span>Operations</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-slate-100 hover:pl-4 transition-all duration-200" href="#">
+<span class="material-symbols-outlined">groups</span>
+<span>Helper Database</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-slate-100 hover:pl-4 transition-all duration-200" href="#">
+<span class="material-symbols-outlined">verified_user</span>
+<span>Compliance</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-slate-100 hover:pl-4 transition-all duration-200" href="#">
+<span class="material-symbols-outlined">assessment</span>
+<span>Reports</span>
+</a>
+</nav>
+<div class="px-3 pt-4 border-t border-slate-200">
+<button class="w-full py-2.5 bg-primary text-on-primary rounded-xl font-button text-button flex items-center justify-center gap-2 active:scale-95 duration-150 shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+<span>New Application</span>
+</button>
+<div class="mt-4 flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 hover:text-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+<span>Support</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 hover:text-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span>Log Out</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 pt-24 px-8 pb-12 max-w-[1440px] mx-auto">
+<!-- Welcome Header -->
+<header class="mb-8 flex justify-between items-end">
+<div>
+<h1 class="font-h1 text-h1 text-on-background mb-1">Good morning, Michael. Here's today's overview.</h1>
+<p class="text-slate-500 font-body-md">Thursday, October 24, 2024</p>
+</div>
+<div class="flex gap-3">
+<span class="px-4 py-2 bg-white rounded-lg border border-outline-variant flex items-center gap-2 text-sm font-medium text-slate-600">
+<span class="material-symbols-outlined text-base">calendar_today</span> Last 30 Days
+        </span>
+</div>
+</header>
+<!-- Business Health Strip -->
+<section class="grid grid-cols-4 gap-6 mb-8">
+<div class="bg-white p-6 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+<div class="accent-bar bg-[#01696F]"></div>
+<p class="text-label-caps font-label-caps text-outline mb-2 uppercase">Active Placements</p>
+<div class="flex items-baseline gap-2">
+<h3 class="text-h1 font-h1">48</h3>
+<span class="text-xs font-semibold text-teal-600 flex items-center">
+<span class="material-symbols-outlined text-xs">arrow_upward</span> 12%
+          </span>
+</div>
+</div>
+<div class="bg-white p-6 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+<div class="accent-bar bg-primary-container"></div>
+<p class="text-label-caps font-label-caps text-outline mb-2 uppercase">Monthly Revenue</p>
+<div class="flex flex-col gap-1">
+<h3 class="text-h1 font-h1">$24,600</h3>
+<div class="flex items-center gap-2">
+<div class="flex-1 h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-container" style="width: 82%"></div>
+</div>
+<span class="text-xs font-bold text-outline">82%</span>
+</div>
+</div>
+</div>
+<div class="bg-white p-6 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+<div class="accent-bar bg-error"></div>
+<p class="text-label-caps font-label-caps text-outline mb-2 uppercase">Open Complaints</p>
+<div class="flex items-center gap-3">
+<h3 class="text-h1 font-h1">3</h3>
+<span class="px-2 py-1 bg-error-container text-on-error-container text-[10px] font-bold rounded-full uppercase tracking-wider">1 Urgent</span>
+</div>
+</div>
+<div class="bg-white p-6 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+<div class="accent-bar bg-secondary"></div>
+<p class="text-label-caps font-label-caps text-outline mb-2 uppercase">Team Capacity</p>
+<div class="flex items-center gap-3">
+<h3 class="text-h1 font-h1">87%</h3>
+<span class="material-symbols-outlined text-outline">query_stats</span>
+</div>
+</div>
+</section>
+<!-- Main Layout Grid -->
+<div class="grid grid-cols-12 gap-8">
+<!-- Left Column: Operations & Sales -->
+<div class="col-span-8 flex flex-col gap-8">
+<!-- Sales Team Performance -->
+<div class="bg-white rounded-xl border border-outline-variant shadow-sm overflow-hidden">
+<div class="px-6 py-4 border-b border-outline-variant flex justify-between items-center">
+<h3 class="font-h3 text-h3">Sales Team Performance</h3>
+<button class="text-primary font-button text-button hover:underline">View All</button>
+</div>
+<div class="p-6">
+<div class="space-y-6">
+<!-- Consultant 1 -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="h-12 w-12 rounded-full overflow-hidden bg-surface-container">
+<img class="h-full w-full object-cover" data-alt="Smiling female sales consultant portrait with bright lighting and soft focus background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0phV8phcWcgjp0qDpuzp35E7r8Bv_8nuU_MDA-ZHVQZaDMO5kpXHJU19pAP9512kTfxRhbar7awjPfTUkUKsleZXvXbq5z4CxQboq8Pv0Ah-ElRT2Znjj4NgSdSWsMPOCCNmBxQqMFW-VDZb5VngBJpwiHxQ1EB4xUxU3yMz4jNg8zXQ0nHQmxuIdPGNrwUZrAOUlGTH_FeoS65itCjwRroJY23kWnz-jTQMm2PeCRKc_yUKw8Vp-0MhbJD1_VFyThv9Aj3GqblYn"/>
+</div>
+<div>
+<h4 class="font-semibold text-slate-900">Sarah Jenkins</h4>
+<p class="text-xs text-slate-500">Senior Consultant</p>
+</div>
+</div>
+<div class="flex gap-12 text-right">
+<div>
+<p class="text-xs text-outline font-label-caps uppercase mb-1">Conversion</p>
+<p class="font-bold text-slate-900">74% / 70%</p>
+</div>
+<div>
+<p class="text-xs text-outline font-label-caps uppercase mb-1">Revenue</p>
+<p class="font-bold text-teal-700">$9,200</p>
+</div>
+</div>
+</div>
+<!-- Consultant 2 -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="h-12 w-12 rounded-full overflow-hidden bg-surface-container">
+<img class="h-full w-full object-cover" data-alt="Professional male consultant portrait in a bright studio with corporate attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo4mvVn1QWNaw860i5UmhcG6dnTaxnDjQrMtl8LrX5tFwslLLA1H3GX_klfzpm9u8zjeVk-uUcZn5Kfc4wtn7cNUnTsGK-ncaqhe6nqakJ9CJhfV1-QILpf70pUqIO8CQYZcEYz0JHlbW38oY5xn688lA9CflOMW6MiRRVxZEZR4KJHbYbRGL9YTm1gXS2Ke-CQyF-EfWJag9FRRYl5ndiQUaYn7qF1Do0OOMWjc9i-vQChUdxssSHWTb4SF0TxcfcypyxeqbMWMzT"/>
+</div>
+<div>
+<h4 class="font-semibold text-slate-900">David Chen</h4>
+<p class="text-xs text-slate-500">Consultant</p>
+</div>
+</div>
+<div class="flex gap-12 text-right">
+<div>
+<p class="text-xs text-outline font-label-caps uppercase mb-1">Conversion</p>
+<p class="font-bold text-slate-900">62% / 65%</p>
+</div>
+<div>
+<p class="text-xs text-outline font-label-caps uppercase mb-1">Revenue</p>
+<p class="font-bold text-teal-700">$7,800</p>
+</div>
+</div>
+</div>
+<!-- Consultant 3 -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="h-12 w-12 rounded-full overflow-hidden bg-surface-container">
+<img class="h-full w-full object-cover" data-alt="Confident female professional looking at camera with neutral office background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAG-EC9CrU7e3U5Q1lXerQPmxmlBHSN9i1zf2e8Mm9ajQfAicp_ByrSw80E-CH3Yd_485kwKX3BMlhqUGQm4rVSq3Dn10bryABQWmJT7tI8RHxiaEZXRkNbuVxfqQGe9hDUd_FbH0Ym6hs2qVeExHnkogtmJ49rI-g5q57HRGTGbuIJfLLD0NznG5DC_e_mQwun-LPo-hYnfA0F47AVQozEalrps435nnSuCX6uw0XxCbV4vkn_FtlPNaXpxj85Ip1-s86177r2ribC"/>
+</div>
+<div>
+<h4 class="font-semibold text-slate-900">Elena Rodriguez</h4>
+<p class="text-xs text-slate-500">Associate Consultant</p>
+</div>
+</div>
+<div class="flex gap-12 text-right">
+<div>
+<p class="text-xs text-outline font-label-caps uppercase mb-1">Conversion</p>
+<p class="font-bold text-slate-900">58% / 60%</p>
+</div>
+<div>
+<p class="text-xs text-outline font-label-caps uppercase mb-1">Revenue</p>
+<p class="font-bold text-teal-700">$7,600</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Placement Admin Workload -->
+<div class="bg-white rounded-xl border border-outline-variant shadow-sm overflow-hidden">
+<div class="px-6 py-4 border-b border-outline-variant flex justify-between items-center">
+<h3 class="font-h3 text-h3">Placement Admin Workload</h3>
+<span class="px-3 py-1 bg-surface-container rounded-full text-xs font-semibold text-on-surface">Live Flow</span>
+</div>
+<div class="p-6 grid grid-cols-2 gap-6">
+<!-- Admin 1 -->
+<div class="p-4 rounded-xl bg-surface-container-low border border-outline-variant flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<div class="h-10 w-10 rounded-lg overflow-hidden">
+<img class="h-full w-full object-cover" data-alt="Modern professional woman in workplace with bright airy aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABrqF56aKu6SMCmOH9G-ugL9eM27LkMUGXeBa-MsNZPoRhy_ly5rGsJfwiZfSMjzPgvhIF9MOz4iuYxZmyo941GAVzteS2Gh5mpfz1uae53aN3Oaa5EAELHBem0RMT7fLUocAFYLAJWDOCNgSpZvrMyar6S47A72zABIYwJwumDRg0lkKmWTbEI59sQpNpC__KSAWp-1AI8VbTtHo_1LN1xWa-s-xDIVfHBuDPiMhHyqR3BAL4bxf4478FpAUcSDo2x-8oEl-HuEks"/>
+</div>
+<div>
+<h4 class="font-bold text-slate-900">Amanda S.</h4>
+<p class="text-xs text-outline">Lead Admin</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-white p-3 rounded-lg border border-outline-variant">
+<p class="text-[10px] font-label-caps text-outline mb-1">ACTIVE PIPELINE</p>
+<p class="text-xl font-extrabold text-primary">14</p>
+</div>
+<div class="bg-white p-3 rounded-lg border border-outline-variant">
+<p class="text-[10px] font-label-caps text-error mb-1">OVERDUE ACTIONS</p>
+<p class="text-xl font-extrabold text-error">2</p>
+</div>
+</div>
+<div class="flex items-center gap-2 text-xs text-slate-600">
+<span class="material-symbols-outlined text-sm">description</span>
+<span>5 Pending Document Reviews</span>
+</div>
+</div>
+<!-- Admin 2 -->
+<div class="p-4 rounded-xl bg-surface-container-low border border-outline-variant flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<div class="h-10 w-10 rounded-lg overflow-hidden">
+<img class="h-full w-full object-cover" data-alt="Professional man's profile photo with corporate styling and soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9NmzJtd9D1DrQDLi0c7U_Coca4ZlbLZKbr415K70oy7tVv2FeD6wUEzUFz1ewj9TGaDYEP1s0fiAZEhxN_ZvlLXU4U35b_MKi28mUriKby5d_RWgvHRleosdQUecwi-sD2IgrGpyLNDTR--3IG1keR8lW5-b0gOo3-TVS4XyMF6RS2D0OGPU-IyV6tmrSJqxSfNugNulLSCvhkrD_jFUN0kA03iXlNSd42eeohpoQIBU90RJDhxII8jvyFX38QqB85JJKEYU05U4l"/>
+</div>
+<div>
+<h4 class="font-bold text-slate-900">Marcus Wright</h4>
+<p class="text-xs text-outline">Placement Officer</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-white p-3 rounded-lg border border-outline-variant">
+<p class="text-[10px] font-label-caps text-outline mb-1">ACTIVE PIPELINE</p>
+<p class="text-xl font-extrabold text-primary">11</p>
+</div>
+<div class="bg-white p-3 rounded-lg border border-outline-variant">
+<p class="text-[10px] font-label-caps text-outline mb-1">OVERDUE ACTIONS</p>
+<p class="text-xl font-extrabold text-slate-400">0</p>
+</div>
+</div>
+<div class="flex items-center gap-2 text-xs text-slate-600">
+<span class="material-symbols-outlined text-sm">description</span>
+<span>8 Pending Document Reviews</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Escalations & Feed -->
+<div class="col-span-4 flex flex-col gap-8">
+<!-- Escalation Alerts -->
+<div class="bg-white rounded-xl border border-error/20 shadow-sm overflow-hidden flex flex-col">
+<div class="bg-error-container/50 px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-error-container">
+<span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">warning</span>
+<h3 class="font-bold uppercase tracking-wide text-xs">High Priority Alerts</h3>
+</div>
+<span class="px-2 py-0.5 bg-error text-white text-[10px] font-bold rounded">LIVE</span>
+</div>
+<div class="p-6 space-y-4">
+<div class="p-4 bg-white border-l-4 border-error rounded shadow-sm">
+<h4 class="font-bold text-on-background mb-1">Complaint ID: #C-9021</h4>
+<p class="text-sm text-on-surface-variant mb-4">Flagged &gt; 48hrs without resolution. Pipeline stalled at "Embassy Clearance".</p>
+<button class="w-full py-2 bg-error text-white rounded-lg font-button text-button hover:bg-red-700 transition-colors">Review Now</button>
+</div>
+<div class="p-4 bg-surface-container-lowest border border-outline-variant rounded">
+<div class="flex justify-between items-start mb-2">
+<h4 class="font-bold text-on-background text-sm">Document Delay</h4>
+<span class="text-[10px] font-bold text-outline uppercase">36 hrs ago</span>
+</div>
+<p class="text-xs text-on-surface-variant">Client #CL-882 awaiting MOM approval. Auto-escalation pending in 12 hours.</p>
+</div>
+</div>
+</div>
+<!-- Recent Activity Feed -->
+<div class="bg-white rounded-xl border border-outline-variant shadow-sm overflow-hidden flex-1">
+<div class="px-6 py-4 border-b border-outline-variant">
+<h3 class="font-h3 text-h3">Activity Feed</h3>
+</div>
+<div class="p-6 space-y-6 relative">
+<!-- Timeline Line -->
+<div class="absolute left-9 top-10 bottom-10 w-0.5 bg-surface-container"></div>
+<!-- Item 1 -->
+<div class="flex gap-4 relative z-10">
+<div class="h-6 w-6 rounded-full bg-primary flex items-center justify-center text-white ring-4 ring-white">
+<span class="material-symbols-outlined text-xs">check_circle</span>
+</div>
+<div>
+<p class="text-sm font-semibold text-slate-900">Placement Completed</p>
+<p class="text-xs text-slate-500">Sarah Jenkins finalized #P-1029</p>
+<p class="text-[10px] font-bold text-outline mt-1">14 MIN AGO</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-4 relative z-10">
+<div class="h-6 w-6 rounded-full bg-surface-container flex items-center justify-center text-slate-400 ring-4 ring-white">
+<span class="material-symbols-outlined text-xs">edit_document</span>
+</div>
+<div>
+<p class="text-sm font-semibold text-slate-900">New Application Filed</p>
+<p class="text-xs text-slate-500">Amanda S. started draft for Client #CL-901</p>
+<p class="text-[10px] font-bold text-outline mt-1">2 HOURS AGO</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex gap-4 relative z-10">
+<div class="h-6 w-6 rounded-full bg-teal-500 flex items-center justify-center text-white ring-4 ring-white">
+<span class="material-symbols-outlined text-xs">payments</span>
+</div>
+<div>
+<p class="text-sm font-semibold text-slate-900">Payment Verified</p>
+<p class="text-xs text-slate-500">$2,400 deposit for helper ID: #H-220</p>
+<p class="text-[10px] font-bold text-outline mt-1">4 HOURS AGO</p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="flex gap-4 relative z-10">
+<div class="h-6 w-6 rounded-full bg-error flex items-center justify-center text-white ring-4 ring-white">
+<span class="material-symbols-outlined text-xs">error</span>
+</div>
+<div>
+<p class="text-sm font-semibold text-slate-900">Flag Raised</p>
+<p class="text-xs text-slate-500">Visa rejection for placement #P-1011</p>
+<p class="text-[10px] font-bold text-outline mt-1">6 HOURS AGO</p>
+</div>
+</div>
+</div>
+<div class="p-4 bg-surface-container-low text-center">
+<button class="text-xs font-bold text-primary hover:text-primary-container transition-colors">View History Log</button>
+</div>
+</div>
+</div>
+</div>
+</main>

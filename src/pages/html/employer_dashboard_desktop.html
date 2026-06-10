@@ -1,0 +1,233 @@
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-stone-950/90 backdrop-blur-md border-b border-stone-200 dark:border-stone-800 shadow-[0px_4px_20px_rgba(40,37,29,0.05)]">
+<div class="flex items-center justify-between px-8 py-3 w-full max-w-[1200px] mx-auto">
+<div class="flex items-center gap-8">
+<span class="text-xl font-extrabold tracking-tight text-[#01696F] dark:text-teal-400">MingHwee</span>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-[#01696F] dark:text-teal-400 font-bold border-b-2 border-[#01696F] dark:border-teal-400 pb-1 font-['Manrope'] text-sm tracking-tight" href="#">Dashboard</a>
+<a class="text-stone-500 dark:text-stone-400 font-medium hover:text-[#01696F] transition-all duration-200 font-['Manrope'] text-sm tracking-tight" href="#">Find a Helper</a>
+<a class="text-stone-500 dark:text-stone-400 font-medium hover:text-[#01696F] transition-all duration-200 font-['Manrope'] text-sm tracking-tight" href="#">My Applications</a>
+<a class="text-stone-500 dark:text-stone-400 font-medium hover:text-[#01696F] transition-all duration-200 font-['Manrope'] text-sm tracking-tight" href="#">Active Staff</a>
+<a class="text-stone-500 dark:text-stone-400 font-medium hover:text-[#01696F] transition-all duration-200 font-['Manrope'] text-sm tracking-tight" href="#">Documents</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden lg:block">
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-4 text-sm w-64 focus:ring-2 focus:ring-primary-container" placeholder="Search applications..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline" data-icon="search">search</span>
+</div>
+<button class="p-2 rounded-full hover:bg-stone-50 transition-all duration-200 text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 rounded-full hover:bg-stone-50 transition-all duration-200 text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+<div class="h-8 w-8 rounded-full overflow-hidden border border-outline-variant">
+<img alt="Employer Avatar" class="w-full h-full object-cover" data-alt="professional portrait of a confident middle-aged female business owner with a friendly smile, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0JGI2-iuhSsm9teSX_zMpBKTyJ0oJupMnedx72TU1iTCJGfEkXBJFxwRiziiVuuxQzjLJr6Ab4gY8UOEYkqMuoKVUk8kAjU3R2cUk8BoVBTuAj5c52IYiCFG6ozRI3jZrTWHJm4N0qIJVSNKI8SealzhqLwpiwjiAOh2G5iO6Sz5Dh2hXoZ-pxbMKi7XmdEUnuW5dmtkXTyRR_O-HvAyvMqVuMCKxaQZG5ck6m5aPizkGq1gr1jk_rFYhZmfAQlSRKdIx1J6D61X3"/>
+</div>
+</div>
+</div>
+</header>
+<main class="mt-24 mb-12 max-w-[1200px] mx-auto px-6">
+<!-- Header Section -->
+<header class="mb-stack-md">
+<h1 class="font-h1 text-h1 text-on-surface">Good morning, Sarah</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Tuesday, October 8, 2024</p>
+</header>
+<!-- Featured Card: Hiring Pipeline -->
+<section class="mb-stack-md">
+<div class="bg-surface-container-lowest rounded-xl p-stack-md border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)]">
+<div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-8 gap-4">
+<div class="flex items-center gap-4">
+<div class="h-14 w-14 rounded-full overflow-hidden border-2 border-primary-container">
+<img alt="Maria Clara" class="w-full h-full object-cover" data-alt="close-up portrait of a young Filipino woman with a gentle expression and neat dark hair, neutral professional background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsoih68P10jx-wpg9hb0Ty58zUCZtDwO0z-vKLjczwjxCvBtrIP0CHtAue305H1F65rxsZxtUxddm0pSLZyaNmyMDla4diAsdaiOO6zAE7RIrGThfrgGiem9xi3SFHzxjT-Os3T8XG8JuZLf0tQ0OBLarP2qA7V2BTdL8ui0ZcxsAN146L7BVrzuvHjiEihmXmP-qoi26b-MMeinxPoJXjBkcm916ztQ5fslTcgdFoi2a28LNqZSjf9W2ba59205imhxD3vxjCvbB3"/>
+</div>
+<div>
+<h2 class="font-h2 text-h2 text-on-surface">Hiring Pipeline</h2>
+<p class="font-body-md text-body-md text-primary font-semibold">Background Check in Progress — Est. 5 days</p>
+</div>
+</div>
+<button class="px-6 py-3 bg-primary-container text-on-primary rounded-full font-button text-button hover:opacity-90 transition-all active:scale-[0.98]">
+                        View Full Pipeline
+                    </button>
+</div>
+<!-- Progress Stepper -->
+<div class="relative pt-4 pb-8 px-4">
+<div class="absolute top-1/2 left-0 w-full h-[2px] bg-surface-variant -translate-y-1/2"></div>
+<div class="absolute top-1/2 left-0 w-[75%] h-[2px] bg-primary-container -translate-y-1/2"></div>
+<div class="relative flex justify-between">
+<!-- Step 1 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-primary-container flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-[10px] text-on-primary" data-icon="check" data-weight="fill">check</span>
+</div>
+<span class="mt-2 font-label-caps text-label-caps text-on-surface-variant whitespace-nowrap">Screening</span>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-primary-container flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-[10px] text-on-primary" data-icon="check" data-weight="fill">check</span>
+</div>
+<span class="mt-2 font-label-caps text-label-caps text-on-surface-variant whitespace-nowrap">Interview</span>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-primary-container flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-[10px] text-on-primary" data-icon="check" data-weight="fill">check</span>
+</div>
+<span class="mt-2 font-label-caps text-label-caps text-on-surface-variant whitespace-nowrap">Offer</span>
+</div>
+<!-- Step 4 (Active) -->
+<div class="flex flex-col items-center">
+<div class="w-6 h-6 -mt-1 rounded-full border-2 border-primary-container bg-white flex items-center justify-center z-10">
+<div class="w-2 h-2 rounded-full bg-primary-container"></div>
+</div>
+<span class="mt-2 font-label-caps text-label-caps text-primary font-bold whitespace-nowrap">Background</span>
+</div>
+<!-- Step 5 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-surface-variant z-10"></div>
+<span class="mt-2 font-label-caps text-label-caps text-outline whitespace-nowrap">Medical</span>
+</div>
+<!-- Step 6 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-surface-variant z-10"></div>
+<span class="mt-2 font-label-caps text-label-caps text-outline whitespace-nowrap">Work Permit</span>
+</div>
+<!-- Step 7 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-surface-variant z-10"></div>
+<span class="mt-2 font-label-caps text-label-caps text-outline whitespace-nowrap">Insurance</span>
+</div>
+<!-- Step 8 -->
+<div class="flex flex-col items-center">
+<div class="w-4 h-4 rounded-full bg-surface-variant z-10"></div>
+<span class="mt-2 font-label-caps text-label-caps text-outline whitespace-nowrap">Arrival</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Actions Grid -->
+<section class="grid grid-cols-2 md:grid-cols-4 gap-gutter mb-stack-md">
+<div class="bg-surface-container-lowest p-stack-md rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:bg-stone-50 transition-all cursor-pointer group">
+<div class="w-12 h-12 rounded-full bg-primary-fixed-dim/30 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary-container" data-icon="track_changes">track_changes</span>
+</div>
+<span class="font-button text-button text-on-surface">Track Hiring</span>
+</div>
+<div class="bg-surface-container-lowest p-stack-md rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:bg-stone-50 transition-all cursor-pointer group">
+<div class="w-12 h-12 rounded-full bg-primary-fixed-dim/30 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary-container" data-icon="add_task">add_task</span>
+</div>
+<span class="font-button text-button text-on-surface">Request Service</span>
+</div>
+<div class="bg-surface-container-lowest p-stack-md rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:bg-stone-50 transition-all cursor-pointer group">
+<div class="w-12 h-12 rounded-full bg-primary-fixed-dim/30 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary-container" data-icon="payments">payments</span>
+</div>
+<span class="font-button text-button text-on-surface">Pay Invoice</span>
+</div>
+<div class="bg-surface-container-lowest p-stack-md rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:bg-stone-50 transition-all cursor-pointer group">
+<div class="w-12 h-12 rounded-full bg-primary-fixed-dim/30 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary-container" data-icon="folder_open">folder_open</span>
+</div>
+<span class="font-button text-button text-on-surface">View Documents</span>
+</div>
+</section>
+<!-- Bottom Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left Column: Active Helper -->
+<section class="lg:col-span-8">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)]">
+<div class="p-stack-md border-b border-surface-variant flex justify-between items-center">
+<h3 class="font-h3 text-h3 text-on-surface">Active Helper</h3>
+<span class="bg-teal-50 text-primary px-3 py-1 rounded-full font-label-caps text-label-caps">Verified Professional</span>
+</div>
+<div class="p-stack-md flex flex-col md:flex-row gap-8">
+<div class="w-full md:w-48 h-64 rounded-lg overflow-hidden shrink-0">
+<img alt="Maria Clara Profile" class="w-full h-full object-cover" data-alt="lifestyle portrait of a professional housekeeper in a warm home setting, soft morning sunlight, calm and reliable atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPEEi35Ig0YHUhgH8nSB4z3QIZuIxZ696OcSlOTTFiJtq1FCy-tjYoQuGLb2qh_tOi8YAL0I02yaYF-tH753Y3BuM4xDU4NNtar7ZV0OzJIRNo9JnWHlKI-7gkX_leN_HdozWri50Yu75WboeIF4k0MywAT3TITQsCRBIWsciY_cuo5WhqSiBtcYWTqFhCVCrhUDxiY6rO_yIxTSb4N96HreIao14aV11eauQ-4cDTNqydHercZ39D3Vvyw6eB3Yi72By7VfcCrASh"/>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<h4 class="text-2xl font-bold text-on-surface">Maria Clara</h4>
+<img alt="Philippines Flag" class="h-4 w-6 shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2CkaUq7LgHNnpEwxs9hVlH7aJqrVeKHaueDxT1MXldO7Inj05s5PzNjEOnU5Ju8I2NcgWpbx-6wAeLer52owXGjsv7ns8xv9w5EtG2Qx9B6e9twc_0v9wsmN8idESmxTyz4WzNlnW9YhPSyOejhGRMRm3bEgoxLl0hmK3E0_xz8jkelr-0fTTWjQC8A3tF5tkSF0KboifFherU4HoKPEVpWPxiom8tkN7_uaT2OBQ6Sd_iIkRasAKexzCs1sulytg0zdBATIki5Gp"/>
+</div>
+<div class="grid grid-cols-2 gap-4 mt-4">
+<div>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-wider mb-1">Contract End</p>
+<p class="font-body-md text-on-surface font-semibold">Oct 15, 2024</p>
+</div>
+<div>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-wider mb-1">Renewal Window</p>
+<p class="font-body-md text-primary font-bold">45 days remaining</p>
+</div>
+<div>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-wider mb-1">Employee ID</p>
+<p class="font-body-md text-on-surface">MH-8829-2022</p>
+</div>
+<div>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-wider mb-1">Start Date</p>
+<p class="font-body-md text-on-surface">Oct 16, 2022</p>
+</div>
+</div>
+</div>
+<div class="mt-8 flex gap-3">
+<button class="flex-1 py-3 bg-primary-container text-on-primary rounded-full font-button text-button hover:opacity-90 transition-all">
+                                    Manage Contract
+                                </button>
+<button class="p-3 border border-primary text-primary rounded-full hover:bg-stone-50 transition-all">
+<span class="material-symbols-outlined" data-icon="chat">chat</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Right Column: Reminders & Alerts -->
+<section class="lg:col-span-4">
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.05)] h-full">
+<div class="p-stack-md border-b border-surface-variant">
+<h3 class="font-h3 text-h3 text-on-surface">Reminders &amp; Alerts</h3>
+</div>
+<div class="p-stack-md space-y-3">
+<!-- Urgent Alert -->
+<div class="flex items-start gap-3 p-4 rounded-lg bg-surface-container border-l-4 border-tertiary-container">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="warning">warning</span>
+<div>
+<p class="font-body-md text-on-surface font-semibold leading-tight">Medical cert expires in 30 days</p>
+<p class="text-label-caps text-on-surface-variant mt-1">Renewal required by Nov 7</p>
+<button class="mt-2 text-primary font-button text-sm flex items-center gap-1 hover:underline">
+                                    Book Appointment <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Standard Reminder -->
+<div class="flex items-start gap-3 p-4 rounded-lg bg-surface-container border-l-4 border-outline">
+<span class="material-symbols-outlined text-outline" data-icon="event">event</span>
+<div>
+<p class="font-body-md text-on-surface font-semibold leading-tight">Weekly check-in scheduled</p>
+<p class="text-label-caps text-on-surface-variant mt-1">Friday, Oct 11 • 4:00 PM</p>
+</div>
+</div>
+<!-- Task -->
+<div class="flex items-start gap-3 p-4 rounded-lg bg-surface-container border-l-4 border-outline">
+<span class="material-symbols-outlined text-outline" data-icon="assignment">assignment</span>
+<div>
+<p class="font-body-md text-on-surface font-semibold leading-tight">Sign insurance riders</p>
+<p class="text-label-caps text-on-surface-variant mt-1">Pending your e-signature</p>
+</div>
+</div>
+</div>
+<div class="p-stack-md">
+<button class="w-full py-2 text-primary font-button text-button hover:bg-stone-50 rounded-lg transition-colors">
+                            View All Tasks
+                        </button>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- FAB (Suppressed on Dashboard as per shell rules, but providing logic if needed for specific actions) -->
+<!-- Not rendered as Dashboard primary focus is already covered by the large grid and featured cards -->

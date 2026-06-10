@@ -1,0 +1,256 @@
+<!-- SideNavBar (from JSON) -->
+<nav class="h-screen w-64 fixed left-0 top-0 border-r bg-white dark:bg-slate-950 text-[#01696F] dark:text-teal-400 font-manrope text-sm antialiased border-r border-[#E5E3DA] dark:border-slate-800 shadow-none flex flex-col h-full p-4 gap-2 z-50 hidden md:flex">
+<div class="px-4 py-6 mb-4">
+<h1 class="text-lg font-black text-[#01696F]">MingHwee</h1>
+<p class="text-xs text-slate-500 font-medium tracking-wide">Embassy Runner</p>
+</div>
+<a class="bg-teal-50 dark:bg-teal-900/20 text-[#01696F] dark:text-teal-300 font-semibold rounded-lg flex items-center gap-3 px-4 py-3 scale-95 active:scale-100 transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span>Home</span>
+</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-900 rounded-lg transition-all flex items-center gap-3 px-4 py-3 scale-95 active:scale-100 transition-transform" href="#">
+<span class="material-symbols-outlined">work</span>
+<span>Jobs</span>
+</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-900 rounded-lg transition-all flex items-center gap-3 px-4 py-3 scale-95 active:scale-100 transition-transform" href="#">
+<span class="material-symbols-outlined">assignment</span>
+<span>Tasks</span>
+</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-900 rounded-lg transition-all flex items-center gap-3 px-4 py-3 scale-95 active:scale-100 transition-transform" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span>Earnings</span>
+</a>
+<div class="mt-auto">
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#01696F] hover:bg-slate-50 dark:hover:bg-slate-900 rounded-lg transition-all flex items-center gap-3 px-4 py-3 scale-95 active:scale-100 transition-transform" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 md:ml-64 flex flex-col min-h-screen">
+<!-- TopNavBar (from JSON) -->
+<header class="bg-[#F7F6F2] dark:bg-slate-900 text-[#01696F] dark:text-teal-400 font-manrope text-sm font-medium docked full-width top-0 sticky z-40 border-b border-[#E5E3DA] dark:border-slate-800 shadow-sm flex justify-between items-center px-6 py-3 w-full">
+<div class="flex items-center gap-4">
+<div class="relative w-64 hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">search</span>
+<input class="w-full bg-white dark:bg-slate-800 border border-[#E5E3DA] dark:border-slate-700 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-[#01696F] focus:ring-1 focus:ring-[#01696F] text-slate-700 dark:text-slate-300" placeholder="Search jobs, helpers..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors Active: opacity-80 duration-150">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-slate-200 overflow-hidden border border-[#E5E3DA] cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors Active: opacity-80 duration-150">
+<img alt="Agent profile picture" class="w-full h-full object-cover" data-alt="close up professional headshot of a smiling asian man in a business casual shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmNIoWPvpxOMaraxGD20NM1aLPJwpg2RN0MbMVmYZzDz5FAOjdCFhmi43CsD8uB1uxUhBOUC1c_d0uq2QcAb_MGctxFmgsSxf5rTLmrCZ9jnnzUQwpyHYa85b_MQfoKfOKITgviTIqvfckFDyPuiWSxYkmakkoVAVsdqnd_SNeLr66hJgKKmyZ-_YN6R5hjJpLnWD-L-UqnAl6cWWcRViqrhYWMpXg-7men10AzVDEwKYANVIiSke4-n547iencikBG3gbghN4VDt4"/>
+</div>
+</div>
+</header>
+<div class="p-6 md:p-8 lg:p-10 max-w-container-max mx-auto w-full flex-1 overflow-y-auto">
+<!-- Hero Section -->
+<div class="mb-stack-md flex justify-between items-end">
+<div>
+<p class="font-label-caps text-label-caps text-secondary uppercase tracking-wider mb-2">Thursday, Oct 24</p>
+<h2 class="font-h1 text-h1 text-on-background">Good morning, Ramon</h2>
+</div>
+<button class="bg-primary-container text-white font-button text-button py-3 px-6 rounded-full hover:bg-primary transition-colors flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">add</span>
+                    New Job
+                </button>
+</div>
+<!-- Workload Overview Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-stack-lg">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_4px_12px_rgba(40,37,29,0.03)] flex flex-col justify-between h-full">
+<div class="flex justify-between items-start mb-4">
+<div class="w-10 h-10 rounded-full bg-primary-fixed-dim/20 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined">task_alt</span>
+</div>
+<span class="bg-surface-variant text-on-surface-variant font-label-caps text-[10px] px-2 py-1 rounded-full uppercase tracking-wider">Today</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-1">Active Tasks</p>
+<p class="font-display text-display text-on-background">3</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_4px_12px_rgba(40,37,29,0.03)] flex flex-col justify-between h-full">
+<div class="flex justify-between items-start mb-4">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed/50 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">fact_check</span>
+</div>
+<span class="bg-surface-variant text-on-surface-variant font-label-caps text-[10px] px-2 py-1 rounded-full uppercase tracking-wider">Oct</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-1">Submissions Completed</p>
+<p class="font-display text-display text-on-background">14</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_4px_12px_rgba(40,37,29,0.03)] flex flex-col justify-between h-full">
+<div class="flex justify-between items-start mb-4">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed/40 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined">payments</span>
+</div>
+<span class="bg-surface-variant text-on-surface-variant font-label-caps text-[10px] px-2 py-1 rounded-full uppercase tracking-wider">Oct</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-1">Earnings This Month</p>
+<p class="font-display text-display text-on-background">$420</p>
+</div>
+</div>
+</div>
+<!-- Main Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Left Column: Active Job Pipelines (span 2) -->
+<div class="lg:col-span-2 flex flex-col gap-unit">
+<div class="flex justify-between items-center mb-2">
+<h3 class="font-h3 text-h3 text-on-background">Active Job Pipelines</h3>
+<a class="font-button text-button text-primary-container hover:text-primary" href="#">View All</a>
+</div>
+<!-- Job Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_2px_8px_rgba(40,37,29,0.04)] relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-[6px] bg-primary-container rounded-l-xl"></div>
+<div class="flex justify-between items-start mb-6">
+<div class="flex items-center gap-4">
+<img alt="Helper photo" class="w-12 h-12 rounded-full object-cover border border-outline-variant" data-alt="professional portrait of an asian woman helper smiling slightly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaYn6MQfo6_KD06c9_vNQ65Q_woSNlI1il4BIYYTsz2pLBVC6AJIOG4X-4D0rSbhm8Z-ZE7p7qayjvXDl_so9i_kRtDmztyFPad063aOXw6gsAXvDVkS-JYaEIT3cZVxy1liYfVDUugeDvSHNtsEvhWtQZuU9VYMSxwqPk71gHiJQSxxjo1wwxfjebnfdx4ZR8nyTk2Fw_HbIn1LNyLzMjMMGxBNhqg_jRUAKDm8fnJDq2G382UACXBUZgJaCrympzByysKhOHjuvh"/>
+<div>
+<h4 class="font-h3 text-[18px] text-on-background">Maria Santos</h4>
+<p class="font-body-md text-[14px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                                        Philippines Embassy
+                                    </p>
+</div>
+</div>
+<span class="bg-primary-fixed-dim/20 text-primary-container font-label-caps text-[11px] px-3 py-1.5 rounded-full uppercase tracking-wider font-bold">Work Visa</span>
+</div>
+<!-- Progress Tracker -->
+<div class="mt-4">
+<p class="font-label-caps text-[12px] text-primary-container font-bold mb-3">CURRENT: Submitted to Embassy</p>
+<div class="relative flex justify-between items-center w-full">
+<!-- Connecting lines -->
+<div class="absolute left-0 top-1/2 -translate-y-1/2 w-full h-1 bg-surface-variant rounded-full z-0"></div>
+<div class="absolute left-0 top-1/2 -translate-y-1/2 w-1/2 h-1 bg-primary-container rounded-full z-0"></div>
+<!-- Steps -->
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-primary-container text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<span class="font-label-caps text-[10px] text-on-surface-variant">Docs Ready</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-primary-container text-white flex items-center justify-center shadow-[0_0_0_4px_rgba(1,105,111,0.2)]">
+<span class="material-symbols-outlined text-[14px]">send</span>
+</div>
+<span class="font-label-caps text-[10px] text-primary-container font-bold">Submitted</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border-2 border-surface-variant flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[14px]">hourglass_empty</span>
+</div>
+<span class="font-label-caps text-[10px] text-outline">Collection</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border-2 border-surface-variant flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[14px]">done_all</span>
+</div>
+<span class="font-label-caps text-[10px] text-outline">Returned</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Job Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant shadow-[0_2px_8px_rgba(40,37,29,0.04)] relative overflow-hidden mt-4">
+<div class="absolute left-0 top-0 bottom-0 w-[6px] bg-tertiary rounded-l-xl"></div>
+<div class="flex justify-between items-start mb-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant font-h3">
+                                    AP
+                                </div>
+<div>
+<h4 class="font-h3 text-[18px] text-on-background">Ayu Putri</h4>
+<p class="font-body-md text-[14px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                                        Indonesian Embassy
+                                    </p>
+</div>
+</div>
+<span class="bg-tertiary-fixed/30 text-tertiary font-label-caps text-[11px] px-3 py-1.5 rounded-full uppercase tracking-wider font-bold">Passport Renewal</span>
+</div>
+<!-- Progress Tracker -->
+<div class="mt-4">
+<p class="font-label-caps text-[12px] text-on-surface-variant font-bold mb-3">CURRENT: Preparing Documents</p>
+<div class="relative flex justify-between items-center w-full">
+<!-- Connecting lines -->
+<div class="absolute left-0 top-1/2 -translate-y-1/2 w-full h-1 bg-surface-variant rounded-full z-0"></div>
+<!-- Steps -->
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-white border-2 border-tertiary text-tertiary flex items-center justify-center shadow-[0_0_0_4px_rgba(110,56,21,0.1)]">
+<span class="material-symbols-outlined text-[14px]">edit_document</span>
+</div>
+<span class="font-label-caps text-[10px] text-tertiary font-bold">Docs Ready</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border-2 border-surface-variant flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[14px]">send</span>
+</div>
+<span class="font-label-caps text-[10px] text-outline">Submitted</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border-2 border-surface-variant flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[14px]">hourglass_empty</span>
+</div>
+<span class="font-label-caps text-[10px] text-outline">Collection</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest border-2 border-surface-variant flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[14px]">done_all</span>
+</div>
+<span class="font-label-caps text-[10px] text-outline">Returned</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Operational Reminders -->
+<div class="flex flex-col gap-unit">
+<h3 class="font-h3 text-h3 text-on-background mb-2">Operational Reminders</h3>
+<div class="bg-surface-container-lowest rounded-xl p-5 border border-outline-variant shadow-[0_2px_8px_rgba(40,37,29,0.03)]">
+<ul class="flex flex-col gap-4">
+<!-- Reminder 1 (Urgent) -->
+<li class="flex gap-4 pb-4 border-b border-surface-container-high last:border-0 last:pb-0">
+<div class="w-10 h-10 rounded-full bg-error-container text-error flex-shrink-0 flex items-center justify-center mt-1">
+<span class="material-symbols-outlined">warning</span>
+</div>
+<div>
+<p class="font-button text-[14px] text-on-background mb-1">Collect documents from Manila office</p>
+<p class="font-body-md text-[13px] text-on-surface-variant">For Maria Santos application. Needed by 2 PM.</p>
+</div>
+</li>
+<!-- Reminder 2 (Actionable) -->
+<li class="flex gap-4 pb-4 border-b border-surface-container-high last:border-0 last:pb-0">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-primary flex-shrink-0 flex items-center justify-center mt-1">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<div>
+<p class="font-button text-[14px] text-on-background mb-1">Visa ready for collection</p>
+<p class="font-body-md text-[13px] text-on-surface-variant">Philippine Embassy window 4.</p>
+<button class="mt-2 text-[12px] font-bold text-primary-container border border-primary-container px-3 py-1 rounded-full hover:bg-primary-fixed/20 transition-colors">Mark Collected</button>
+</div>
+</li>
+<!-- Reminder 3 (Informational) -->
+<li class="flex gap-4 pb-4 border-b border-surface-container-high last:border-0 last:pb-0">
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant flex-shrink-0 flex items-center justify-center mt-1">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<p class="font-button text-[14px] text-on-background mb-1">Submit batch to Indonesian Embassy</p>
+<p class="font-body-md text-[13px] text-on-surface-variant">Scheduled for tomorrow morning.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</main>

@@ -1,0 +1,248 @@
+<!-- SideNavBar -->
+<nav class="hidden md:flex bg-white dark:bg-slate-900 text-[#01696F] dark:text-teal-400 font-manrope text-sm font-medium uppercase tracking-widest text-xl font-black text-[#01696F] h-screen w-64 border-r flex flex-col border-r border-[#E5E3DA] dark:border-slate-800 shadow-[4px_0px_20px_rgba(40,37,29,0.05)] fixed left-0 top-0 h-full py-8 px-4 flex flex-col space-y-6 z-50">
+<div class="flex items-center space-x-3 px-4 mb-8">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center overflow-hidden shrink-0">
+<img alt="Agency Logo" class="w-full h-full object-cover" data-alt="Minimalist abstract geometric agency logo in teal and warm white tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLUIwB4gTlmPDQYe0jq5Bwjx43YApZsm1U9xHw4mUd24-zjOwcugUHKChdV0iGHHoTLjIXxmKTXUxPhLuF6G9MFBhdiGTjOgWv-e5mWRD6hUgpan9c8qzLwX7cNKUly_9X-tRkUp-ZaGgIGVPZWcLjcVOabZnoCVN-LcL8ZMxiOmCUu7mE3BSZsbaaJOnwF3qqsK7yMdO3Pr5DJ-gyN0Dm8hrJOzUNMjWK87nW_KtEwch-z7rtgZi2bhaJVPdznmW4tnYiPNbH9Cm_"/>
+</div>
+<div>
+<h2 class="font-h3 text-h3 text-primary-container tracking-tighter">Executive Suite</h2>
+<p class="font-label-caps text-label-caps text-on-surface-variant normal-case tracking-normal">Super Admin Access</p>
+</div>
+</div>
+<div class="flex-1 space-y-2">
+<a class="flex items-center space-x-4 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Overview</span>
+</a>
+<a class="flex items-center space-x-4 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Financials</span>
+</a>
+<a class="flex items-center space-x-4 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Team</span>
+</a>
+<a class="flex items-center space-x-4 px-4 py-3 rounded-lg bg-[#D9E5E6] dark:bg-teal-900/40 text-[#01696F] dark:text-teal-300 font-bold scale-[0.99] transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="database">database</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">All Data</span>
+</a>
+<a class="flex items-center space-x-4 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Settings</span>
+</a>
+</div>
+<div class="mt-auto space-y-4 px-4">
+<button class="w-full bg-primary-container text-on-primary font-button text-button py-3 px-6 rounded-full hover:opacity-90 transition-opacity">Generate Report</button>
+<a class="flex items-center space-x-4 py-3 text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Log Out</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 ml-0 md:ml-64 flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<header class="bg-[#FBFBFA] dark:bg-slate-950 text-[#01696F] dark:text-teal-400 font-manrope tracking-tight text-sm font-semibold text-lg font-bold tracking-tighter text-[#01696F] dark:text-teal-500 docked full-width top-0 border-b z-40 border-b border-[#E5E3DA] dark:border-slate-800 flat no shadows flex justify-between items-center h-16 px-8 w-full sticky top-0">
+<div class="flex items-center space-x-6">
+<!-- Mobile menu button (hidden on desktop) -->
+<button class="md:hidden text-on-surface-variant hover:text-primary-container transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<span class="font-h3 text-h3 text-primary-container hidden md:block">Command Center</span>
+<div class="relative hidden sm:block ml-4">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-70">search</span>
+<input class="pl-10 pr-4 py-2 bg-surface-container-low border border-outline-variant rounded-lg font-body-md text-body-md text-on-surface focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all w-64" placeholder="Search data..." type="text"/>
+</div>
+</div>
+<div class="flex items-center space-x-6">
+<div class="flex items-center space-x-4">
+<button class="text-slate-500 dark:text-slate-400 font-medium hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200 p-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-slate-500 dark:text-slate-400 font-medium hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200 p-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+</div>
+<div class="flex items-center space-x-4 border-l border-outline-variant pl-6">
+<button class="font-button text-button text-primary-container border border-primary-container px-4 py-2 rounded-full hover:bg-surface-container-high transition-colors">Support</button>
+<button class="font-button text-button bg-primary-container text-on-primary px-4 py-2 rounded-full hover:opacity-90 transition-opacity">New Project</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant cursor-pointer ml-2">
+<img alt="Super Admin Avatar" class="w-full h-full object-cover" data-alt="Professional headshot of an executive admin in a well-lit office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIZdfD5wuXAukhW4bdTs4n8Hym9oL84ym9TXMABtfB3dpTiZNpRRmxjlPb3IaOCw-8FaoJiTWE-t6slYKQYVWPlcUtK2xyDSrGeLj3xXU81lvt-43YaSSRxH4uDSycs7QIVXxL-yiy7QH5vOrDfCf12dHx74TGczjxsMtGsM8NqJmNHMXDQCia06cZ0fb9du5O4HF_Y7Um4O3hA4Ia29rQ87yNAHxei5zJNVCE0G25FN15Wwifz-2rTNKDoL5vh3vAVS8WW-hQHPMt"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Canvas -->
+<div class="flex-1 p-margin-mobile md:p-margin-desktop overflow-y-auto max-w-container-max mx-auto w-full">
+<!-- Page Header & Controls -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-stack-lg space-y-4 md:space-y-0">
+<div>
+<h1 class="font-h1 text-h1 text-on-background mb-2">Business Intelligence</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Comprehensive overview of key performance indicators.</p>
+</div>
+<div class="flex items-center space-x-4 bg-surface-container-lowest p-1 rounded-lg border border-surface-variant shadow-[0px_4px_20px_rgba(40,37,29,0.02)]">
+<button class="px-4 py-2 rounded-md font-button text-button text-on-surface-variant hover:text-primary-container transition-colors">7 Days</button>
+<button class="px-4 py-2 rounded-md font-button text-button bg-surface-container-high text-primary-container shadow-sm transition-colors">30 Days</button>
+<button class="px-4 py-2 rounded-md font-button text-button text-on-surface-variant hover:text-primary-container transition-colors">12 Months</button>
+<button class="px-4 py-2 rounded-md font-button text-button text-on-surface-variant hover:text-primary-container transition-colors flex items-center space-x-1">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+<span>Custom</span>
+</button>
+</div>
+</div>
+<!-- Bento Grid Dashboard -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Tile 1: Placement Funnel -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant p-6 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:shadow-[0px_8px_30px_rgba(40,37,29,0.08)] transition-shadow duration-300 flex flex-col group relative overflow-hidden">
+<div class="flex justify-between items-start mb-6">
+<h3 class="font-h3 text-h3 text-on-background">Placement Funnel</h3>
+<div class="flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">download</span></button>
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">open_in_full</span></button>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-center space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Inquiries</span>
+<span class="font-body-md text-body-md font-semibold text-on-background">1,240</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2">
+<div class="bg-primary-container h-2 rounded-full" style="width: 100%"></div>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Interviews</span>
+<span class="font-body-md text-body-md font-semibold text-on-background">856</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2">
+<div class="bg-inverse-primary h-2 rounded-full" style="width: 69%"></div>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Placements</span>
+<span class="font-body-md text-body-md font-semibold text-on-background">312</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 25%"></div>
+</div>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-variant flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Conversion Rate</span>
+<span class="font-h3 text-h3 text-primary-container">25.1%</span>
+</div>
+</div>
+<!-- Tile 2: Revenue Trends (Spans 2 cols on lg) -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant p-6 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:shadow-[0px_8px_30px_rgba(40,37,29,0.08)] transition-shadow duration-300 flex flex-col group lg:col-span-2">
+<div class="flex justify-between items-start mb-6">
+<div>
+<h3 class="font-h3 text-h3 text-on-background">Revenue Trends</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">12-Month Performance</p>
+</div>
+<div class="flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">download</span></button>
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">open_in_full</span></button>
+</div>
+</div>
+<!-- Abstract representation of a bar chart -->
+<div class="flex-1 flex items-end space-x-2 mt-4 h-48">
+<div class="w-full bg-surface-container-high rounded-t-sm h-[30%] hover:bg-primary-container transition-colors relative group/bar"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[40%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[35%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[50%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[45%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[60%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[55%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[70%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[85%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[75%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[90%] hover:bg-primary-container transition-colors"></div>
+<div class="w-full bg-primary-container rounded-t-sm h-[100%]"></div>
+</div>
+<div class="flex justify-between mt-2 font-label-caps text-label-caps text-on-surface-variant uppercase">
+<span>Jan</span>
+<span>Dec</span>
+</div>
+</div>
+<!-- Tile 3: Retention & Renewals -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant p-6 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:shadow-[0px_8px_30px_rgba(40,37,29,0.08)] transition-shadow duration-300 flex flex-col group relative overflow-hidden">
+<div class="flex justify-between items-start mb-6">
+<h3 class="font-h3 text-h3 text-on-background">Retention</h3>
+<div class="flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">download</span></button>
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">open_in_full</span></button>
+</div>
+</div>
+<div class="flex items-center justify-center mb-6">
+<div class="w-32 h-32 rounded-full border-[12px] border-surface-container-high relative flex items-center justify-center">
+<!-- Simulated donut chart segment -->
+<div class="absolute inset-0 rounded-full border-[12px] border-primary-container border-t-transparent border-r-transparent transform -rotate-45"></div>
+<span class="font-h2 text-h2 text-on-background">82%</span>
+</div>
+</div>
+<div class="space-y-3 mt-auto">
+<div class="flex justify-between items-center font-body-sm text-body-sm">
+<span class="flex items-center space-x-2"><span class="w-3 h-3 rounded-full bg-primary-container"></span><span class="text-on-surface-variant">Renewed</span></span>
+<span class="font-semibold text-on-background">342</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm">
+<span class="flex items-center space-x-2"><span class="w-3 h-3 rounded-full bg-surface-container-high"></span><span class="text-on-surface-variant">Churned</span></span>
+<span class="font-semibold text-on-background">75</span>
+</div>
+</div>
+</div>
+<!-- Tile 4: Complaint Analytics -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant p-6 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:shadow-[0px_8px_30px_rgba(40,37,29,0.08)] transition-shadow duration-300 flex flex-col group relative overflow-hidden">
+<div class="flex justify-between items-start mb-6">
+<h3 class="font-h3 text-h3 text-on-background">Complaints</h3>
+<div class="flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">download</span></button>
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">open_in_full</span></button>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-center">
+<div class="flex items-end space-x-4 mb-4">
+<span class="font-display text-display text-on-background">24h</span>
+<span class="font-body-md text-body-md text-on-surface-variant mb-2">Avg Resolution</span>
+</div>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between font-label-caps text-label-caps mb-1">
+<span class="text-on-surface-variant">Performance</span>
+<span class="text-primary-container">45%</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full"><div class="bg-primary-container h-1.5 rounded-full" style="width: 45%"></div></div>
+</div>
+<div>
+<div class="flex justify-between font-label-caps text-label-caps mb-1">
+<span class="text-on-surface-variant">Attendance</span>
+<span class="text-inverse-primary">30%</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full"><div class="bg-inverse-primary h-1.5 rounded-full" style="width: 30%"></div></div>
+</div>
+<div>
+<div class="flex justify-between font-label-caps text-label-caps mb-1">
+<span class="text-on-surface-variant">Other</span>
+<span class="text-secondary">25%</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full"><div class="bg-secondary h-1.5 rounded-full" style="width: 25%"></div></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Tile 5: Compliance Health -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant p-6 shadow-[0px_4px_20px_rgba(40,37,29,0.05)] hover:shadow-[0px_8px_30px_rgba(40,37,29,0.08)] transition-shadow duration-300 flex flex-col group relative overflow-hidden bg-gradient-to-br from-surface-container-lowest to-surface-bright">
+<div class="flex justify-between items-start mb-6">
+<h3 class="font-h3 text-h3 text-on-background">Compliance Health</h3>
+<div class="flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">download</span></button>
+<button class="text-on-surface-variant hover:text-primary-container"><span class="material-symbols-outlined text-[20px]">open_in_full</span></button>
+</div>
+</div>
+<div class="flex-1 flex flex-col items-center justify-center py-4">
+<span class="material-symbols-outlined text-[48px] text-primary-container mb-4" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="font-display text-display text-on-background">98.5%</span>
+<span class="font-body-md text-body-md text-on-surface-variant mt-2 text-center">Documents Current &amp; Valid</span>
+</div>
+<button class="mt-4 w-full py-2 border border-outline-variant rounded-md font-button text-button text-on-surface-variant hover:bg-surface-container-high transition-colors">View Expiring (12)</button>
+</div>
+</div>
+</div>
+</main>

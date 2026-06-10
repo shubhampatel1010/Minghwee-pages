@@ -1,0 +1,328 @@
+<!-- SideNavBar (Shared Component) -->
+<nav class="bg-white dark:bg-slate-900 h-screen w-64 border-r border-r border-[#E5E3DA] dark:border-slate-800 flex flex-col shadow-[4px_0px_20px_rgba(40,37,29,0.05)] py-8 px-4 space-y-6 flex-shrink-0 z-50">
+<div class="flex items-center gap-3 px-2 mb-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center overflow-hidden shrink-0 border border-outline-variant/30">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">corporate_fare</span>
+</div>
+<div>
+<div class="text-xl font-black text-[#01696F] leading-tight">Executive Suite</div>
+<div class="font-manrope text-sm font-medium uppercase tracking-widest text-slate-500 dark:text-slate-400 text-[10px]">Super Admin Access</div>
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary rounded-full py-3 px-4 flex items-center justify-center gap-2 font-button text-button hover:bg-primary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-sm">add</span>
+            Generate Report
+        </button>
+<div class="flex-1 flex flex-col gap-1 mt-6">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Overview</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span>Financials</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">group</span>
+<span>Team</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">database</span>
+<span>All Data</span>
+</a>
+<!-- ACTIVE TAB -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-[#D9E5E6] dark:bg-teal-900/40 text-[#01696F] dark:text-teal-300 font-bold font-manrope text-sm uppercase tracking-widest scale-[0.99] transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">settings</span>
+<span>Settings</span>
+</a>
+</div>
+<div class="mt-auto border-t border-outline-variant/30 pt-4">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 dark:text-slate-400 hover:text-[#01696F] hover:bg-[#FBFBFA] dark:hover:bg-slate-800 transition-all duration-300 font-manrope text-sm font-medium uppercase tracking-widest" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span>Log Out</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 flex flex-col h-screen overflow-hidden bg-background relative">
+<!-- TopAppBar (Shared Component) -->
+<header class="bg-[#FBFBFA] dark:bg-slate-950 flex justify-between items-center h-16 px-8 w-full sticky top-0 border-b z-40 border-b border-[#E5E3DA] dark:border-slate-800 flex-shrink-0">
+<!-- Left: Product Name & Search -->
+<div class="flex items-center gap-8">
+<div class="text-lg font-bold tracking-tighter text-[#01696F] dark:text-teal-500">Command Center</div>
+<div class="relative hidden md:block w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="w-full pl-9 pr-4 py-1.5 bg-surface-container-low border-none rounded-full text-sm focus:ring-2 focus:ring-primary focus:bg-surface-container-lowest transition-all placeholder:text-outline-variant" placeholder="Search across systems..." type="text"/>
+</div>
+</div>
+<!-- Right: Actions -->
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2">
+<button class="w-9 h-9 rounded-full flex items-center justify-center text-[#01696F] dark:text-teal-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200">
+<span class="material-symbols-outlined text-[20px]">notifications</span>
+</button>
+<button class="w-9 h-9 rounded-full flex items-center justify-center text-[#01696F] dark:text-teal-400 hover:bg-[#D9E5E6] dark:hover:bg-teal-900/30 transition-colors duration-200">
+<span class="material-symbols-outlined text-[20px]">help_outline</span>
+</button>
+</div>
+<div class="h-6 w-[1px] bg-outline-variant/40"></div>
+<div class="flex items-center gap-3 font-manrope tracking-tight text-sm font-semibold">
+<button class="text-slate-500 dark:text-slate-400 font-medium hover:text-[#01696F] transition-colors">Support</button>
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-full hover:bg-primary-container transition-colors shadow-sm">New Project</button>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-variant border border-outline-variant/50 overflow-hidden ml-2 cursor-pointer">
+<img alt="Super Admin Avatar" class="w-full h-full object-cover" data-alt="professional headshot of a man with short hair wearing a dark blue button-down shirt against a neutral grey background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHBCtA9YOZdjc8msy-UBPD1EcR7rllqZgTcywptn9h3EU9JpUDqcJLwHRSEnPUveZQUuXGbFEinED56km41xYXXtDXcXuwaKSw2tAa68VybuWOcl2dWxsvt8bgivPX-CpzERdUkAtD4-ePfct-CWMhUbBlhrBKD9qJZv-7hk7gR8YFC4hZbkYjRgLy8u5ZydMtdrzCj6Ac3xhkstPC6WO9WZs-CFBcX0T5Y6oTvTGvUaBHcLkzuwpunGKLtBMX8zdDUtXJChaxhNVR"/>
+</div>
+</div>
+</header>
+<!-- Scrollable Canvas -->
+<main class="flex-1 overflow-y-auto custom-scrollbar p-margin-desktop">
+<div class="max-w-[1200px] mx-auto space-y-stack-lg pb-24">
+<!-- Page Header -->
+<div class="flex flex-col gap-2">
+<h1 class="font-h1 text-h1 text-on-surface">App Settings</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Manage system permissions, configure automated workflows, and adjust core operational parameters.</p>
+</div>
+<!-- Bento Grid Layout for Settings -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left Column: Primary Systems (Spans 8 cols) -->
+<div class="lg:col-span-8 space-y-stack-md">
+<!-- Role Permissions Matrix -->
+<section class="bg-surface-container-lowest rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<div class="flex justify-between items-center mb-6">
+<div>
+<h2 class="font-h3 text-h3 text-on-surface mb-1">Role Permissions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Define access levels across core modules.</p>
+</div>
+<button class="border border-primary text-primary px-4 py-2 rounded-full font-button text-button hover:bg-primary/5 transition-colors">Add Role</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="border-b border-surface-variant">
+<th class="py-3 px-4 font-label-caps text-label-caps text-on-surface-variant font-bold tracking-wider">Module / Feature</th>
+<th class="py-3 px-4 font-label-caps text-label-caps text-on-surface-variant font-bold tracking-wider text-center">Admin</th>
+<th class="py-3 px-4 font-label-caps text-label-caps text-on-surface-variant font-bold tracking-wider text-center">Manager</th>
+<th class="py-3 px-4 font-label-caps text-label-caps text-on-surface-variant font-bold tracking-wider text-center">Staff</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-variant">
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-4 px-4 font-body-md text-body-md font-medium text-on-surface">Financial Reporting</td>
+<td class="py-4 px-4 text-center"><input checked="" class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+<td class="py-4 px-4 text-center"><input checked="" class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+<td class="py-4 px-4 text-center"><input class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-4 px-4 font-body-md text-body-md font-medium text-on-surface">User Management</td>
+<td class="py-4 px-4 text-center"><input checked="" class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+<td class="py-4 px-4 text-center"><input class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+<td class="py-4 px-4 text-center"><input class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-4 px-4 font-body-md text-body-md font-medium text-on-surface">Schedule Overrides</td>
+<td class="py-4 px-4 text-center"><input checked="" class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+<td class="py-4 px-4 text-center"><input checked="" class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+<td class="py-4 px-4 text-center"><input class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary cursor-pointer" type="checkbox"/></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Workflow Automation -->
+<section class="bg-surface-container-lowest rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<h2 class="font-h3 text-h3 text-on-surface mb-1">Workflow Automation</h2>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mb-6">Configure systematic triggers for communications and task escalation.</p>
+<div class="space-y-6">
+<!-- Rule 1 -->
+<div class="bg-surface p-4 rounded-lg border border-surface-variant flex flex-col md:flex-row md:items-center gap-4">
+<div class="flex-1">
+<div class="font-h3 text-h3 text-sm text-on-surface mb-1">Invoice Reminders</div>
+<div class="flex items-center gap-2 font-body-md text-body-md text-on-surface-variant text-sm">
+                                            Auto-send reminder 
+                                            <input class="w-16 px-2 py-1 text-center rounded border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest outline-none" type="number" value="3"/>
+                                            days before due date.
+                                        </div>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-caps text-label-caps text-on-surface-variant">ACTIVE</span>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-outline-variant after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+<!-- Rule 2 -->
+<div class="bg-surface p-4 rounded-lg border border-surface-variant flex flex-col md:flex-row md:items-start gap-4">
+<div class="flex-1">
+<div class="font-h3 text-h3 text-sm text-on-surface mb-1">Support Ticket Escalation</div>
+<div class="font-body-md text-body-md text-on-surface-variant text-sm mb-3">
+                                            If an urgent ticket is unassigned for &gt; 30 mins:
+                                        </div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-outline-variant text-sm">subdirectory_arrow_right</span>
+<select class="px-3 py-1.5 rounded border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest outline-none text-sm font-body-md">
+<option>Notify Manager via Push</option>
+<option selected="">Notify Admin Team via SMS</option>
+<option>Re-queue Priority</option>
+</select>
+</div>
+</div>
+<div class="flex items-center gap-3 mt-2 md:mt-0">
+<span class="font-label-caps text-label-caps text-on-surface-variant">ACTIVE</span>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-outline-variant after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Secondary Systems & Connections (Spans 4 cols) -->
+<div class="lg:col-span-4 space-y-stack-md">
+<!-- Integrations -->
+<section class="bg-surface-container-lowest rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)] flex flex-col gap-4">
+<div>
+<h2 class="font-h3 text-h3 text-on-surface mb-1">Integrations</h2>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Manage external service connections.</p>
+</div>
+<!-- Integration Item: Stripe -->
+<div class="flex items-center justify-between p-3 rounded-lg border border-surface-variant bg-background">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-[#635BFF]/10 flex items-center justify-center text-[#635BFF]">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+</div>
+<div>
+<div class="font-h3 text-[14px] text-on-surface leading-none mb-1">Stripe</div>
+<div class="flex items-center gap-1.5 text-[11px] font-label-caps text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Connected
+                                        </div>
+</div>
+</div>
+<button class="text-outline-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+<!-- Integration Item: DocuSign -->
+<div class="flex items-center justify-between p-3 rounded-lg border border-surface-variant bg-background">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-[#FFD700]/10 flex items-center justify-center text-[#DAA520]">
+<span class="material-symbols-outlined text-[18px]">history_edu</span>
+</div>
+<div>
+<div class="font-h3 text-[14px] text-on-surface leading-none mb-1">DocuSign</div>
+<div class="flex items-center gap-1.5 text-[11px] font-label-caps text-outline-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span> Disconnected
+                                        </div>
+</div>
+</div>
+<button class="text-xs font-button text-primary hover:underline">Connect</button>
+</div>
+<!-- Integration Item: Twilio -->
+<div class="flex items-center justify-between p-3 rounded-lg border border-surface-variant bg-background">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-[#F22F46]/10 flex items-center justify-center text-[#F22F46]">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</div>
+<div>
+<div class="font-h3 text-[14px] text-on-surface leading-none mb-1">Twilio</div>
+<div class="flex items-center gap-1.5 text-[11px] font-label-caps text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Connected
+                                        </div>
+</div>
+</div>
+<button class="text-outline-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+<!-- Integration Item: MOM Portal -->
+<div class="flex items-center justify-between p-3 rounded-lg border border-surface-variant bg-background">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-high flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">account_balance</span>
+</div>
+<div>
+<div class="font-h3 text-[14px] text-on-surface leading-none mb-1">MOM Portal</div>
+<div class="flex items-center gap-1.5 text-[11px] font-label-caps text-[#DAA520]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#DAA520]"></span> Syncing...
+                                        </div>
+</div>
+</div>
+<button class="text-outline-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[20px]">refresh</span>
+</button>
+</div>
+</section>
+<!-- Notification Rules (Compact) -->
+<section class="bg-surface-container-lowest rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<h2 class="font-h3 text-h3 text-on-surface mb-4">Notification Channels</h2>
+<div class="space-y-4">
+<div class="flex justify-between items-center py-2 border-b border-surface-variant border-dashed">
+<div class="font-body-md text-sm font-medium text-on-surface">SMS Alerts</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-9 h-5 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-outline-variant after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="flex justify-between items-center py-2 border-b border-surface-variant border-dashed">
+<div class="font-body-md text-sm font-medium text-on-surface">Push Notifications</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-9 h-5 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-outline-variant after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="flex justify-between items-center py-2 border-b border-surface-variant border-dashed">
+<div class="font-body-md text-sm font-medium text-on-surface">Daily Email Digest</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input class="sr-only peer" type="checkbox" value=""/>
+<div class="w-9 h-5 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-outline-variant after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Bottom Full Width Row -->
+<!-- Pricing & Service Rate Cards -->
+<section class="bg-surface-container-lowest rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<div class="flex justify-between items-center mb-6">
+<div>
+<h2 class="font-h3 text-h3 text-on-surface mb-1">Pricing &amp; Service Rate Cards</h2>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Manage base rates for standard service offerings.</p>
+</div>
+<button class="bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-button text-button hover:bg-surface-variant transition-colors">Save Changes</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Rate Card 1 -->
+<div class="border border-surface-variant rounded-lg p-4 bg-background">
+<div class="font-label-caps text-label-caps text-outline-variant mb-2">STANDARD</div>
+<div class="font-h3 text-[16px] text-on-surface mb-4">Domestic Consultation</div>
+<div class="flex items-center gap-2">
+<span class="text-on-surface-variant font-medium">$</span>
+<input class="w-full px-3 py-2 rounded border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest outline-none font-body-md text-on-surface" type="text" value="150.00"/>
+<span class="text-sm text-outline-variant whitespace-nowrap">/ hr</span>
+</div>
+</div>
+<!-- Rate Card 2 -->
+<div class="border border-surface-variant rounded-lg p-4 bg-background">
+<div class="font-label-caps text-label-caps text-primary mb-2">PREMIUM</div>
+<div class="font-h3 text-[16px] text-on-surface mb-4">Expedited Placement</div>
+<div class="flex items-center gap-2">
+<span class="text-on-surface-variant font-medium">$</span>
+<input class="w-full px-3 py-2 rounded border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest outline-none font-body-md text-on-surface" type="text" value="850.00"/>
+<span class="text-sm text-outline-variant whitespace-nowrap">flat</span>
+</div>
+</div>
+<!-- Rate Card 3 -->
+<div class="border border-surface-variant rounded-lg p-4 bg-background border-dashed">
+<div class="h-full flex flex-col items-center justify-center text-outline-variant hover:text-primary transition-colors cursor-pointer min-h-[120px]">
+<span class="material-symbols-outlined mb-2 text-[24px]">add_circle</span>
+<span class="font-button text-button">Add Service Rate</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+</div>

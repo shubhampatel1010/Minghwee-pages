@@ -1,0 +1,236 @@
+<!-- SideNavBar (Desktop Only) -->
+<nav class="hidden md:flex bg-white dark:bg-slate-900 font-manrope text-sm font-medium docked left-0 h-screen w-64 border-r border-r border-neutral-100 dark:border-neutral-800 flat no shadows transition-transform duration-200 ease-out fixed left-0 top-0 pt-20 flex-col z-40">
+<div class="px-6 mb-8 mt-4">
+<div class="flex items-center gap-3">
+<img alt="Agency Logo" class="w-10 h-10 rounded-lg object-cover bg-surface-container" data-alt="Corporate logo graphic, minimal and modern teal design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUsThxQew08LxNKNgqjrYXF8it_vNhaE1FfC3y-bEyFuoKi_GheypXEeHUPnAEO7VGn08gns3novDMeiMAdZUGgoB2JsES2JhG0ETRVFhcGmBOLkVIVQ8xYFc1RJnWa0CdRxXjixjpuwUlY6cd931ojqTyOItRYCt9aohQtEI7YexllRz4OYo8-d1mPK1DI0AovnaN5fJMfOdoi_h4Bq6xsREDqaCHuvZuMU7kVVZTmFGzYwSy09odYIYaZCca-0OftPxY1aIerbB1"/>
+<div>
+<div class="text-lg font-bold text-[#01696F] dark:text-teal-200 leading-tight">Helper Portal</div>
+<div class="text-xs text-on-surface-variant">Placement Management</div>
+</div>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto">
+<ul class="space-y-1">
+<li>
+<a class="bg-teal-50 dark:bg-teal-900/20 text-[#01696F] dark:text-teal-300 font-bold border-r-4 border-[#01696F] hover:bg-neutral-50 dark:hover:bg-neutral-800/50 hover:text-[#01696F] flex items-center px-6 py-3" href="#">
+<span class="material-symbols-outlined mr-3" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+                        Dashboard
+                    </a>
+</li>
+<li>
+<a class="text-neutral-600 dark:text-neutral-400 flex items-center px-6 py-3 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 hover:text-[#01696F]" href="#">
+<span class="material-symbols-outlined mr-3">description</span>
+                        Contracts
+                    </a>
+</li>
+<li>
+<a class="text-neutral-600 dark:text-neutral-400 flex items-center px-6 py-3 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 hover:text-[#01696F]" href="#">
+<span class="material-symbols-outlined mr-3">folder_shared</span>
+                        Documents
+                    </a>
+</li>
+<li>
+<a class="text-neutral-600 dark:text-neutral-400 flex items-center px-6 py-3 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 hover:text-[#01696F]" href="#">
+<span class="material-symbols-outlined mr-3">payments</span>
+                        Payments
+                    </a>
+</li>
+<li>
+<a class="text-neutral-600 dark:text-neutral-400 flex items-center px-6 py-3 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 hover:text-[#01696F]" href="#">
+<span class="material-symbols-outlined mr-3">settings</span>
+                        Settings
+                    </a>
+</li>
+</ul>
+</div>
+<div class="mt-auto pb-8">
+<ul>
+<li>
+<a class="text-neutral-600 dark:text-neutral-400 flex items-center px-6 py-3 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 hover:text-[#01696F]" href="#">
+<span class="material-symbols-outlined mr-3">logout</span>
+                        Logout
+                    </a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 w-full md:pl-64 flex flex-col min-h-screen">
+<!-- TopNavBar (Web & Mobile) -->
+<header class="bg-[#F7FAFA]/90 backdrop-blur-md dark:bg-slate-950/90 font-manrope tracking-tight text-sm docked full-width top-0 sticky border-b border-neutral-200 dark:border-neutral-800 flat no shadows scale-98 active:opacity-80 transition-all flex justify-between items-center w-full px-8 h-16 z-50">
+<div class="flex items-center gap-6">
+<!-- Mobile Menu Button (Visible only on mobile) -->
+<button class="md:hidden text-[#01696F] dark:text-teal-400 p-2 -ml-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div class="text-xl font-black text-[#01696F] dark:text-teal-200 md:hidden">Teal Sentinel Agency</div>
+<!-- Desktop Nav Links (Hidden on Mobile) -->
+<nav class="hidden md:flex gap-6 h-full items-end">
+<a class="text-[#01696F] font-bold border-b-2 border-[#01696F] pb-1 h-full flex items-center hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors px-2" href="#">Dashboard</a>
+<a class="text-neutral-500 dark:text-neutral-400 pb-[6px] h-full flex items-center hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors px-2" href="#">Contracts</a>
+<a class="text-neutral-500 dark:text-neutral-400 pb-[6px] h-full flex items-center hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors px-2" href="#">Documents</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-neutral-500 dark:text-neutral-400 p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<div class="hidden md:flex items-center gap-3">
+<button class="text-primary hover:bg-surface-container px-4 py-2 rounded-full font-button text-button transition-colors">Support</button>
+<button class="bg-surface-tint text-on-primary hover:bg-primary px-4 py-2 rounded-full font-button text-button transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span>
+                        New Request
+                    </button>
+</div>
+<div class="flex items-center gap-2 border-l border-outline-variant pl-4 ml-2">
+<button class="text-neutral-500 dark:text-neutral-400 p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full border border-surface-bright"></span>
+</button>
+<button class="text-neutral-500 dark:text-neutral-400 p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors">
+<span class="material-symbols-outlined">help</span>
+</button>
+<img alt="Helper Profile Avatar" class="w-8 h-8 rounded-full border border-outline-variant cursor-pointer ml-2 object-cover" data-alt="Portrait of a smiling young woman, well-lit, professional" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzeTMd1h6mupn8f6_VpuVagmKufnTHD8lS1NHQhjZleqMgeBC024DUk253KCcbZ13d69rnzq2_NQ_pfIOxYaTPmR6UIbERjrs_rOi0u8M9a_007F_ZijmOgFTkuqa7KKy-aPWVAVKP-CgX1atlVlDVDd4Kv1fwLZH7pHfnDFLhaWW8-qY4KitOqZnak3LQs90WwMoCPVlATEnOv9YyQ3f_3Ff30wS9iHuzkZ3kIEM2-RRgEBLk4DcEgFjL-jhLGwkJTZsMQnSjYLBu"/>
+</div>
+</div>
+</header>
+<!-- Page Content -->
+<div class="flex-1 p-6 md:p-10 max-w-[1200px] mx-auto w-full">
+<!-- Greeting Section -->
+<div class="flex items-center gap-6 mb-stack-lg">
+<img class="w-20 h-20 rounded-full border-2 border-surface-container-high shadow-sm object-cover" data-alt="Portrait of a smiling young woman, well-lit, professional" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1EJJ99BlbkIHKJUNYmuZ4Mw1hbkgE9zRWa7Djg6zSgiFL2sM2xwTvrqeUVU_BRIambFAz7-SDFlBsXvsvToqUB3MEuwhhB7tvn2-gmwekttvSSO3pZAM2Q70Ch0cBM5Hsmfm0prfDbKW5ixnzHs1pITOMt-C-45kdA1WHPLJg_w2pK7lH_595_ElNca94EVWxLkU_8Rm1RqXOpgNKr6zf9niJc4E9DefoWTo7jYBw78vIakIJqmsIjsVuUpcPBWE06PA_3BFRooFQ"/>
+<div>
+<h1 class="font-h1 text-h1 text-on-surface mb-1">Hello, Maria!</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Here is a summary of your current placement and quick actions.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-stack-md">
+<!-- Main Column (Current Job & Actions) -->
+<div class="lg:col-span-2 flex flex-col gap-stack-md">
+<!-- Current Job Card -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant p-gutter shadow-sm flex flex-col">
+<div class="flex justify-between items-start mb-6 border-b border-outline-variant pb-4">
+<div>
+<h2 class="font-h2 text-h2 text-on-surface mb-1">Current Placement</h2>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">location_on</span> Singapore
+                                </p>
+</div>
+<span class="bg-primary-container/10 text-primary-container px-3 py-1 rounded-full font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">check_circle</span> Active
+                            </span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase mb-1">Employer</p>
+<p class="font-h3 text-h3 text-on-surface">S.T.</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase mb-1">Contract</p>
+<p class="font-body-md text-body-md text-on-surface font-medium">Jan 2023 - Jan 2025</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase mb-1">Monthly Salary</p>
+<p class="font-h3 text-h3 text-on-surface">$750</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase mb-1">Next Rest Day</p>
+<p class="font-body-md text-body-md text-primary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">event</span> In 4 days
+                                </p>
+</div>
+</div>
+</div>
+<!-- Quick Actions Bento Grid -->
+<div>
+<h3 class="font-h3 text-h3 text-on-surface mb-stack-sm">Quick Actions</h3>
+<div class="grid grid-cols-2 gap-4">
+<button class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 flex flex-col items-center justify-center text-center hover:bg-surface-container-low transition-colors group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container/10 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl">flight_takeoff</span>
+</div>
+<span class="font-button text-button text-on-surface">Request Home Leave</span>
+</button>
+<button class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 flex flex-col items-center justify-center text-center hover:bg-surface-container-low transition-colors group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container/10 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl">upload_file</span>
+</div>
+<span class="font-button text-button text-on-surface">Upload Document</span>
+</button>
+<button class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 flex flex-col items-center justify-center text-center hover:bg-surface-container-low transition-colors group">
+<div class="w-12 h-12 rounded-lg bg-error-container/50 flex items-center justify-center mb-4 group-hover:bg-error-container transition-colors">
+<span class="material-symbols-outlined text-error text-2xl">report_problem</span>
+</div>
+<span class="font-button text-button text-on-surface">Report an Issue</span>
+</button>
+<button class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 flex flex-col items-center justify-center text-center hover:bg-surface-container-low transition-colors group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container/10 transition-colors">
+<span class="material-symbols-outlined text-primary text-2xl">military_tech</span>
+</div>
+<span class="font-button text-button text-on-surface">My Achievements</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right Column (Badges & Secondary Info) -->
+<div class="flex flex-col gap-stack-md">
+<!-- Achievements Panel -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant p-gutter shadow-sm">
+<h3 class="font-h3 text-h3 text-on-surface mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container">workspace_premium</span>
+                            Your Achievements
+                        </h3>
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-4 bg-surface p-4 rounded-lg border border-surface-container-high">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed-dim/30 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-tertiary-container">hourglass_top</span>
+</div>
+<div>
+<p class="font-button text-button text-on-surface">2 Years Served</p>
+<p class="font-body-md text-sm text-on-surface-variant">Milestone reached</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-surface p-4 rounded-lg border border-surface-container-high">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-primary-container">autorenew</span>
+</div>
+<div>
+<p class="font-button text-button text-on-surface">1 Renewal</p>
+<p class="font-body-md text-sm text-on-surface-variant">Contract extended</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-surface p-4 rounded-lg border border-surface-container-high">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-secondary">star_rate</span>
+</div>
+<div>
+<p class="font-button text-button text-on-surface">4.9 Rating</p>
+<p class="font-body-md text-sm text-on-surface-variant">Employer feedback</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Upcoming Reminders -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant p-gutter shadow-sm">
+<h3 class="font-h3 text-h3 text-on-surface mb-4">Reminders</h3>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 py-2 border-b border-surface-container-high last:border-0 last:pb-0">
+<span class="material-symbols-outlined text-primary mt-0.5 text-xl">medical_services</span>
+<div>
+<p class="font-body-md text-body-md text-on-surface font-medium">Medical Checkup</p>
+<p class="font-body-md text-sm text-on-surface-variant">Due in 14 days</p>
+</div>
+</li>
+<li class="flex items-start gap-3 py-2 border-b border-surface-container-high last:border-0 last:pb-0">
+<span class="material-symbols-outlined text-on-surface-variant mt-0.5 text-xl">mail</span>
+<div>
+<p class="font-body-md text-body-md text-on-surface font-medium">Monthly Check-in</p>
+<p class="font-body-md text-sm text-on-surface-variant">Agency calling tomorrow</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</main>

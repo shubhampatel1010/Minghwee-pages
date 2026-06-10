@@ -1,0 +1,186 @@
+<!-- SideNavBar -->
+<nav class="bg-surface-container-lowest text-teal-800 font-body-md text-body-md font-medium h-full w-64 border-r border-outline-variant fixed left-0 top-0 flex flex-col py-6 px-4 z-50">
+<div class="flex items-center gap-3 mb-8 px-2">
+<img alt="Agent Profile Picture" class="w-10 h-10 rounded-full object-cover" data-alt="Professional headshot of a logistics agent in a suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxft0I_bZH0D5utOuDZ8ILltOZu18eVtVKwIH3bpu6vUHBFItrGZaRmIAis-XaI3EMTl_BHYVWwffWpWcCHoItnhP7Y4umf_FrETbLgxzQWvV0UMYltN5r73hp7XPfog_8LV_L7n822PYFf_-d_T1zHUIP6N5ipAUZMxgc5OENHp12RQzB7v4LEsRG8grzb2RwfycDgnTKUx1i2-sc1PkMLMgV1pQkJocmXyEIOQOHlC2dB_PCi_Lol2L0Rf1z7_t3uI4f9lPtShSS"/>
+<div>
+<h2 class="text-h3 font-h3 text-primary-container font-bold">Embassy Runner</h2>
+<p class="text-label-caps font-label-caps text-on-surface-variant">Logistics Portal</p>
+</div>
+</div>
+<div class="flex-1 flex flex-col gap-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container transition-colors duration-200 active:scale-95 transition-transform group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary-container">dashboard</span>
+                Dashboard
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container transition-colors duration-200 active:scale-95 transition-transform group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary-container">assignment</span>
+                Tasks
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-surface-container text-primary-container border-l-4 border-primary-container active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">notifications_active</span>
+                Reminders
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container transition-colors duration-200 active:scale-95 transition-transform group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary-container">folder_shared</span>
+                Documents
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container transition-colors duration-200 active:scale-95 transition-transform group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary-container">settings</span>
+                Settings
+            </a>
+</div>
+<button class="mt-auto w-full bg-primary-container text-on-primary py-3 rounded-full font-button text-button hover:bg-primary transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">add</span>
+            New Application
+        </button>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 ml-64 flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<header class="bg-surface-container-lowest/80 backdrop-blur-md text-primary-container font-body-md text-body-md sticky top-0 w-full z-40 border-b border-outline-variant shadow-sm flex justify-between items-center px-8 py-3">
+<div class="flex items-center gap-4">
+<h1 class="text-h2 font-h2 text-on-surface font-semibold">Reminders Hub</h1>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden md:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+<input class="pl-10 pr-4 py-2 rounded-full border border-outline-variant bg-surface-container-lowest focus:ring-2 focus:ring-primary-container/50 focus:border-primary-container outline-none transition-all w-64 text-sm" placeholder="Search tasks..." type="text"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary-container transition-colors relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute -top-1 -right-1 w-2.5 h-2.5 bg-error rounded-full border-2 border-surface-container-lowest"></span>
+</button>
+<button class="text-on-surface-variant hover:text-primary-container transition-colors">
+<span class="material-symbols-outlined">help_outline</span>
+</button>
+<button class="hidden md:block text-sm font-medium text-on-surface-variant hover:text-primary-container transition-colors">
+                        Support
+                    </button>
+<img alt="User profile" class="w-8 h-8 rounded-full border border-outline-variant object-cover cursor-pointer" data-alt="Professional headshot of a logistics agent in a suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiDgKr1tLnKOM3oL6xKUtJUo6hbtrjY2HCC0WQRmt8QumRL7PTkQJU9K6GKCSEJi577bb6QOdrByEXfSxeXG_8a0orecfMxgJ4oL5oYYgdoJvEHywmMd8ATnxgs40w0lXHK7nK-1Ga4_wKndBhy0Rjwzrdh8pE2n9EwR2uVtzK1NAg_1txqMO9UMTBKrxwmJyG9178VBxbSO5aqTSrr8QP6tISfIEKlyo563DtapVS17P8fw4PsFvJ4bXVOAAxI1I_vXsYXjguQyhG"/>
+</div>
+</div>
+</header>
+<!-- Page Content -->
+<main class="flex-1 p-8 max-w-[container-max] mx-auto w-full flex flex-col gap-8">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<h2 class="text-h1 font-h1 text-on-surface mb-2">Reminders &amp; Notifications</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">You have 4 actionable items requiring attention today.</p>
+</div>
+</div>
+<!-- Filter Tabs -->
+<div class="flex items-center gap-2 border-b border-outline-variant w-full overflow-x-auto pb-[-1px]">
+<button class="px-6 py-3 text-primary-container font-button text-button border-b-2 border-primary-container whitespace-nowrap">All Items (4)</button>
+<button class="px-6 py-3 text-on-surface-variant hover:text-on-surface font-button text-button transition-colors whitespace-nowrap">Urgent (1)</button>
+<button class="px-6 py-3 text-on-surface-variant hover:text-on-surface font-button text-button transition-colors whitespace-nowrap">Collections (1)</button>
+<button class="px-6 py-3 text-on-surface-variant hover:text-on-surface font-button text-button transition-colors whitespace-nowrap">Deadlines (1)</button>
+</div>
+<!-- Bento Grid Content -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- URGENT Card -->
+<div class="col-span-1 md:col-span-2 lg:col-span-2 bg-surface-container-lowest rounded-xl border border-outline-variant shadow-sm overflow-hidden flex flex-col relative">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-error"></div>
+<div class="p-6 flex flex-col h-full pl-8">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-2">
+<span class="bg-error-container text-on-error-container px-2 py-1 rounded-full text-label-caps font-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">warning</span> URGENT
+                                </span>
+<span class="text-on-surface-variant text-sm">2 hours ago</span>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined">more_vert</span></button>
+</div>
+<h3 class="text-h3 font-h3 text-on-surface mb-2">Job #EMB-0079 disputed</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 flex-1">Client requires additional proof of delivery for the visa collection at the Spanish Embassy. Please upload the stamped receipt immediately to resolve the dispute.</p>
+<div class="flex items-center gap-3 mt-auto pt-4 border-t border-surface-container">
+<button class="bg-error text-on-error px-5 py-2.5 rounded-full font-button text-button hover:bg-error/90 transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined">upload_file</span>
+                                Upload proof
+                            </button>
+<button class="border border-outline text-on-surface px-5 py-2.5 rounded-full font-button text-button hover:bg-surface-container transition-colors">
+                                View details
+                            </button>
+</div>
+</div>
+</div>
+<!-- DEADLINE Card -->
+<div class="col-span-1 bg-surface-container-lowest rounded-xl border border-outline-variant shadow-sm overflow-hidden flex flex-col relative">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary"></div>
+<div class="p-6 flex flex-col h-full pl-8">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-2">
+<span class="bg-tertiary-container text-on-tertiary-container px-2 py-1 rounded-full text-label-caps font-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> DEADLINE
+                                </span>
+</div>
+</div>
+<h3 class="text-h3 font-h3 text-on-surface mb-2">Ana Santos - Visa application deadline</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 flex-1">Submission window closes at 4:00 PM today. Requires physical presence at the consulate.</p>
+<div class="flex items-center gap-3 mt-auto pt-4 border-t border-surface-container">
+<button class="bg-primary-container text-on-primary px-5 py-2.5 rounded-full font-button text-button hover:bg-primary transition-colors flex items-center gap-2 w-full justify-center">
+<span class="material-symbols-outlined">update</span>
+                                Update Status
+                            </button>
+</div>
+</div>
+</div>
+<!-- COLLECTION Card (Map) -->
+<div class="col-span-1 md:col-span-1 lg:col-span-1 bg-surface-container-lowest rounded-xl border border-outline-variant shadow-sm overflow-hidden flex flex-col relative">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-secondary"></div>
+<div class="h-32 bg-surface-variant relative w-full border-b border-outline-variant overflow-hidden">
+<img alt="Map view of Orchard office" class="w-full h-full object-cover opacity-80" data-alt="Clean, modern stylized map interface showing a route to Orchard office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgFQURif_1m_zCw8XYzo8e8ODzUKOChV9e1TFHH77yDFb5SN7tdxM7GjT41fcHWCJuqUW8Bet6WheCoO4bDdwb9mZ5TFQyx0rdh0fL2Z5Tgho4pG5Nbo2_WsQP1SopiaPwWqPGLi6Jxm5-Cwuf8onUpGlom9e8O119rhLPjWbsKiNLXBsrXdrXcAtj3FlXtx_b3qZ_S9YG-UnHASrorKaafyeMIPNXrgSDg3OGjfTyBX6rKbMI0_cWpRJVhOQd8Cj4aQP7VdWdfwJV"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest to-transparent h-full"></div>
+<div class="absolute top-4 left-6">
+<span class="bg-secondary-container text-on-secondary-container px-2 py-1 rounded-full text-label-caps font-label-caps flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span> COLLECTION
+                            </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 pl-8">
+<h3 class="text-h3 font-h3 text-on-surface mb-2">Collect from Orchard office</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 flex-1">Documents ready for pickup. Client needs them processed by tomorrow morning.</p>
+<div class="mt-auto pt-4 border-t border-surface-container">
+<button class="border border-primary-container text-primary-container px-5 py-2.5 rounded-full font-button text-button hover:bg-surface-container transition-colors flex items-center gap-2 w-full justify-center">
+<span class="material-symbols-outlined">navigation</span>
+                                Start Journey
+                            </button>
+</div>
+</div>
+</div>
+<!-- FOLLOW-UP Card -->
+<div class="col-span-1 md:col-span-2 lg:col-span-2 bg-surface-container-lowest rounded-xl border border-outline-variant shadow-sm overflow-hidden flex flex-col relative">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-outline"></div>
+<div class="p-6 flex flex-col h-full pl-8">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-2">
+<span class="bg-surface-variant text-on-surface-variant px-2 py-1 rounded-full text-label-caps font-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">sync</span> FOLLOW-UP
+                                </span>
+<span class="text-on-surface-variant text-sm">Yesterday</span>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-surface-variant">domain</span>
+</div>
+<div class="flex-1">
+<h3 class="text-h3 font-h3 text-on-surface mb-1">Job #EMB-0082 - Pending embassy response</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-4">Initial application submitted 3 days ago. Routine follow-up required to confirm processing timeline.</p>
+</div>
+</div>
+<div class="flex items-center justify-end gap-3 mt-auto pt-4 border-t border-surface-container">
+<button class="border border-outline text-on-surface px-5 py-2.5 rounded-full font-button text-button hover:bg-surface-container transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined">check_circle</span>
+                                Mark resolved
+                            </button>
+<button class="bg-primary-container text-on-primary px-5 py-2.5 rounded-full font-button text-button hover:bg-primary transition-colors">
+                                Check status
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>

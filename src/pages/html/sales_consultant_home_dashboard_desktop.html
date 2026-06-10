@@ -1,0 +1,252 @@
+<div class="flex min-h-screen">
+<!-- SideNavBar -->
+<aside class="hidden md:flex flex-col h-screen w-64 border-r border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 p-4 gap-2 sticky top-0">
+<div class="px-3 py-6">
+<span class="text-lg font-extrabold text-teal-800 dark:text-teal-200 font-display">SalesPort</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-4 mb-4">
+<img alt="User Profile" class="w-10 h-10 rounded-full border-2 border-primary" data-alt="professional portrait of a confident female sales consultant in business attire with soft corporate lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9WRlrNIMYyR0FEKaxIYnuX8YVFuKPNLd9MFFCMnKUsABOJMckCE2EZ_HiTH_oQXMwgfr09P7W6JEdIX99cA_FFDYAfELv5-hKXTV6jpsxRQWmeqAY8pVweGfLSNMLMcDOQZl9ox5P1M1b26PlQ3315perNDBnBN-vZNFfJzkxYHG5lKpgIxjlQ5MTxb2iKqpI3fgJ5Z2QsN_IvOzc-E3ofbuuRgq1J-Ekuy3qdTlfBFwcimjXa96w8E5HuvUk59yvAiBcfrcWkFVF"/>
+<div>
+<p class="font-manrope text-sm font-semibold text-on-surface">Sarah Jenkins</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Senior Consultant</p>
+</div>
+</div>
+<nav class="flex-grow space-y-1">
+<a class="bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 rounded-lg px-3 py-2 flex items-center gap-3 transition-all duration-200 ease-in-out hover:translate-x-1" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span class="font-manrope text-sm font-semibold">Dashboard</span>
+</a>
+<a class="text-slate-500 dark:text-slate-400 px-3 py-2 flex items-center gap-3 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:translate-x-1 rounded-lg" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-manrope text-sm font-semibold">Pipeline</span>
+</a>
+<a class="text-slate-500 dark:text-slate-400 px-3 py-2 flex items-center gap-3 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:translate-x-1 rounded-lg" href="#">
+<span class="material-symbols-outlined">assignment_turned_in</span>
+<span class="font-manrope text-sm font-semibold">Tasks</span>
+</a>
+<a class="text-slate-500 dark:text-slate-400 px-3 py-2 flex items-center gap-3 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:translate-x-1 rounded-lg" href="#">
+<span class="material-symbols-outlined">group</span>
+<span class="font-manrope text-sm font-semibold">Clients</span>
+</a>
+<a class="text-slate-500 dark:text-slate-400 px-3 py-2 flex items-center gap-3 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out hover:translate-x-1 rounded-lg" href="#">
+<span class="material-symbols-outlined">assessment</span>
+<span class="font-manrope text-sm font-semibold">Reports</span>
+</a>
+</nav>
+<div class="mt-auto space-y-1">
+<button class="w-full bg-primary text-on-primary font-button py-2.5 px-4 rounded-full flex items-center justify-center gap-2 mb-4 hover:opacity-90 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">add</span>
+                    New Lead
+                </button>
+<a class="text-slate-500 dark:text-slate-400 px-3 py-2 flex items-center gap-3 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out rounded-lg" href="#">
+<span class="material-symbols-outlined">help_outline</span>
+<span class="font-manrope text-sm font-semibold">Help Center</span>
+</a>
+<a class="text-slate-500 dark:text-slate-400 px-3 py-2 flex items-center gap-3 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-200 ease-in-out rounded-lg" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-manrope text-sm font-semibold">Logout</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Wrapper -->
+<div class="flex-grow flex flex-col min-w-0">
+<!-- TopNavBar -->
+<header class="fixed top-0 right-0 left-0 md:left-64 z-50 h-16 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm px-6 flex justify-between items-center">
+<div class="flex items-center gap-4">
+<h1 class="text-xl font-bold tracking-tight text-teal-900 dark:text-white hidden md:block">SalesPort Dashboard</h1>
+<div class="md:hidden flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-800">menu</span>
+<span class="text-xl font-bold tracking-tight text-teal-900">SalesPort</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="pl-10 pr-4 py-1.5 bg-slate-100 dark:bg-slate-800 border-none rounded-full text-sm w-64 focus:ring-2 focus:ring-teal-500" placeholder="Search clients or leads..." type="text"/>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-slate-600 hover:bg-slate-50 rounded-full transition-colors active:scale-95 duration-150">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 text-slate-600 hover:bg-slate-50 rounded-full transition-colors active:scale-95 duration-150">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+<div class="h-8 w-8 rounded-full bg-teal-100 overflow-hidden">
+<img alt="Consultant profile" class="w-full h-full object-cover" data-alt="professional sales consultant profile thumbnail with a warm friendly expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT0LjfpOSUyisswx0ZxCAOGxSCmuMBk-ZcvGWVwZilUkXkHMjHU3H4JFGejVCAl1Z5Y-SMVm3A_L6TaolYv9GY8oJ_wt0rQ4XXJWA4aXJMz5_bpjD0-PrQKiw11F8kuho-L7e2jEhPlYCtVkHBJ7hoio8eQ21rTdcREC9J7O_kfsIm8AbXHIH9QPv9_svcIoYk35orAYqW2X8V-mJsO-RC1XU09Ybt_oTd61-blNn_TJX8MCc4pDTcC0LGl2Os1PzF62EkBNggKYIW"/>
+</div>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="mt-16 p-6 md:p-8 max-w-7xl mx-auto w-full pb-24 md:pb-8">
+<!-- Greeting Header -->
+<div class="mb-8">
+<h2 class="font-h1 text-h1 text-on-surface">Welcome back, Jane!</h2>
+<p class="text-on-secondary-container font-medium">Monday, 24 May 2024 • You have 3 high-priority tasks today.</p>
+</div>
+<!-- KPI Scorecard -->
+<section class="mb-8">
+<div class="bg-primary-container text-on-primary-container rounded-xl p-8 shadow-sm flex flex-wrap md:flex-nowrap justify-between items-center gap-8 border border-white/10">
+<div class="flex-1 min-w-[140px] border-r border-white/20 last:border-none">
+<p class="text-teal-100/70 text-label-caps font-label-caps uppercase mb-2">New Leads</p>
+<div class="flex items-baseline gap-1">
+<span class="text-3xl font-bold text-white">14</span>
+<span class="text-teal-100/60 text-lg">/ 20</span>
+</div>
+</div>
+<div class="flex-1 min-w-[140px] border-r border-white/20 last:border-none">
+<p class="text-teal-100/70 text-label-caps font-label-caps uppercase mb-2">In Progress</p>
+<span class="text-3xl font-bold text-white">8</span>
+</div>
+<div class="flex-1 min-w-[140px] border-r border-white/20 last:border-none">
+<p class="text-teal-100/70 text-label-caps font-label-caps uppercase mb-2">Warm Leads</p>
+<span class="text-3xl font-bold text-white">5</span>
+</div>
+<div class="flex-1 min-w-[140px]">
+<p class="text-teal-100/70 text-label-caps font-label-caps uppercase mb-2">Converted</p>
+<span class="text-3xl font-bold text-white">3</span>
+</div>
+</div>
+</section>
+<!-- Today's Focus -->
+<section class="mb-10">
+<div class="flex justify-between items-center mb-4">
+<h3 class="font-h3 text-h3 text-teal-900">Today's Focus</h3>
+<button class="text-primary font-semibold text-sm hover:underline">View All Tasks</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-white rounded-xl p-6 shadow-[0_4px_12px_rgba(40,37,29,0.05)] border-l-4 border-l-error flex flex-col relative group">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-error-container text-on-error-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Urgent</span>
+<span class="material-symbols-outlined text-slate-300">more_vert</span>
+</div>
+<h4 class="font-bold text-lg text-slate-800 mb-1">Mrs. Tan</h4>
+<p class="text-slate-500 text-sm mb-6 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">history</span>
+                                Follow-up: Visa Document Prep
+                            </p>
+<div class="mt-auto flex gap-2">
+<button class="flex-1 bg-primary text-white py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">call</span> Call
+                                </button>
+<button class="flex-1 border border-primary text-primary py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">mail</span> Message
+                                </button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-xl p-6 shadow-[0_4px_12px_rgba(40,37,29,0.05)] border-l-4 border-l-primary flex flex-col relative group">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">High</span>
+<span class="material-symbols-outlined text-slate-300">more_vert</span>
+</div>
+<h4 class="font-bold text-lg text-slate-800 mb-1">Mr. Lim</h4>
+<p class="text-slate-500 text-sm mb-6 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">description</span>
+                                Contract: Embassy Submission
+                            </p>
+<div class="mt-auto flex gap-2">
+<button class="flex-1 bg-primary text-white py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">call</span> Call
+                                </button>
+<button class="flex-1 border border-primary text-primary py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">mail</span> Message
+                                </button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-xl p-6 shadow-[0_4px_12px_rgba(40,37,29,0.05)] border-l-4 border-l-slate-300 flex flex-col relative group">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-slate-100 text-slate-600 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Normal</span>
+<span class="material-symbols-outlined text-slate-300">more_vert</span>
+</div>
+<h4 class="font-bold text-lg text-slate-800 mb-1">Ms. Priya</h4>
+<p class="text-slate-500 text-sm mb-6 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">call_missed</span>
+                                Call Back: Initial Inquiry
+                            </p>
+<div class="mt-auto flex gap-2">
+<button class="flex-1 bg-primary text-white py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">call</span> Call
+                                </button>
+<button class="flex-1 border border-primary text-primary py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm">mail</span> Message
+                                </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Pipeline Snapshot -->
+<section>
+<div class="flex justify-between items-center mb-4">
+<h3 class="font-h3 text-h3 text-teal-900">Pipeline Snapshot</h3>
+</div>
+<div class="bg-white p-6 rounded-xl shadow-[0_4px_12px_rgba(40,37,29,0.05)] border border-slate-100 overflow-x-auto">
+<div class="flex min-w-[800px] justify-between relative">
+<!-- Connector Line -->
+<div class="absolute top-8 left-0 w-full h-0.5 bg-slate-100 -z-0"></div>
+<!-- Stage 1 -->
+<div class="flex flex-col items-center gap-3 relative z-10 bg-white px-2">
+<div class="w-16 h-16 rounded-full bg-teal-50 border-2 border-teal-200 flex items-center justify-center text-teal-800 font-bold text-xl">
+                                    14
+                                </div>
+<span class="font-semibold text-xs text-slate-600 uppercase tracking-tight">New Lead</span>
+</div>
+<!-- Stage 2 -->
+<div class="flex flex-col items-center gap-3 relative z-10 bg-white px-2">
+<div class="w-16 h-16 rounded-full bg-teal-100 border-2 border-teal-300 flex items-center justify-center text-teal-800 font-bold text-xl">
+                                    8
+                                </div>
+<span class="font-semibold text-xs text-slate-600 uppercase tracking-tight">Contacted</span>
+</div>
+<!-- Stage 3 -->
+<div class="flex flex-col items-center gap-3 relative z-10 bg-white px-2">
+<div class="w-16 h-16 rounded-full bg-teal-200 border-2 border-teal-400 flex items-center justify-center text-teal-800 font-bold text-xl">
+                                    5
+                                </div>
+<span class="font-semibold text-xs text-slate-600 uppercase tracking-tight">Proposal Sent</span>
+</div>
+<!-- Stage 4 -->
+<div class="flex flex-col items-center gap-3 relative z-10 bg-white px-2">
+<div class="w-16 h-16 rounded-full bg-teal-300 border-2 border-teal-500 flex items-center justify-center text-teal-800 font-bold text-xl">
+                                    3
+                                </div>
+<span class="font-semibold text-xs text-slate-600 uppercase tracking-tight">In Negotiation</span>
+</div>
+<!-- Stage 5 -->
+<div class="flex flex-col items-center gap-3 relative z-10 bg-white px-2">
+<div class="w-16 h-16 rounded-full bg-primary border-2 border-primary flex items-center justify-center text-white font-bold text-xl">
+                                    3
+                                </div>
+<span class="font-semibold text-xs text-primary uppercase tracking-tight">Converted</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pt-2 pb-6 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-t border-slate-200/50 dark:border-slate-800 rounded-t-2xl shadow-[0_-4px_12px_rgba(40,37,29,0.05)] z-50">
+<a class="flex flex-col items-center justify-center bg-teal-100/50 dark:bg-teal-900/40 text-teal-800 dark:text-teal-200 rounded-xl px-4 py-1.5 transition-all scale-110 duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-manrope text-[10px] font-bold uppercase tracking-wider">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-4 py-1.5 transition-all" href="#">
+<span class="material-symbols-outlined">leaderboard</span>
+<span class="font-manrope text-[10px] font-bold uppercase tracking-wider">Leads</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-4 py-1.5 transition-all" href="#">
+<span class="material-symbols-outlined">task_alt</span>
+<span class="font-manrope text-[10px] font-bold uppercase tracking-wider">Tasks</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-4 py-1.5 transition-all" href="#">
+<span class="material-symbols-outlined">menu</span>
+<span class="font-manrope text-[10px] font-bold uppercase tracking-wider">More</span>
+</a>
+</nav>
+<!-- Contextual FAB -->
+<button class="fixed bottom-24 right-6 md:bottom-8 md:right-8 w-14 h-14 bg-primary text-white rounded-full shadow-lg flex items-center justify-center transition-all hover:scale-110 active:scale-95 group">
+<span class="material-symbols-outlined text-2xl group-hover:rotate-90 transition-transform duration-300">add</span>
+</button>

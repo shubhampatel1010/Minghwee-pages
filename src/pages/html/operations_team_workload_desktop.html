@@ -1,0 +1,261 @@
+<!-- SideNavBar (Semantic Shell) -->
+<nav class="fixed left-0 top-0 h-full w-72 border-r border-stone-200 bg-[#F9F8F6] flex flex-col gap-2 py-8 transition-all hidden md:flex">
+<div class="px-6 mb-8">
+<h1 class="text-xl font-bold text-teal-900">Operations Hub</h1>
+<p class="text-xs text-stone-500 uppercase tracking-widest font-bold">Admin Portal</p>
+</div>
+<div class="flex flex-col space-y-1">
+<a class="flex items-center gap-3 px-6 py-3 text-stone-500 hover:bg-stone-100 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-manrope text-sm font-medium">Overview</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-teal-800 font-semibold border-r-2 border-teal-700 bg-stone-100/50" href="#">
+<span class="material-symbols-outlined" data-icon="engineering">engineering</span>
+<span class="font-manrope text-sm font-medium">Ops</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-stone-500 hover:bg-stone-100 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span class="font-manrope text-sm font-medium">Sales</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-stone-500 hover:bg-stone-100 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="report_problem">report_problem</span>
+<span class="font-manrope text-sm font-medium">Issues</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-stone-500 hover:bg-stone-100 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="bar_chart">bar_chart</span>
+<span class="font-manrope text-sm font-medium">Reports</span>
+</a>
+</div>
+</nav>
+<!-- TopNavBar (Semantic Shell) -->
+<header class="md:ml-72 flex justify-between items-center w-full px-6 h-16 bg-white border-b border-stone-200 shadow-sm fixed top-0 z-10">
+<div class="flex items-center gap-4">
+<span class="text-lg font-extrabold tracking-tight text-teal-900">Agency Insights</span>
+<div class="hidden lg:flex items-center bg-surface-container-low px-3 py-1.5 rounded-lg border border-outline-variant">
+<span class="material-symbols-outlined text-stone-400 text-sm mr-2" data-icon="search">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-64 p-0" placeholder="Search insights..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-stone-500 hover:bg-stone-50 rounded-full transition-colors">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<img alt="Manager Portrait" class="w-8 h-8 rounded-full border border-stone-200" data-alt="Professional corporate headshot of a smiling male manager in a modern office environment with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7h08r4gv7qMjYCD32FAKbGHidU8TbeMvfiMaUyYaBFQZPFuqjsc6Sskb0pX-4STYxXI1QR_RMriKP9AkZGyyqhnJdwbCFrwmAPMxssNXCUu74DTm07VsyHYeZD0ZeL_7xg3k5L_B0DDrJBJ2xe-2NaHzEQYLpnQWexcDAlJPfQUIElrauFLKMqHwRrUXi7XePK2IPEeaAVX1-MiyDuRRHs6vTw2kfJ5pIpG4ecJRxGTYGXW0owZuEs1t-iKwwa-nr2KlHGQJNu4xq"/>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="md:ml-72 pt-16 min-h-screen">
+<div class="max-w-[1200px] mx-auto px-margin-desktop py-stack-md">
+<!-- Page Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-stack-lg">
+<div>
+<h2 class="font-h1 text-h1 text-on-background">Operations Team</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Placement Admin Workload Overview</p>
+</div>
+<div class="flex gap-stack-sm mt-4 md:mt-0">
+<button class="flex items-center gap-2 px-6 py-2 border border-outline-variant rounded-full font-button text-button text-on-secondary-container bg-white hover:bg-surface-container transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="filter_list">filter_list</span>
+                        Filter
+                    </button>
+<button class="flex items-center gap-2 px-6 py-2 bg-primary-container text-on-primary-container rounded-full font-button text-button hover:opacity-90 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="swap_horiz">swap_horiz</span>
+                        Reassign Tasks
+                    </button>
+</div>
+</div>
+<!-- Admin Workload Bento Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Sarah Jenkins -->
+<div class="bg-white rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)] flex flex-col gap-6">
+<div class="flex items-center gap-4">
+<img alt="Sarah Jenkins Profile" class="w-14 h-14 rounded-full object-cover" data-alt="Friendly professional headshot of a woman with long dark hair, wearing a white blouse against a neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyVvrOnI51W8KzP8bdQnvVAOIt7kTi9szjJDqx1BujUo2-ANr3y9tMErAX_KQPVyu6Pv_Brw5TyEzbL3g-A5R0zzoznzpqHl3JHd7PhY6klFiEyhBrwm975OUfTs-83s4nIH4cXVyUXZ986lKOAqHxac4bkX9EL3bETSib4SxWplVQFibdLf2KHXqGf6yTzh8Inboot-o7twhOdlBzWcrUpWvO83AnDEoP1SRfMjsYk63vrgICht-niuORNQcigMvuUuI38hbyyZJ0"/>
+<div>
+<h3 class="font-h3 text-h3">Sarah Jenkins</h3>
+<div class="flex items-center gap-2">
+<span class="rounded-full px-2 py-0.5 bg-primary-container/10 text-primary font-label-caps text-[10px] uppercase">Sr. Placement Admin</span>
+<span class="text-[11px] text-stone-400 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Active 2m ago
+                                </span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-stack-sm">
+<div class="bg-surface-container-low p-4 rounded-lg border border-surface-variant">
+<p class="text-[11px] text-on-secondary-container font-bold uppercase tracking-wider mb-1">Active Pipelines</p>
+<span class="text-2xl font-bold text-teal-800">14</span>
+</div>
+<div class="bg-error-container/30 p-4 rounded-lg border border-error/10">
+<p class="text-[11px] text-error font-bold uppercase tracking-wider mb-1">Actions Overdue</p>
+<span class="text-2xl font-bold text-error">03</span>
+</div>
+</div>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between items-center mb-2">
+<p class="text-xs font-bold text-on-surface uppercase tracking-wider">Docs Pending (08)</p>
+<span class="material-symbols-outlined text-stone-400 text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+<div class="flex justify-between items-center mb-2">
+<p class="text-xs font-bold text-on-surface uppercase tracking-wider">MOM Submissions (12)</p>
+<span class="material-symbols-outlined text-stone-400 text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<div>
+<p class="text-[11px] font-bold text-on-secondary-container uppercase tracking-wider mb-3">Stage Distribution</p>
+<div class="w-full h-3 bg-surface-container rounded-full flex overflow-hidden">
+<div class="h-full bg-primary" style="width: 45%;"></div>
+<div class="h-full bg-tertiary" style="width: 30%;"></div>
+<div class="h-full bg-secondary-fixed-dim" style="width: 25%;"></div>
+</div>
+<div class="flex justify-between mt-2 text-[10px] font-semibold text-stone-500">
+<span>Initial</span>
+<span>Vet</span>
+<span>Final</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2: Emily Chen -->
+<div class="bg-white rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)] flex flex-col gap-6">
+<div class="flex items-center gap-4">
+<img alt="Emily Chen Profile" class="w-14 h-14 rounded-full object-cover" data-alt="Professional woman with black hair in a grey blazer, professional studio lighting, confident expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOXOTW4rO0SqeQ35LTEr5NNGpQx4D7LIdO7jNBEHnoLwYQDjsOnchRZwL13BWfwrckeoORBuqqGQjXw7xVuzVBZzoxB8XZlMdjjTCsroM2OhHHjIlY3hubtHhldYL-btFtWGeifIoGHk7xLzKgvtow3rzRwvDggCm1xlIroyJfmCJMzf4m0XGtQ3TD1_0OZfjphCMho3mH7-Xq1PeUWziaYOzs1d2CIx-736LEqHTqW7dfxDdxDjWKvW4pdp6SrNCB88ZnAKSz-fR_"/>
+<div>
+<h3 class="font-h3 text-h3">Emily Chen</h3>
+<div class="flex items-center gap-2">
+<span class="rounded-full px-2 py-0.5 bg-primary-container/10 text-primary font-label-caps text-[10px] uppercase">Placement Admin</span>
+<span class="text-[11px] text-stone-400 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Active now
+                                </span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-stack-sm">
+<div class="bg-surface-container-low p-4 rounded-lg border border-surface-variant">
+<p class="text-[11px] text-on-secondary-container font-bold uppercase tracking-wider mb-1">Active Pipelines</p>
+<span class="text-2xl font-bold text-teal-800">21</span>
+</div>
+<div class="bg-error-container/30 p-4 rounded-lg border border-error/10">
+<p class="text-[11px] text-error font-bold uppercase tracking-wider mb-1">Actions Overdue</p>
+<span class="text-2xl font-bold text-error">08</span>
+</div>
+</div>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between items-center mb-2">
+<p class="text-xs font-bold text-on-surface uppercase tracking-wider">Docs Pending (15)</p>
+<span class="material-symbols-outlined text-stone-400 text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+<div class="flex justify-between items-center mb-2">
+<p class="text-xs font-bold text-on-surface uppercase tracking-wider">MOM Submissions (05)</p>
+<span class="material-symbols-outlined text-stone-400 text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<div>
+<p class="text-[11px] font-bold text-on-secondary-container uppercase tracking-wider mb-3">Stage Distribution</p>
+<div class="w-full h-3 bg-surface-container rounded-full flex overflow-hidden">
+<div class="h-full bg-primary" style="width: 20%;"></div>
+<div class="h-full bg-tertiary" style="width: 60%;"></div>
+<div class="h-full bg-secondary-fixed-dim" style="width: 20%;"></div>
+</div>
+<div class="flex justify-between mt-2 text-[10px] font-semibold text-stone-500">
+<span>Initial</span>
+<span>Vet</span>
+<span>Final</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3: Marcus Reed -->
+<div class="bg-white rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)] flex flex-col gap-6">
+<div class="flex items-center gap-4">
+<img alt="Marcus Reed Profile" class="w-14 h-14 rounded-full object-cover" data-alt="Mid-30s man with beard and short hair, wearing a navy polo shirt, natural light office background, professional portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQOw0ClISw21SonyZYmQpynpvaN84XdiJSf_Ak_PrKe9LjwG5gl1k81ISiSWLV9oXTq1Lj98f75k65zwYHwNDyiEUMJRT3PCpbO0MR19KXqXCDzoxnujXAtYFePcIAJZSZiAkaNSSRGkTZfrnzmQ6wSYMV09vTff0Y_l4hCpqdg2MJhXRCri9MsI7l6kzGGs7cEkviEe9229XtNquRxqJyQLAfDfro-ZGUjUM11ZiJt67JMFGypM65Pm3bVWrCrbynvNBKTh9eccg5"/>
+<div>
+<h3 class="font-h3 text-h3">Marcus Reed</h3>
+<div class="flex items-center gap-2">
+<span class="rounded-full px-2 py-0.5 bg-primary-container/10 text-primary font-label-caps text-[10px] uppercase">Placement Admin</span>
+<span class="text-[11px] text-stone-400 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-stone-300"></span> Active 1h ago
+                                </span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-stack-sm">
+<div class="bg-surface-container-low p-4 rounded-lg border border-surface-variant">
+<p class="text-[11px] text-on-secondary-container font-bold uppercase tracking-wider mb-1">Active Pipelines</p>
+<span class="text-2xl font-bold text-teal-800">09</span>
+</div>
+<div class="bg-error-container/30 p-4 rounded-lg border border-error/10">
+<p class="text-[11px] text-error font-bold uppercase tracking-wider mb-1">Actions Overdue</p>
+<span class="text-2xl font-bold text-error">01</span>
+</div>
+</div>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between items-center mb-2">
+<p class="text-xs font-bold text-on-surface uppercase tracking-wider">Docs Pending (03)</p>
+<span class="material-symbols-outlined text-stone-400 text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+<div class="flex justify-between items-center mb-2">
+<p class="text-xs font-bold text-on-surface uppercase tracking-wider">MOM Submissions (08)</p>
+<span class="material-symbols-outlined text-stone-400 text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<div>
+<p class="text-[11px] font-bold text-on-secondary-container uppercase tracking-wider mb-3">Stage Distribution</p>
+<div class="w-full h-3 bg-surface-container rounded-full flex overflow-hidden">
+<div class="h-full bg-primary" style="width: 15%;"></div>
+<div class="h-full bg-tertiary" style="width: 15%;"></div>
+<div class="h-full bg-secondary-fixed-dim" style="width: 70%;"></div>
+</div>
+<div class="flex justify-between mt-2 text-[10px] font-semibold text-stone-500">
+<span>Initial</span>
+<span>Vet</span>
+<span>Final</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Dashboard Bottom Detail -->
+<div class="mt-gutter grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-white rounded-xl border border-surface-variant p-stack-md shadow-[0_4px_20px_rgba(40,37,29,0.02)]">
+<h3 class="font-h3 text-h3 mb-stack-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-700" data-icon="trending_up">trending_up</span>
+                        Weekly Throughput
+                    </h3>
+<div class="h-48 flex items-end justify-between px-2 pt-4 border-b border-surface-variant">
+<div class="w-8 bg-primary-container rounded-t-sm" style="height: 60%"></div>
+<div class="w-8 bg-primary-container rounded-t-sm" style="height: 45%"></div>
+<div class="w-8 bg-primary-container rounded-t-sm" style="height: 85%"></div>
+<div class="w-8 bg-primary-container rounded-t-sm" style="height: 70%"></div>
+<div class="w-8 bg-primary-container rounded-t-sm" style="height: 95%"></div>
+<div class="w-8 bg-stone-200 rounded-t-sm" style="height: 40%"></div>
+<div class="w-8 bg-stone-200 rounded-t-sm" style="height: 20%"></div>
+</div>
+<div class="flex justify-between mt-2 text-[10px] font-bold text-stone-400 uppercase tracking-widest px-2">
+<span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+</div>
+</div>
+<div class="bg-teal-900 rounded-xl p-stack-md text-on-primary-container shadow-xl flex flex-col justify-between">
+<div>
+<h3 class="text-xl font-bold mb-2">Operational Health</h3>
+<p class="text-on-primary-container/70 text-sm">Overall team capacity is currently at <span class="text-white font-bold">84%</span>. Two admins are nearing overflow limits.</p>
+</div>
+<div class="flex items-center gap-4 mt-6">
+<div class="flex-1">
+<div class="flex justify-between text-xs mb-1">
+<span>Efficiency Score</span>
+<span class="font-bold">92/100</span>
+</div>
+<div class="h-2 bg-teal-800 rounded-full">
+<div class="h-full bg-white rounded-full" style="width: 92%"></div>
+</div>
+</div>
+<button class="bg-white text-teal-900 px-4 py-2 rounded-full font-button text-xs hover:bg-on-primary-container transition-colors">
+                            View Deep Dive
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</main>

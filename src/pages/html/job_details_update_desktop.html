@@ -1,0 +1,264 @@
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-[0px_4px_20px_rgba(40,37,29,0.05)]">
+<div class="flex items-center gap-4">
+<span class="text-xl font-bold text-teal-800 dark:text-teal-300 font-manrope font-semibold tracking-tight">MingHwee Professional</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors rounded-full active:scale-95 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">notifications</span>
+</button>
+<button class="p-2 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors rounded-full active:scale-95 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">help_outline</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-surface-container overflow-hidden">
+<img alt="Vendor User Avatar" class="w-full h-full object-cover" data-alt="Corporate headshot of a professional man in a dark suit against a neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhfVh5QeDI2kg4DbhAEbF7OHN87Q14K68Kn3fNeW5aHNcIs84NiWNfQnTVXzjMJoNsRcCKyqmVDHnnm6GNFLI92oGaxr-cpILn-4aiM3v-30aHRVXB92xoORSmI4_tshSu1d1sy0YLP8CY-K7uWlKlpgbq_5o2ole8OxM-eQeFF9_nWnqC0VJf9WBUJarYMZCJCQxV67SduJNRFlJSMhRTpUxBDj50SmpHMnvOBPoezx0KRJW8pjKInX20b8NIpeLiJ5oh_Hbgnp1f"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar -->
+<nav class="fixed left-0 top-16 h-[calc(100vh-64px)] w-64 flex flex-col py-4 px-2 bg-slate-50 dark:bg-slate-950 border-r border-slate-200 dark:border-slate-800 font-manrope text-sm font-medium hidden md:flex z-40">
+<div class="px-4 pb-6 mb-4 border-b border-outline-variant">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-10 rounded-DEFAULT bg-primary text-on-primary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined">business</span>
+</div>
+<div>
+<h2 class="text-lg font-black text-teal-900 dark:text-teal-100 leading-tight">Vendor Portal</h2>
+<p class="text-xs text-on-surface-variant">Operational Suite</p>
+</div>
+</div>
+</div>
+<ul class="flex-1 space-y-1">
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">dashboard</span>
+                    Dashboard
+                </a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 font-bold border-r-4 border-teal-700 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">pending_actions</span>
+                    Active Jobs
+                </a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">task_alt</span>
+                    Completed
+                </a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">description</span>
+                    Documentation
+                </a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">settings</span>
+                    Settings
+                </a>
+</li>
+</ul>
+<div class="mt-auto pt-4 border-t border-outline-variant space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">contact_support</span>
+                Support
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:text-teal-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg active:scale-98 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">logout</span>
+                Logout
+            </a>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="pt-16 md:pl-64 min-h-screen">
+<div class="max-w-[1200px] mx-auto p-margin-mobile md:p-margin-desktop">
+<!-- Page Header -->
+<div class="mb-stack-md flex justify-between items-end">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2 py-1 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps rounded-DEFAULT uppercase">Active Transport</span>
+<span class="text-on-surface-variant font-body-md text-body-md">Job #MH-2045</span>
+</div>
+<h1 class="font-h1 text-h1 text-on-surface">Job Details &amp; Update</h1>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- LEFT COLUMN -->
+<div class="lg:col-span-8 flex flex-col gap-stack-md">
+<!-- Helper Info Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0px_4px_20px_rgba(40,37,29,0.05)] border-t-4 border-primary overflow-hidden">
+<div class="p-6">
+<h2 class="font-h2 text-h2 text-on-surface mb-6 border-b border-outline-variant pb-4">Helper Profile</h2>
+<div class="flex flex-col md:flex-row gap-6 items-start">
+<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 border-2 border-surface-variant">
+<img alt="Ana Santos" class="w-full h-full object-cover" data-alt="Professional portrait of an Asian woman in neat casual attire, smiling slightly against a neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxdu8ZIDlGQVT4995L9rJL1VtSsoR-J-F57fL3niFUpAdxJVmjQDB0NxVUMHIL1hMz0beF-iWZJHH-HxkIuu6P-hTAL0HZHBeO3n7P4yPp7--1dDZkL2_m9_aGJfnCz2UVkSfWGcl1NxYCFd1ZWWvrNu-0DqXrnptoKpzsG__8P69J7L-DTdHCsnYGQUt45rMRgK_E2MG6UCyMpMn4le5y0Ir8VwxKtxDv77VDVbu6UkMDxtW2AIs12DBDxQvgeH0wAMGc9ynbs0ul"/>
+</div>
+<div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+<div>
+<p class="text-on-surface-variant font-label-caps text-label-caps mb-1 uppercase">Full Name</p>
+<p class="font-body-lg text-body-lg text-on-surface font-semibold">Ana Santos</p>
+</div>
+<div>
+<p class="text-on-surface-variant font-label-caps text-label-caps mb-1 uppercase">Nationality</p>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">public</span>
+<p class="font-body-md text-body-md text-on-surface">Filipino</p>
+</div>
+</div>
+<div>
+<p class="text-on-surface-variant font-label-caps text-label-caps mb-1 uppercase">Contact Number</p>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">phone_iphone</span>
+<p class="font-body-md text-body-md text-on-surface">+65 9123 4567</p>
+</div>
+</div>
+<div>
+<p class="text-on-surface-variant font-label-caps text-label-caps mb-1 uppercase">Passport No.</p>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">badge</span>
+<p class="font-body-md text-body-md text-on-surface">P1234567A</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Special Instructions Banner -->
+<div class="bg-error-container text-on-error-container rounded-lg p-4 flex items-start gap-3 border border-error/20">
+<span class="material-symbols-outlined text-error mt-0.5" style="font-variation-settings: 'FILL' 1;">warning</span>
+<div>
+<h3 class="font-h3 text-h3 mb-1">Special Instructions</h3>
+<p class="font-body-md text-body-md opacity-90">Heavy luggage expected (2x 30kg bags). Please ensure vehicle has adequate trunk space. Helper may require assistance with loading/unloading.</p>
+</div>
+</div>
+<!-- Route Details Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0px_4px_20px_rgba(40,37,29,0.05)] p-6">
+<h2 class="font-h2 text-h2 text-on-surface mb-6">Route Details</h2>
+<div class="relative pl-8 space-y-8 before:content-[''] before:absolute before:left-3.5 before:top-4 before:bottom-4 before:w-0.5 before:bg-outline-variant">
+<!-- Pickup -->
+<div class="relative">
+<div class="absolute -left-8 w-7 h-7 rounded-full bg-surface-container-lowest border-2 border-primary flex items-center justify-center">
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-4 border border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Pickup Location</p>
+<span class="px-2 py-0.5 bg-surface-variant text-on-surface-variant text-xs rounded font-medium">14:00 SGT</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-1">Changi Airport Terminal 3</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-3">Arrival Hall, Door 4 (Passenger Pick-up Point)</p>
+<button class="font-button text-button text-primary flex items-center gap-1 hover:text-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+                                        Get Directions
+                                    </button>
+</div>
+</div>
+<!-- Dropoff -->
+<div class="relative">
+<div class="absolute -left-8 w-7 h-7 rounded-full bg-surface-container-lowest border-2 border-outline flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px] text-outline" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-4 border border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Dropoff Location</p>
+<span class="px-2 py-0.5 bg-surface-variant text-on-surface-variant text-xs rounded font-medium">Est. 14:45 SGT</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface mb-1">MingHwee Headquarters</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-3">123 Business Hub Drive, #05-01, Singapore 456789</p>
+<button class="font-button text-button text-primary flex items-center gap-1 hover:text-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+                                        Get Directions
+                                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN (Sidebar) -->
+<div class="lg:col-span-4">
+<div class="bg-surface-container-lowest rounded-xl shadow-[0px_4px_20px_rgba(40,37,29,0.05)] p-6 sticky top-24">
+<h2 class="font-h2 text-h2 text-on-surface mb-6 border-b border-outline-variant pb-4">Job Progress</h2>
+<!-- Progress Tracker -->
+<div class="space-y-6 mb-8">
+<!-- Step 1: En Route (Completed) -->
+<div class="flex gap-4 opacity-50">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="w-0.5 h-full bg-primary mt-2"></div>
+</div>
+<div class="pb-6">
+<p class="font-h3 text-h3 text-on-surface line-through">En Route to Pickup</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Confirmed at 13:15 SGT</p>
+</div>
+</div>
+<!-- Step 2: Picked Up (Completed) -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="w-0.5 h-full bg-outline-variant mt-2"></div>
+</div>
+<div class="pb-6 w-full">
+<p class="font-h3 text-h3 text-on-surface">Helper Picked Up</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-3">Confirmed at 14:05 SGT</p>
+<!-- Photo Proof Thumbnail -->
+<div class="flex gap-2">
+<div class="w-16 h-16 rounded bg-surface-variant overflow-hidden border border-outline-variant">
+<img alt="Pickup Proof" class="w-full h-full object-cover" data-alt="Airport arrival hall terminal building exterior during daytime with blurred figures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcXEHSyWj0qr2P2f2J493kFNfsv-pAyXmGN6t5jLyxImOHb1NIkTv724IYR1vy2jrIluogY9ZskFdv7a_6QsL7AjWVTb1q_DD9s5jEFoX1rPjqlAt5LLl5EPeBhTQjGxCR39MhcnU9U9SgN4aDAmJ8oyqfXMzpsmrzlpiUHvv4pl3IjSQJV7rrwRsjeHVBJevXahYSZrbHLK-Ihg7WmLy2psDDBUAimuClbCEhBfXn4o185rEuNJrk8bHM72Rb7cATPuYu4MbULog9"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Step 3: At Destination (Active Action Needed) -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full border-2 border-primary bg-surface-container-lowest flex items-center justify-center">
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+</div>
+<div class="w-0.5 h-full bg-outline-variant mt-2"></div>
+</div>
+<div class="pb-6 w-full">
+<p class="font-h3 text-h3 text-primary font-bold">At Destination</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">Required: Proof of Arrival</p>
+<!-- Photo Upload Section -->
+<div class="border-2 border-dashed border-outline-variant rounded-lg p-6 flex flex-col items-center justify-center bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">add_a_photo</span>
+</div>
+<p class="font-button text-button text-on-surface text-center mb-1">Upload Destination Photo</p>
+<p class="text-xs text-on-surface-variant text-center">Tap to capture or select file</p>
+</div>
+</div>
+</div>
+<!-- Step 4: Completed (Pending) -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full border-2 border-outline bg-surface-container-lowest flex items-center justify-center">
+</div>
+</div>
+<div class="pb-2">
+<p class="font-h3 text-h3 text-outline">Job Completed</p>
+</div>
+</div>
+</div>
+<!-- Remarks Section -->
+<div class="mb-6">
+<label class="block font-label-caps text-label-caps text-on-surface-variant uppercase mb-2" for="remarks">Driver Remarks (Optional)</label>
+<textarea class="w-full rounded-lg border-outline-variant bg-surface-container-lowest text-on-surface focus:ring-primary focus:border-primary font-body-md text-body-md placeholder:text-outline/50" id="remarks" placeholder="Add any notes about the trip, delays, or handover details..." rows="3"></textarea>
+</div>
+<!-- Primary CTA -->
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-button text-button py-4 rounded-full flex items-center justify-center gap-2 shadow-md active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">task_alt</span>
+                            Mark Job Complete
+                        </button>
+<p class="text-center text-xs text-on-surface-variant mt-3">Ensure all mandatory photos are uploaded before completing.</p>
+</div>
+</div>
+</div>
+</div>
+</main>

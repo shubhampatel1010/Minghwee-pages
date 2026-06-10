@@ -1,0 +1,298 @@
+<!-- SideNavBar Shell -->
+<aside class="fixed left-0 top-0 h-full w-64 border-r border-slate-200 bg-slate-50 py-4 flex flex-col z-50">
+<div class="px-6 mb-8">
+<h1 class="text-xl font-black text-teal-900 tracking-tight">GlobalVisa</h1>
+<p class="text-xs text-slate-500 font-medium">Enterprise Portal</p>
+</div>
+<nav class="flex-1 space-y-1 px-3">
+<a class="flex items-center gap-3 px-3 py-2.5 bg-white text-teal-800 border-r-4 border-teal-700 shadow-sm transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">view_kanban</span>
+                Pipeline
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-teal-50/50 hover:text-teal-700 transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined">group</span>
+                Client Directory
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-teal-50/50 hover:text-teal-700 transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined">fact_check</span>
+                Visa Status
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-teal-50/50 hover:text-teal-700 transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined">folder_shared</span>
+                Document Vault
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-teal-50/50 hover:text-teal-700 transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+                Performance
+            </a>
+</nav>
+<div class="mt-auto px-3 space-y-1 pt-4 border-t border-slate-200">
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-teal-50/50 hover:text-teal-700 transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+                Support
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-teal-50/50 hover:text-teal-700 transition-all font-medium rounded-sm" href="#">
+<span class="material-symbols-outlined">settings</span>
+                Settings
+            </a>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="ml-64 min-h-screen flex flex-col">
+<!-- TopNavBar Shell -->
+<header class="sticky top-0 w-full bg-white border-b border-slate-200 shadow-sm h-16 flex items-center justify-between px-8 z-40">
+<div class="flex items-center gap-4">
+<div class="relative">
+<span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400">
+<span class="material-symbols-outlined text-lg">search</span>
+</span>
+<input class="pl-10 pr-4 py-1.5 border border-slate-200 rounded-lg text-sm focus:ring-2 focus:ring-primary focus:border-transparent bg-slate-50 w-64" placeholder="Search leads..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-4 text-slate-500">
+<button class="hover:bg-slate-50 p-1.5 rounded-full transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="hover:bg-slate-50 p-1.5 rounded-full transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined">help</span>
+</button>
+<button class="hover:bg-slate-50 p-1.5 rounded-full transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined">apps</span>
+</button>
+</div>
+<div class="h-8 w-px bg-slate-200"></div>
+<div class="flex items-center gap-3">
+<div class="text-right">
+<p class="text-sm font-bold text-teal-900 leading-none">MingHwee</p>
+<p class="text-[10px] text-slate-500 uppercase tracking-wider font-semibold">Lead Consultant</p>
+</div>
+<img alt="Lead Consultant Profile" class="w-10 h-10 rounded-full object-cover border-2 border-primary-fixed" data-alt="Professional portrait of a middle-aged sales executive with a friendly expression in a modern office setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3ayy9bfzXKs2fzCeSwrmSjmrdMNNnQUjHpM3gGohFO4ojC2q6wvKUiYxq8Eveby-x8WhubNkF757ZA56-bQUFwrD2VaLQD0pAiMnZe0ItJO2ByoCVRczgh6897QHPuVBRJATzHrbuYkLRm_HB8yHsss2TRBYRUOxvghOI4R3ABxmEbQ-PPjd4d2AgZ7XyN5cRO3yO4dYh5Vz8MhrUwVMOjZlg4W3JKYs5P5IqxbLo7svZB9-Iv1mFZmrnMtrZ1HZbAhCoHRVYzEUn"/>
+</div>
+</div>
+</header>
+<!-- Kanban Header Section -->
+<section class="px-8 py-6 bg-surface-bright flex items-end justify-between">
+<div>
+<h2 class="text-h1 font-h1 text-on-surface">Sales Pipeline</h2>
+<div class="flex gap-4 mt-2">
+<div class="flex items-center gap-2 text-sm text-on-surface-variant bg-surface-container-low px-3 py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>Active Leads: 48</span>
+</div>
+<div class="flex items-center gap-2 text-sm text-on-surface-variant bg-surface-container-low px-3 py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>Pipeline Value: $142,000</span>
+</div>
+</div>
+</div>
+<button class="bg-primary text-white px-6 py-2.5 rounded-full font-button text-button shadow-md hover:bg-primary-container transition-all flex items-center gap-2 active:scale-95">
+<span class="material-symbols-outlined text-lg">add</span>
+                New Application
+            </button>
+</section>
+<!-- Kanban Board Body -->
+<div class="flex-1 overflow-x-auto px-8 pb-8 custom-scrollbar">
+<div class="flex gap-6 h-full items-start">
+<!-- Column: New Lead -->
+<div class="kanban-column flex flex-col gap-4">
+<div class="flex items-center justify-between px-2">
+<div class="flex items-center gap-2">
+<h3 class="font-h3 text-h3 text-on-surface">New Lead</h3>
+<span class="bg-surface-container-highest text-on-surface-variant px-2 py-0.5 rounded text-xs font-bold">12</span>
+</div>
+<span class="text-sm font-semibold text-primary">$24k</span>
+</div>
+<div class="space-y-4">
+<!-- Card 1 -->
+<div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 card-accent cursor-pointer hover:shadow-md transition-shadow group">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-bold text-sm">JL</div>
+<div>
+<p class="font-bold text-on-surface leading-tight">James Lee</p>
+<p class="text-xs text-on-surface-variant">Singapore HQ</p>
+</div>
+</div>
+<div class="text-error flex items-center gap-1 font-bold text-xs bg-error-container/20 px-2 py-1 rounded">
+<span class="material-symbols-outlined text-sm">schedule</span>
+                                    6d
+                                </div>
+</div>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Req: Indonesian</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Website</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-100">
+<span class="text-sm font-bold text-on-surface">$2,400</span>
+<button class="p-1.5 rounded-lg text-primary hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 card-accent cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center font-bold text-sm">MT</div>
+<div>
+<p class="font-bold text-on-surface leading-tight">Maria Tan</p>
+<p class="text-xs text-on-surface-variant">Private Client</p>
+</div>
+</div>
+<div class="text-on-surface-variant flex items-center gap-1 font-bold text-xs bg-surface-container px-2 py-1 rounded">
+<span class="material-symbols-outlined text-sm">schedule</span>
+                                    2d
+                                </div>
+</div>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Req: Filipino</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">WhatsApp</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-100">
+<span class="text-sm font-bold text-on-surface">$1,800</span>
+<button class="p-1.5 rounded-lg text-primary hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Column: Contacted -->
+<div class="kanban-column flex flex-col gap-4">
+<div class="flex items-center justify-between px-2">
+<div class="flex items-center gap-2">
+<h3 class="font-h3 text-h3 text-on-surface">Contacted</h3>
+<span class="bg-surface-container-highest text-on-surface-variant px-2 py-0.5 rounded text-xs font-bold">8</span>
+</div>
+<span class="text-sm font-semibold text-primary">$18.5k</span>
+</div>
+<div class="space-y-4">
+<div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 card-accent cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-secondary flex items-center justify-center font-bold text-sm">RK</div>
+<div>
+<p class="font-bold text-on-surface leading-tight">Robert Khoo</p>
+<p class="text-xs text-on-surface-variant">Logistics Corp</p>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Req: Indonesian</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Referral</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-100">
+<span class="text-sm font-bold text-on-surface">$4,500</span>
+<button class="p-1.5 rounded-lg text-primary hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Column: Proposal Sent -->
+<div class="kanban-column flex flex-col gap-4">
+<div class="flex items-center justify-between px-2">
+<div class="flex items-center gap-2">
+<h3 class="font-h3 text-h3 text-on-surface">Proposal Sent</h3>
+<span class="bg-surface-container-highest text-on-surface-variant px-2 py-0.5 rounded text-xs font-bold">5</span>
+</div>
+<span class="text-sm font-semibold text-primary">$32k</span>
+</div>
+<div class="space-y-4">
+<div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 card-accent cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-fixed-dim text-primary flex items-center justify-center font-bold text-sm">SC</div>
+<div>
+<p class="font-bold text-on-surface leading-tight">Sarah Chen</p>
+<p class="text-xs text-on-surface-variant">Tech Solutions</p>
+</div>
+</div>
+<div class="text-error flex items-center gap-1 font-bold text-xs bg-error-container/20 px-2 py-1 rounded">
+<span class="material-symbols-outlined text-sm">schedule</span>
+                                    8d
+                                </div>
+</div>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Req: Filipino</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Website</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-100">
+<span class="text-sm font-bold text-on-surface">$8,200</span>
+<button class="p-1.5 rounded-lg text-primary hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Column: In Negotiation -->
+<div class="kanban-column flex flex-col gap-4">
+<div class="flex items-center justify-between px-2">
+<div class="flex items-center gap-2">
+<h3 class="font-h3 text-h3 text-on-surface">In Negotiation</h3>
+<span class="bg-surface-container-highest text-on-surface-variant px-2 py-0.5 rounded text-xs font-bold">15</span>
+</div>
+<span class="text-sm font-semibold text-primary">$55k</span>
+</div>
+<div class="space-y-4">
+<div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 card-accent cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-on-surface flex items-center justify-center font-bold text-sm">AW</div>
+<div>
+<p class="font-bold text-on-surface leading-tight">Alan Wong</p>
+<p class="text-xs text-on-surface-variant">Global Logistics</p>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Req: Indonesian</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">WhatsApp</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-100">
+<span class="text-sm font-bold text-on-surface">$12,500</span>
+<button class="p-1.5 rounded-lg text-primary hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Column: Converted -->
+<div class="kanban-column flex flex-col gap-4">
+<div class="flex items-center justify-between px-2">
+<div class="flex items-center gap-2">
+<h3 class="font-h3 text-h3 text-on-surface">Converted</h3>
+<span class="bg-surface-container-highest text-on-surface-variant px-2 py-0.5 rounded text-xs font-bold">8</span>
+</div>
+<span class="text-sm font-semibold text-primary">$12k</span>
+</div>
+<div class="space-y-4">
+<div class="bg-white/50 p-4 rounded-xl shadow-sm border border-slate-200 card-accent cursor-pointer hover:shadow-md transition-shadow border-dashed">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-3 opacity-60">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-bold text-sm">HL</div>
+<div>
+<p class="font-bold text-on-surface leading-tight">Henry Lim</p>
+<p class="text-xs text-on-surface-variant">Completed Jan 12</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-slate-100">
+<span class="text-sm font-bold text-on-surface-variant">$3,100</span>
+<span class="text-[10px] font-bold text-primary bg-primary-fixed px-2 py-1 rounded">ONBOARDING</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Contextual FAB (Only for Main Dashboard Flow) -->
+<button class="fixed bottom-10 right-10 w-14 h-14 bg-primary text-white rounded-full shadow-xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-50">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>

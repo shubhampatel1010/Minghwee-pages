@@ -1,0 +1,262 @@
+<!-- SideNavBar Shell -->
+<aside class="fixed left-0 top-0 h-full flex flex-col p-6 w-[288px] bg-[#F9F8F6] dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 z-50">
+<div class="mb-10 px-2">
+<h1 class="text-xl font-bold text-[#01696F] dark:text-teal-400 font-display">OpsControl</h1>
+<p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold mt-1">Operational Suite</p>
+</div>
+<nav class="flex-1 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 hover:bg-slate-50 transition-colors font-medium text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+                Dashboard
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-white shadow-sm border border-slate-100 text-[#01696F] font-bold text-sm scale-100 active:scale-[0.98] transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="priority_high">priority_high</span>
+                Escalations
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 hover:bg-slate-50 transition-colors font-medium text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="hourglass_empty">hourglass_empty</span>
+                Pipeline
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 hover:bg-slate-50 transition-colors font-medium text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+                Payments
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 hover:bg-slate-50 transition-colors font-medium text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="groups">groups</span>
+                Team
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-500 hover:bg-slate-50 transition-colors font-medium text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+                Settings
+            </a>
+</nav>
+<div class="mt-auto">
+<button class="w-full bg-[#01696F] text-white py-3 rounded-full font-button flex items-center justify-center gap-2 mb-6 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-sm" data-icon="add">add</span>
+                New Report
+            </button>
+<div class="flex items-center gap-3 px-2 border-t border-slate-200 pt-6">
+<img alt="Manager Profile" class="w-10 h-10 rounded-full object-cover grayscale" data-alt="Professional portrait of a corporate operations manager with a calm and confident expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa6ir7VKABNigGcapnAekf1Aegs9aAsvwdAMwas9nUoehorRoKrB0ePHBqzdGm7HCu0QB5W_8Zov8XyrLAkaxsdkRz6j55UjhN2mvwyQzsiuQdHZ4k355kpaS5O2eNy0thBsgvHo8dJS2i-jrvhh9bESUSjj56gScjIGnhAgUPrnRYq5Of-2LLT29FuoPF749PXs3I9LPJRADkNHJTaYcwcZLp041UGx1TibC9GJrrNln6qdQ5IzXanjgYp9bWdxJLBSr24ze3jIGQ"/>
+<div>
+<p class="text-xs font-bold text-on-background">Elena Rodriguez</p>
+<p class="text-[10px] text-slate-500">Sr. Operations Lead</p>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Workspace -->
+<main class="ml-[288px] min-h-screen">
+<!-- TopNavBar Shell -->
+<header class="fixed top-0 right-0 w-[calc(100%-288px)] flex justify-between items-center px-8 h-16 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-[0_2px_4px_rgba(40,37,29,0.02)] z-40">
+<div class="flex items-center gap-8">
+<span class="text-lg font-black tracking-tight text-[#01696F] font-display">Escalation Manager</span>
+<nav class="flex gap-6">
+<a class="text-slate-500 hover:text-[#01696F] transition-all text-sm font-medium pb-4 border-b-2 border-transparent" href="#">Overview</a>
+<a class="text-[#01696F] border-b-2 border-[#01696F] text-sm font-bold pb-4" href="#">Urgent</a>
+<a class="text-slate-500 hover:text-[#01696F] transition-all text-sm font-medium pb-4 border-b-2 border-transparent" href="#">Stalled</a>
+<a class="text-slate-500 hover:text-[#01696F] transition-all text-sm font-medium pb-4 border-b-2 border-transparent" href="#">Resolved</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-slate-400 text-lg" data-icon="search">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-1.5 pl-10 pr-4 text-xs w-64 focus:ring-1 focus:ring-primary" placeholder="Search escalations..." type="text"/>
+</div>
+<div class="flex items-center gap-3">
+<button class="text-slate-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-slate-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Content Area -->
+<div class="pt-24 px-8 pb-12 max-w-[1200px] mx-auto">
+<div class="flex justify-between items-end mb-8">
+<div>
+<h2 class="font-h1 text-h1 text-on-background">Escalation Management (3 Open)</h2>
+<p class="text-slate-500 mt-1">High-priority cases requiring immediate administrative intervention.</p>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-lg text-sm font-semibold hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="filter_list">filter_list</span>
+                        Sort by Urgency
+                    </button>
+<button class="flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-lg text-sm font-semibold hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="file_download">file_download</span>
+                        Export Report
+                    </button>
+</div>
+</div>
+<!-- Filter Pills -->
+<div class="flex items-center gap-2 mb-8 overflow-x-auto pb-2">
+<button class="px-6 py-2 rounded-full bg-[#01696F] text-white text-sm font-bold shadow-sm">All</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 text-slate-600 bg-white text-sm font-medium hover:border-primary-container transition-colors">Complaints</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 text-slate-600 bg-white text-sm font-medium hover:border-primary-container transition-colors">Stalled Pipelines</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 text-slate-600 bg-white text-sm font-medium hover:border-primary-container transition-colors">Overdue Payments</button>
+<button class="px-6 py-2 rounded-full border border-slate-200 text-slate-600 bg-white text-sm font-medium hover:border-primary-container transition-colors">Flagged Docs</button>
+</div>
+<!-- Escalation Cards Container -->
+<div class="space-y-4">
+<!-- Card 1: Complaint -->
+<div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-[0_20px_25px_-5px_rgba(40,37,29,0.03)] flex group transition-all hover:border-primary-container/30">
+<div class="w-1.5 bg-error"></div>
+<div class="flex-1 p-6 grid grid-cols-12 gap-6 items-center">
+<div class="col-span-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-error-container text-on-error-container px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">Complaint</span>
+<span class="text-error flex items-center gap-1 text-[10px] font-bold">
+<span class="material-symbols-outlined text-sm" data-icon="warning" style="font-variation-settings: 'FILL' 1;">warning</span>
+                                    High Priority
+                                </span>
+</div>
+<h3 class="font-h3 text-h3 text-on-background leading-tight">Mrs. Wong vs Ana Santos — Salary dispute</h3>
+<p class="text-xs text-slate-500 mt-2 line-clamp-1">Allegation of unpaid overtime hours for the month of October.</p>
+</div>
+<div class="col-span-2">
+<p class="text-[10px] uppercase text-slate-400 font-bold mb-1">Timeline</p>
+<div class="flex items-center gap-2 text-error font-semibold text-sm">
+<span class="material-symbols-outlined text-lg" data-icon="schedule">schedule</span>
+                                Day 4 (Unresolved)
+                            </div>
+</div>
+<div class="col-span-2">
+<p class="text-[10px] uppercase text-slate-400 font-bold mb-1">Assigned Staff</p>
+<div class="flex items-center gap-3">
+<img alt="Jessica Miller" class="w-8 h-8 rounded-full object-cover" data-alt="Portrait of Jessica Miller, a professional female HR coordinator in a business casual environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEL5DDcspNe31mdD1GcHsAHVvaYXNOmtCwJEPy2yEO9419GSBrfDt45MIVbTJMkQzl9q2ExITJCnxnxOUXPoxyjItD2JPg_2VoDmc4c9Xr6UGV_mM95F4F4VQDBLeJa5IHDNMrrv8hOUIprKk437AMqT2vDw9vnd7lEVHLVSgvoN9M9wSf1uSNm11coCUVLJtotTOj8s-B9y3bL2_7Q8wsTdKs_Zs9G-BFSkAdLAKvc_R-gbg2_D3GCKm0ZHRStZENGyBNippJADBI"/>
+<span class="text-sm font-semibold text-on-background">Jessica Miller</span>
+</div>
+</div>
+<div class="col-span-4 flex justify-end gap-2">
+<button class="p-2 text-slate-500 hover:text-primary transition-colors border border-transparent hover:border-slate-100 rounded-lg" title="Message staff">
+<span class="material-symbols-outlined" data-icon="chat_bubble_outline">chat_bubble_outline</span>
+</button>
+<button class="px-4 py-2 border border-primary text-primary rounded-full font-button text-xs hover:bg-primary/5 transition-colors">Reassign</button>
+<button class="px-4 py-2 bg-primary text-white rounded-full font-button text-xs shadow-sm hover:opacity-90 transition-opacity">View Full Record</button>
+</div>
+</div>
+</div>
+<!-- Card 2: Stalled -->
+<div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-[0_20px_25px_-5px_rgba(40,37,29,0.03)] flex group transition-all hover:border-primary-container/30">
+<div class="w-1.5 bg-tertiary"></div>
+<div class="flex-1 p-6 grid grid-cols-12 gap-6 items-center">
+<div class="col-span-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">Stalled Pipeline</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-background leading-tight">Visa Sponsorship — David Chen</h3>
+<p class="text-xs text-slate-500 mt-2 line-clamp-1">Missing original identification documents for final embassy submission.</p>
+</div>
+<div class="col-span-2">
+<p class="text-[10px] uppercase text-slate-400 font-bold mb-1">Timeline</p>
+<div class="flex items-center gap-2 text-tertiary font-semibold text-sm">
+<span class="material-symbols-outlined text-lg" data-icon="hourglass_top">hourglass_top</span>
+                                Day 2 (Pending)
+                            </div>
+</div>
+<div class="col-span-2">
+<p class="text-[10px] uppercase text-slate-400 font-bold mb-1">Assigned Staff</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-[10px] font-bold text-on-secondary-container">
+                                    AM
+                                </div>
+<span class="text-sm font-semibold text-on-background">Alex Murphy</span>
+</div>
+</div>
+<div class="col-span-4 flex justify-end gap-2">
+<button class="p-2 text-slate-500 hover:text-primary transition-colors border border-transparent hover:border-slate-100 rounded-lg" title="Message staff">
+<span class="material-symbols-outlined" data-icon="chat_bubble_outline">chat_bubble_outline</span>
+</button>
+<button class="px-4 py-2 border border-primary text-primary rounded-full font-button text-xs hover:bg-primary/5 transition-colors">Reassign</button>
+<button class="px-4 py-2 bg-primary text-white rounded-full font-button text-xs shadow-sm hover:opacity-90 transition-opacity">View Full Record</button>
+</div>
+</div>
+</div>
+<!-- Card 3: Overdue -->
+<div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-[0_20px_25px_-5px_rgba(40,37,29,0.03)] flex group transition-all hover:border-primary-container/30">
+<div class="w-1.5 bg-primary"></div>
+<div class="flex-1 p-6 grid grid-cols-12 gap-6 items-center">
+<div class="col-span-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-primary-fixed text-on-primary-fixed px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">Overdue Payment</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-background leading-tight">Placement Fee — Zenith Healthcare</h3>
+<p class="text-xs text-slate-500 mt-2 line-clamp-1">Invoice #8849-B past due by 12 days. Automated reminders ignored.</p>
+</div>
+<div class="col-span-2">
+<p class="text-[10px] uppercase text-slate-400 font-bold mb-1">Timeline</p>
+<div class="flex items-center gap-2 text-primary font-semibold text-sm">
+<span class="material-symbols-outlined text-lg" data-icon="event_busy">event_busy</span>
+                                Day 12 (Critical)
+                            </div>
+</div>
+<div class="col-span-2">
+<p class="text-[10px] uppercase text-slate-400 font-bold mb-1">Assigned Staff</p>
+<div class="flex items-center gap-3">
+<img alt="Marcus Thorne" class="w-8 h-8 rounded-full object-cover" data-alt="Portrait of Marcus Thorne, a corporate finance administrator with professional attire and neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBs2W-ox3QGERYiZ-FHiM_Nb-h-3I6zwDOg_kQ4WsJ15kYwr23BeBB1z06E6TlLMSwXYMSbYGtS7pYxvmyNNZ-do2pOjFU7BRW4W1g-ldGJKPIEeItJvTTbRZQAARuCWJoLOTl_MF2mEwLBWDNehLGCi4qXanL1yp4b7sVi6bYsvqVX0SjS02RAJ6k9kDD2hAO-vm_ofxoLnR2x5EqJtoVh_Z71kwCjlp8s05dACTxWRVmN61BINHMkV5qDgDfLLx5M7hMXTTLjSXG2"/>
+<span class="text-sm font-semibold text-on-background">Marcus Thorne</span>
+</div>
+</div>
+<div class="col-span-4 flex justify-end gap-2">
+<button class="p-2 text-slate-500 hover:text-primary transition-colors border border-transparent hover:border-slate-100 rounded-lg" title="Message staff">
+<span class="material-symbols-outlined" data-icon="chat_bubble_outline">chat_bubble_outline</span>
+</button>
+<button class="px-4 py-2 border border-primary text-primary rounded-full font-button text-xs hover:bg-primary/5 transition-colors">Reassign</button>
+<button class="px-4 py-2 bg-primary text-white rounded-full font-button text-xs shadow-sm hover:opacity-90 transition-opacity">View Full Record</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Dashboard Summary Widgets (Bento style) -->
+<div class="mt-stack-lg grid grid-cols-12 gap-6">
+<div class="col-span-7 bg-[#E8E2D5] rounded-xl p-8 flex flex-col justify-between border border-slate-200">
+<div>
+<h4 class="font-h2 text-h2 text-on-secondary-fixed mb-2">Operational Health</h4>
+<p class="text-on-secondary-fixed-variant max-w-md">Escalation response time has improved by 14% this week. Focus on salary disputes to maintain KPIs.</p>
+</div>
+<div class="flex items-center gap-12 mt-8">
+<div>
+<span class="text-3xl font-black text-primary-container">4.2h</span>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-tighter mt-1">Avg. Response</p>
+</div>
+<div class="h-10 w-px bg-slate-300"></div>
+<div>
+<span class="text-3xl font-black text-primary-container">92%</span>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-tighter mt-1">Resolution Rate</p>
+</div>
+<div class="h-10 w-px bg-slate-300"></div>
+<div>
+<span class="text-3xl font-black text-primary-container">12</span>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-tighter mt-1">Resolved Today</p>
+</div>
+</div>
+</div>
+<div class="col-span-5 bg-white border border-slate-200 rounded-xl p-6 flex flex-col">
+<div class="flex justify-between items-start mb-6">
+<h4 class="font-h3 text-h3">Weekly Trend</h4>
+<span class="material-symbols-outlined text-primary" data-icon="trending_up">trending_up</span>
+</div>
+<div class="flex-1 flex items-end justify-between gap-2 px-2">
+<div class="w-full bg-slate-100 rounded-t h-[40%]"></div>
+<div class="w-full bg-slate-100 rounded-t h-[60%]"></div>
+<div class="w-full bg-slate-100 rounded-t h-[30%]"></div>
+<div class="w-full bg-slate-100 rounded-t h-[80%]"></div>
+<div class="w-full bg-primary-container rounded-t h-[50%]"></div>
+<div class="w-full bg-slate-100 rounded-t h-[45%]"></div>
+<div class="w-full bg-slate-100 rounded-t h-[20%]"></div>
+</div>
+<div class="flex justify-between mt-4">
+<span class="text-[10px] text-slate-400 font-bold">MON</span>
+<span class="text-[10px] text-slate-400 font-bold">TUE</span>
+<span class="text-[10px] text-slate-400 font-bold">WED</span>
+<span class="text-[10px] text-slate-400 font-bold">THU</span>
+<span class="text-[10px] text-[#01696F] font-black">FRI</span>
+<span class="text-[10px] text-slate-400 font-bold">SAT</span>
+<span class="text-[10px] text-slate-400 font-bold">SUN</span>
+</div>
+</div>
+</div>
+</div>
+</main>

@@ -1,0 +1,186 @@
+<!-- SideNavBar -->
+<nav class="hidden md:flex bg-stone-50 dark:bg-stone-950 h-screen w-64 border-r border-stone-200 dark:border-stone-800 border-r border-stone-200 dark:border-stone-800 fixed left-0 top-0 h-full flex flex-col py-6 z-50">
+<div class="px-6 mb-8 flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-lg">S</div>
+<div>
+<div class="text-lg font-bold text-teal-900 dark:text-teal-100 tracking-tight font-h3 text-h3">Serene Concierge</div>
+<div class="font-caption text-caption text-outline">Premium Domestic Care</div>
+</div>
+</div>
+<div class="flex-1 flex flex-col gap-1 px-4">
+<a class="text-stone-600 dark:text-stone-400 flex items-center gap-3 px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-900 hover:text-teal-700 dark:hover:text-teal-400 transition-all duration-200 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="text-teal-700 dark:text-teal-400 bg-teal-50/50 dark:bg-teal-900/20 font-bold border-r-2 border-teal-600 flex items-center gap-3 px-4 py-3 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined filled text-primary">folder_shared</span>
+<span class="text-primary font-semibold">Document Tracker</span>
+</a>
+<a class="text-stone-600 dark:text-stone-400 flex items-center gap-3 px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-900 hover:text-teal-700 dark:hover:text-teal-400 transition-all duration-200 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined">group</span>
+<span>Helper Profiles</span>
+</a>
+<a class="text-stone-600 dark:text-stone-400 flex items-center gap-3 px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-900 hover:text-teal-700 dark:hover:text-teal-400 transition-all duration-200 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined">badge</span>
+<span>Client Accounts</span>
+</a>
+<a class="text-stone-600 dark:text-stone-400 flex items-center gap-3 px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-900 hover:text-teal-700 dark:hover:text-teal-400 transition-all duration-200 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+</div>
+<div class="px-6 mb-6">
+<button class="w-full bg-primary text-on-primary py-3 rounded-full font-button text-button shadow-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                Add New Document
+            </button>
+</div>
+<div class="flex flex-col gap-1 px-4 mt-auto border-t border-surface-variant pt-4">
+<a class="text-stone-600 dark:text-stone-400 flex items-center gap-3 px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-900 hover:text-teal-700 dark:hover:text-teal-400 transition-all duration-200 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined">help_outline</span>
+<span>Help Center</span>
+</a>
+<a class="text-stone-600 dark:text-stone-400 flex items-center gap-3 px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-900 hover:text-teal-700 dark:hover:text-teal-400 transition-all duration-200 rounded-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span>Sign Out</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 flex flex-col md:ml-64 w-full min-h-screen">
+<!-- TopNavBar -->
+<header class="bg-white/80 dark:bg-stone-900/80 backdrop-blur-md h-16 w-full sticky top-0 z-40 border-b border-stone-100 dark:border-stone-800 flex items-center justify-between px-8">
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="pl-10 pr-4 py-2 bg-surface-container-low border-none rounded-full text-body-md font-body-md focus:ring-2 focus:ring-primary w-64 outline-none text-on-surface" placeholder="Search documents..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="hover:bg-stone-50 dark:hover:bg-stone-800 rounded-full p-2 transition-colors text-stone-500 dark:text-stone-400">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="hover:bg-stone-50 dark:hover:bg-stone-800 rounded-full p-2 transition-colors text-stone-500 dark:text-stone-400">
+<span class="material-symbols-outlined">history</span>
+</button>
+<button class="hover:bg-stone-50 dark:hover:bg-stone-800 rounded-full p-2 transition-colors text-stone-500 dark:text-stone-400">
+<span class="material-symbols-outlined">help</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-secondary-container overflow-hidden ml-4 flex-shrink-0 cursor-pointer border border-outline-variant">
+<img alt="Administrator Profile" class="w-full h-full object-cover" data-alt="Professional headshot of a female administrator in modern office lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOrWe_Q9Llq2bmaUKnB94lEE3gIVNGV4sIwiIBIkAxxRUf3fJQaaRP9_SPgL81RbqcM4URy_ZvNqhJnckaK9PEQYnfr7XphK9FXxmgkCE_3eWtM8JWHpha_Cl4neDgvXoAL6JWZhmFkH-sH8LlbVfODk3YK43DzAmWL-KB6w0p3gF5SQmFCwekFYuOCac-BzJMGVPbykGeDMD7KAY4AJdWBDrzcm1tt_kprj4wOTzJqHEiiLw42r44kAFg-rWy9RD34ZhbH8KM13yR"/>
+</div>
+</div>
+</header>
+<!-- Canvas -->
+<main class="flex-1 p-margin-mobile md:p-margin-desktop max-w-container-max mx-auto w-full flex flex-col gap-stack-lg pb-32">
+<!-- Page Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+<div>
+<h1 class="font-display text-display text-on-surface mb-2">Documents</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Track, manage, and renew helper compliance documentation.</p>
+</div>
+<!-- Filter Tabs (Horizontal Scroller on Mobile) -->
+<div class="flex overflow-x-auto pb-2 -mx-margin-mobile px-margin-mobile sm:mx-0 sm:px-0 sm:pb-0 gap-2 hide-scrollbar">
+<button class="px-4 py-2 bg-primary-container text-on-primary-container rounded-full font-button text-button whitespace-nowrap">All</button>
+<button class="px-4 py-2 bg-surface-container-low hover:bg-surface-container text-on-surface rounded-full font-button text-button whitespace-nowrap border border-outline-variant">Expiring Soon</button>
+<button class="px-4 py-2 bg-surface-container-low hover:bg-surface-container text-on-surface rounded-full font-button text-button whitespace-nowrap border border-outline-variant">Missing</button>
+<button class="px-4 py-2 bg-surface-container-low hover:bg-surface-container text-on-surface rounded-full font-button text-button whitespace-nowrap border border-outline-variant">Approved</button>
+</div>
+</div>
+<!-- Document List -->
+<div class="flex flex-col gap-stack-sm">
+<!-- Card 1: Missing -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant soft-shadow flex flex-col sm:flex-row relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-error"></div>
+<div class="flex-1 p-4 pl-6 flex flex-col justify-center">
+<div class="flex items-center gap-3 mb-1">
+<h3 class="font-h3 text-h3 text-on-surface">Police Clearance</h3>
+<span class="inline-flex items-center gap-1 bg-error-container text-on-error-container px-2.5 py-1 rounded-full font-caption text-caption">
+<span class="material-symbols-outlined text-[14px]">error</span>
+                                Missing
+                            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Required for helper placement. Must be dated within last 6 months.</p>
+</div>
+<div class="border-t sm:border-t-0 sm:border-l border-surface-variant p-4 bg-surface-bright flex items-center justify-end sm:w-48 shrink-0">
+<button class="w-full bg-primary text-on-primary py-2 px-4 rounded-full font-button text-button shadow-sm hover:opacity-90 transition-opacity whitespace-nowrap">
+                            Upload Document
+                        </button>
+</div>
+</div>
+<!-- Card 2: Expiring -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant soft-shadow flex flex-col sm:flex-row relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-tertiary"></div>
+<div class="flex-1 p-4 pl-6 flex flex-col justify-center">
+<div class="flex items-center gap-3 mb-1">
+<h3 class="font-h3 text-h3 text-on-surface">First Aid Certification</h3>
+<span class="inline-flex items-center gap-1 bg-tertiary-container text-on-tertiary-container px-2.5 py-1 rounded-full font-caption text-caption">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+                                Expiring in 7 days
+                            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Current certificate valid until Oct 24, 2023.</p>
+</div>
+<div class="border-t sm:border-t-0 sm:border-l border-surface-variant p-4 bg-surface-bright flex items-center justify-end sm:w-48 shrink-0">
+<button class="w-full border-2 border-primary text-primary py-2 px-4 rounded-full font-button text-button hover:bg-primary-fixed transition-colors whitespace-nowrap">
+                            Renew Now
+                        </button>
+</div>
+</div>
+<!-- Card 3: Approved -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant soft-shadow flex flex-col sm:flex-row relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<div class="flex-1 p-4 pl-6 flex flex-col justify-center">
+<div class="flex items-center gap-3 mb-1">
+<h3 class="font-h3 text-h3 text-on-surface">Medical Certificate</h3>
+<span class="inline-flex items-center gap-1 bg-primary-fixed text-on-primary-fixed px-2.5 py-1 rounded-full font-caption text-caption">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                                Approved
+                            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Valid until Dec 2025.</p>
+</div>
+<div class="border-t sm:border-t-0 sm:border-l border-surface-variant p-4 bg-surface-bright flex items-center justify-end sm:w-48 shrink-0">
+<button class="p-2 text-outline hover:text-on-surface transition-colors rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Card 4: Pending -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-variant soft-shadow flex flex-col sm:flex-row relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-outline"></div>
+<div class="flex-1 p-4 pl-6 flex flex-col justify-center">
+<div class="flex items-center gap-3 mb-1">
+<h3 class="font-h3 text-h3 text-on-surface">Work Visa</h3>
+<span class="inline-flex items-center gap-1 bg-surface-container-high text-on-surface px-2.5 py-1 rounded-full font-caption text-caption">
+<span class="material-symbols-outlined text-[14px]">pending</span>
+                                Pending Review
+                            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Submitted Oct 1. Awaiting MOM verification.</p>
+</div>
+<div class="border-t sm:border-t-0 sm:border-l border-surface-variant p-4 bg-surface-bright flex items-center justify-end sm:w-48 shrink-0">
+<button class="p-2 text-outline hover:text-on-surface transition-colors rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Urgent Banner Placeholder to ensure scroll clearance -->
+<div class="h-20"></div>
+</main>
+<!-- Urgent Alert Banner -->
+<div class="fixed bottom-0 md:bottom-6 left-0 md:left-72 right-0 md:right-8 z-50 p-4 pb-8 md:p-0">
+<div class="bg-error text-on-error rounded-xl p-4 soft-shadow flex items-center justify-between mx-auto max-w-container-max w-full">
+<div class="flex items-center gap-3">
+<div class="bg-on-error/20 p-2 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-on-error">notifications_active</span>
+</div>
+<span class="font-h3 text-h3">2 documents expiring in 7 days — ACT NOW</span>
+</div>
+<button class="bg-on-error text-error w-10 h-10 rounded-full flex items-center justify-center hover:bg-white transition-colors flex-shrink-0">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
